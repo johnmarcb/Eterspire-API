@@ -1,0 +1,1274 @@
+[
+  {
+    "name": "Spiderfang",
+    "tier": 4,
+    "armor": [
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm / Gauntlets / Greaves",
+        "quality": "normal",
+        "hp_min": 80,
+        "hp_mid": 88,
+        "hp_max": 100
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm / Gloves / Boots",
+        "quality": "normal",
+        "hp_min": 80,
+        "hp_mid": 88,
+        "hp_max": 100
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "quality": "normal",
+        "hp_min": 240,
+        "hp_mid": 264,
+        "hp_max": 300
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadTop",
+        "quality": "normal",
+        "hp_min": 240,
+        "hp_mid": 264,
+        "hp_max": 300
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "quality": "normal",
+        "hp_min": 120,
+        "hp_mid": 132,
+        "hp_max": 150
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadBottom",
+        "quality": "normal",
+        "hp_min": 120,
+        "hp_mid": 132,
+        "hp_max": 150
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "quality": "normal",
+        "hp_min": 200,
+        "hp_mid": 220,
+        "hp_max": 250
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "quality": "normal",
+        "hp_min": 200,
+        "hp_mid": 220,
+        "hp_max": 250
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm / Gauntlets / Greaves",
+        "quality": "excellent",
+        "hp_min": 125,
+        "hp_mid": 138,
+        "hp_max": 157
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm / Gloves / Boots",
+        "quality": "excellent",
+        "hp_min": 125,
+        "hp_mid": 138,
+        "hp_max": 157
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "quality": "excellent",
+        "hp_min": 375,
+        "hp_mid": 413,
+        "hp_max": 469
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadTop",
+        "quality": "excellent",
+        "hp_min": 375,
+        "hp_mid": 413,
+        "hp_max": 469
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "quality": "excellent",
+        "hp_min": 188,
+        "hp_mid": 207,
+        "hp_max": 235
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadBottom",
+        "quality": "excellent",
+        "hp_min": 188,
+        "hp_mid": 207,
+        "hp_max": 235
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "quality": "excellent",
+        "hp_min": 313,
+        "hp_mid": 345,
+        "hp_max": 392
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "quality": "excellent",
+        "hp_min": 313,
+        "hp_mid": 345,
+        "hp_max": 392
+      }
+    ],
+    "weapons": [
+      {
+        "name": "Bardiche",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 84,
+        "damage_mid": 93,
+        "damage_max": 105
+      },
+      {
+        "name": "Battleaxe",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 80,
+        "damage_mid": 88,
+        "damage_max": 100
+      },
+      {
+        "name": "Mace",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 88,
+        "damage_mid": 97,
+        "damage_max": 110
+      },
+      {
+        "name": "Warhammer",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 92,
+        "damage_mid": 102,
+        "damage_max": 115
+      },
+      {
+        "name": "Widesword",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 76,
+        "damage_mid": 84,
+        "damage_max": 95
+      },
+      {
+        "name": "Bardiche",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 132,
+        "damage_mid": 146,
+        "damage_max": 165
+      },
+      {
+        "name": "Battleaxe",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 125,
+        "damage_mid": 138,
+        "damage_max": 157
+      },
+      {
+        "name": "Mace",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 138,
+        "damage_mid": 152,
+        "damage_max": 173
+      },
+      {
+        "name": "Warhammer",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 144,
+        "damage_mid": 159,
+        "damage_max": 180
+      },
+      {
+        "name": "Widesword",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 119,
+        "damage_mid": 131,
+        "damage_max": 149
+      },
+      {
+        "name": "Curved Dagger",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 44,
+        "damage_mid": 49,
+        "damage_max": 55
+      },
+      {
+        "name": "Dagger",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 40,
+        "damage_mid": 44,
+        "damage_max": 50
+      },
+      {
+        "name": "Short Sword",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 48,
+        "damage_mid": 53,
+        "damage_max": 60
+      },
+      {
+        "name": "Sword",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 52,
+        "damage_mid": 58,
+        "damage_max": 65
+      },
+      {
+        "name": "Curved Dagger",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 69,
+        "damage_mid": 76,
+        "damage_max": 87
+      },
+      {
+        "name": "Dagger",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 63,
+        "damage_mid": 70,
+        "damage_max": 79
+      },
+      {
+        "name": "Short Sword",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 75,
+        "damage_mid": 83,
+        "damage_max": 94
+      },
+      {
+        "name": "Sword",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 82,
+        "damage_mid": 91,
+        "damage_max": 103
+      },
+      {
+        "name": "Broadsword",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 72,
+        "damage_mid": 80,
+        "damage_max": 90
+      },
+      {
+        "name": "Claymore",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 60,
+        "damage_mid": 66,
+        "damage_max": 75
+      },
+      {
+        "name": "Halberd",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 68,
+        "damage_mid": 75,
+        "damage_max": 85
+      },
+      {
+        "name": "Longsword",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 56,
+        "damage_mid": 62,
+        "damage_max": 70
+      },
+      {
+        "name": "Trident",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 64,
+        "damage_mid": 71,
+        "damage_max": 80
+      },
+      {
+        "name": "Broadsword",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 113,
+        "damage_mid": 124,
+        "damage_max": 142
+      },
+      {
+        "name": "Claymore",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 94,
+        "damage_mid": 104,
+        "damage_max": 118
+      },
+      {
+        "name": "Halberd",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 107,
+        "damage_mid": 118,
+        "damage_max": 134
+      },
+      {
+        "name": "Longsword",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 88,
+        "damage_mid": 97,
+        "damage_max": 110
+      },
+      {
+        "name": "Trident",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 100,
+        "damage_mid": 110,
+        "damage_max": 125
+      },
+      {
+        "name": "Arcane / Fire / Ice / Thunder Staff",
+        "class": "Sorcerer",
+        "quality": "normal",
+        "damage_min": 80,
+        "damage_mid": 88,
+        "damage_max": 100
+      },
+      {
+        "name": "Arcane / Fire / Ice / Thunder Staff",
+        "class": "Sorcerer",
+        "quality": "excellent",
+        "damage_min": 125,
+        "damage_mid": 138,
+        "damage_max": 157
+      }
+    ]
+  },
+  {
+    "name": "Ghostly",
+    "tier": 5,
+    "armor": [
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm / Gauntlets / Greaves",
+        "quality": "normal",
+        "hp_min": 125,
+        "hp_mid": 138,
+        "hp_max": 157
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm / Gloves / Boots",
+        "quality": "normal",
+        "hp_min": 125,
+        "hp_mid": 138,
+        "hp_max": 157
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "quality": "normal",
+        "hp_min": 375,
+        "hp_mid": 413,
+        "hp_max": 469
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadTop",
+        "quality": "normal",
+        "hp_min": 375,
+        "hp_mid": 413,
+        "hp_max": 469
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "quality": "normal",
+        "hp_min": 188,
+        "hp_mid": 207,
+        "hp_max": 235
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadBottom",
+        "quality": "normal",
+        "hp_min": 188,
+        "hp_mid": 207,
+        "hp_max": 235
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "quality": "normal",
+        "hp_min": 313,
+        "hp_mid": 345,
+        "hp_max": 392
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "quality": "normal",
+        "hp_min": 313,
+        "hp_mid": 345,
+        "hp_max": 392
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm / Gauntlets / Greaves",
+        "quality": "excellent",
+        "hp_min": 180,
+        "hp_mid": 198,
+        "hp_max": 225
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm / Gloves / Boots",
+        "quality": "excellent",
+        "hp_min": 180,
+        "hp_mid": 198,
+        "hp_max": 225
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "quality": "excellent",
+        "hp_min": 540,
+        "hp_mid": 594,
+        "hp_max": 675
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadTop",
+        "quality": "excellent",
+        "hp_min": 540,
+        "hp_mid": 594,
+        "hp_max": 675
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "quality": "excellent",
+        "hp_min": 270,
+        "hp_mid": 297,
+        "hp_max": 338
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadBottom",
+        "quality": "excellent",
+        "hp_min": 270,
+        "hp_mid": 297,
+        "hp_max": 338
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "quality": "excellent",
+        "hp_min": 450,
+        "hp_mid": 495,
+        "hp_max": 563
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "quality": "excellent",
+        "hp_min": 450,
+        "hp_mid": 495,
+        "hp_max": 563
+      }
+    ],
+    "weapons": [
+      {
+        "name": "Bardiche",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 132,
+        "damage_mid": 146,
+        "damage_max": 165
+      },
+      {
+        "name": "Battleaxe",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 125,
+        "damage_mid": 138,
+        "damage_max": 157
+      },
+      {
+        "name": "Mace",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 138,
+        "damage_mid": 152,
+        "damage_max": 173
+      },
+      {
+        "name": "Warhammer",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 144,
+        "damage_mid": 159,
+        "damage_max": 180
+      },
+      {
+        "name": "Widesword",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 119,
+        "damage_mid": 131,
+        "damage_max": 149
+      },
+      {
+        "name": "Bardiche",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 189,
+        "damage_mid": 208,
+        "damage_max": 237
+      },
+      {
+        "name": "Battleaxe",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 180,
+        "damage_mid": 198,
+        "damage_max": 225
+      },
+      {
+        "name": "Mace",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 199,
+        "damage_mid": 219,
+        "damage_max": 249
+      },
+      {
+        "name": "Warhammer",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 207,
+        "damage_mid": 228,
+        "damage_max": 259
+      },
+      {
+        "name": "Widesword",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 171,
+        "damage_mid": 189,
+        "damage_max": 214
+      },
+      {
+        "name": "Curved Dagger",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 69,
+        "damage_mid": 76,
+        "damage_max": 87
+      },
+      {
+        "name": "Dagger",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 63,
+        "damage_mid": 70,
+        "damage_max": 79
+      },
+      {
+        "name": "Short Sword",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 75,
+        "damage_mid": 83,
+        "damage_max": 94
+      },
+      {
+        "name": "Sword",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 82,
+        "damage_mid": 91,
+        "damage_max": 103
+      },
+      {
+        "name": "Curved Dagger",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 100,
+        "damage_mid": 110,
+        "damage_max": 125
+      },
+      {
+        "name": "Dagger",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 90,
+        "damage_mid": 99,
+        "damage_max": 113
+      },
+      {
+        "name": "Short Sword",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 108,
+        "damage_mid": 119,
+        "damage_max": 135
+      },
+      {
+        "name": "Sword",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 117,
+        "damage_mid": 129,
+        "damage_max": 147
+      },
+      {
+        "name": "Broadsword",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 113,
+        "damage_mid": 125,
+        "damage_max": 142
+      },
+      {
+        "name": "Claymore",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 94,
+        "damage_mid": 104,
+        "damage_max": 118
+      },
+      {
+        "name": "Halberd",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 107,
+        "damage_mid": 118,
+        "damage_max": 134
+      },
+      {
+        "name": "Longsword",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 88,
+        "damage_mid": 97,
+        "damage_max": 110
+      },
+      {
+        "name": "Trident",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 100,
+        "damage_mid": 110,
+        "damage_max": 125
+      },
+      {
+        "name": "Broadsword",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 162,
+        "damage_mid": 179,
+        "damage_max": 203
+      },
+      {
+        "name": "Claymore",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 135,
+        "damage_mid": 149,
+        "damage_max": 170
+      },
+      {
+        "name": "Halberd",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 154,
+        "damage_mid": 169,
+        "damage_max": 192
+      },
+      {
+        "name": "Longsword",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 126,
+        "damage_mid": 139,
+        "damage_max": 158
+      },
+      {
+        "name": "Trident",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 144,
+        "damage_mid": 159,
+        "damage_max": 180
+      },
+      {
+        "name": "Arcane / Fire / Ice / Thunder Staff",
+        "class": "Sorcerer",
+        "quality": "normal",
+        "damage_min": 125,
+        "damage_mid": 138,
+        "damage_max": 157
+      },
+      {
+        "name": "Arcane / Fire / Ice / Thunder Staff",
+        "class": "Sorcerer",
+        "quality": "excellent",
+        "damage_min": 180,
+        "damage_mid": 198,
+        "damage_max": 225
+      }
+    ]
+  },
+  {
+    "name": "Fireborn",
+    "tier": 6,
+    "armor": [
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm / Gauntlets / Greaves",
+        "quality": "normal",
+        "hp_min": 180,
+        "hp_mid": 198,
+        "hp_max": 225
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm / Gloves / Boots",
+        "quality": "normal",
+        "hp_min": 180,
+        "hp_mid": 198,
+        "hp_max": 225
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "quality": "normal",
+        "hp_min": 540,
+        "hp_mid": 594,
+        "hp_max": 675
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadTop",
+        "quality": "normal",
+        "hp_min": 540,
+        "hp_mid": 594,
+        "hp_max": 675
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "quality": "normal",
+        "hp_min": 270,
+        "hp_mid": 297,
+        "hp_max": 338
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadBottom",
+        "quality": "normal",
+        "hp_min": 270,
+        "hp_mid": 297,
+        "hp_max": 338
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "quality": "normal",
+        "hp_min": 450,
+        "hp_mid": 495,
+        "hp_max": 563
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "quality": "normal",
+        "hp_min": 450,
+        "hp_mid": 495,
+        "hp_max": 563
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm / Gauntlets / Greaves",
+        "quality": "excellent",
+        "hp_min": 125,
+        "hp_mid": 138,
+        "hp_max": 157
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm / Gloves / Boots",
+        "quality": "excellent",
+        "hp_min": 125,
+        "hp_mid": 138,
+        "hp_max": 157
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "quality": "excellent",
+        "hp_min": 375,
+        "hp_mid": 413,
+        "hp_max": 469
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadTop",
+        "quality": "excellent",
+        "hp_min": 375,
+        "hp_mid": 413,
+        "hp_max": 469
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "quality": "excellent",
+        "hp_min": 188,
+        "hp_mid": 207,
+        "hp_max": 235
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "ThreadBottom",
+        "quality": "excellent",
+        "hp_min": 188,
+        "hp_mid": 207,
+        "hp_max": 235
+      },
+      {
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "quality": "excellent",
+        "hp_min": 313,
+        "hp_mid": 345,
+        "hp_max": 392
+      },
+      {
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "quality": "excellent",
+        "hp_min": 313,
+        "hp_mid": 345,
+        "hp_max": 392
+      }
+    ],
+    "weapons": [
+      {
+        "name": "Bardiche",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 189,
+        "damage_mid": 208,
+        "damage_max": 237
+      },
+      {
+        "name": "Battleaxe",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 180,
+        "damage_mid": 198,
+        "damage_max": 225
+      },
+      {
+        "name": "Mace",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 199,
+        "damage_mid": 219,
+        "damage_max": 249
+      },
+      {
+        "name": "Warhammer",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 207,
+        "damage_mid": 228,
+        "damage_max": 259
+      },
+      {
+        "name": "Widesword",
+        "class": "Guardian",
+        "quality": "normal",
+        "damage_min": 171,
+        "damage_mid": 189,
+        "damage_max": 214
+      },
+      {
+        "name": "Bardiche",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 258,
+        "damage_mid": 284,
+        "damage_max": 323
+      },
+      {
+        "name": "Battleaxe",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 245,
+        "damage_mid": 270,
+        "damage_max": 307
+      },
+      {
+        "name": "Mace",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 271,
+        "damage_mid": 298,
+        "damage_max": 339
+      },
+      {
+        "name": "Warhammer",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 282,
+        "damage_mid": 311,
+        "damage_max": 353
+      },
+      {
+        "name": "Widesword",
+        "class": "Guardian",
+        "quality": "excellent",
+        "damage_min": 233,
+        "damage_mid": 257,
+        "damage_max": 293
+      },
+      {
+        "name": "Curved Dagger",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 100,
+        "damage_mid": 110,
+        "damage_max": 125
+      },
+      {
+        "name": "Dagger",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 90,
+        "damage_mid": 99,
+        "damage_max": 113
+      },
+      {
+        "name": "Short Sword",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 108,
+        "damage_mid": 119,
+        "damage_max": 135
+      },
+      {
+        "name": "Sword",
+        "class": "Rogue",
+        "quality": "normal",
+        "damage_min": 117,
+        "damage_mid": 129,
+        "damage_max": 147
+      },
+      {
+        "name": "Curved Dagger",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 135,
+        "damage_mid": 149,
+        "damage_max": 169
+      },
+      {
+        "name": "Dagger",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 123,
+        "damage_mid": 136,
+        "damage_max": 154
+      },
+      {
+        "name": "Short Sword",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 147,
+        "damage_mid": 162,
+        "damage_max": 184
+      },
+      {
+        "name": "Sword",
+        "class": "Rogue",
+        "quality": "excellent",
+        "damage_min": 160,
+        "damage_mid": 176,
+        "damage_max": 200
+      },
+      {
+        "name": "Broadsword",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 162,
+        "damage_mid": 179,
+        "damage_max": 203
+      },
+      {
+        "name": "Claymore",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 135,
+        "damage_mid": 149,
+        "damage_max": 169
+      },
+      {
+        "name": "Halberd",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 153,
+        "damage_mid": 169,
+        "damage_max": 192
+      },
+      {
+        "name": "Longsword",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 126,
+        "damage_mid": 139,
+        "damage_max": 158
+      },
+      {
+        "name": "Trident",
+        "class": "Warrior",
+        "quality": "normal",
+        "damage_min": 144,
+        "damage_mid": 159,
+        "damage_max": 180
+      },
+      {
+        "name": "Broadsword",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 221,
+        "damage_mid": 244,
+        "damage_max": 277
+      },
+      {
+        "name": "Claymore",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 184,
+        "damage_mid": 203,
+        "damage_max": 230
+      },
+      {
+        "name": "Halberd",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 209,
+        "damage_mid": 230,
+        "damage_max": 262
+      },
+      {
+        "name": "Longsword",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 172,
+        "damage_mid": 190,
+        "damage_max": 215
+      },
+      {
+        "name": "Trident",
+        "class": "Warrior",
+        "quality": "excellent",
+        "damage_min": 196,
+        "damage_mid": 216,
+        "damage_max": 245
+      },
+      {
+        "name": "Arcane / Fire / Ice / Thunder Staff",
+        "class": "Sorcerer",
+        "quality": "normal",
+        "damage_min": 180,
+        "damage_mid": 198,
+        "damage_max": 225
+      },
+      {
+        "name": "Arcane / Fire / Ice / Thunder Staff",
+        "class": "Sorcerer",
+        "quality": "excellent",
+        "damage_min": 245,
+        "damage_mid": 270,
+        "damage_max": 307
+      }
+    ]
+  }
+]

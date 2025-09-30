@@ -1,0 +1,626 @@
+[
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Helm / Gauntlets / Greaves",
+    "quality": "normal",
+    "hp_min": 80,
+    "hp_mid": 88,
+    "hp_max": 100,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Thread Helm / Gloves / Boots",
+    "quality": "normal",
+    "hp_min": 80,
+    "hp_mid": 88,
+    "hp_max": 100,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platemail",
+    "quality": "normal",
+    "hp_min": 240,
+    "hp_mid": 264,
+    "hp_max": 300,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadTop",
+    "quality": "normal",
+    "hp_min": 240,
+    "hp_mid": 264,
+    "hp_max": 300,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platelegs",
+    "quality": "normal",
+    "hp_min": 120,
+    "hp_mid": 132,
+    "hp_max": 150,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadBottom",
+    "quality": "normal",
+    "hp_min": 120,
+    "hp_mid": 132,
+    "hp_max": 150,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Shield",
+    "quality": "normal",
+    "hp_min": 200,
+    "hp_mid": 220,
+    "hp_max": 250,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Gilded Spellbook",
+    "quality": "normal",
+    "hp_min": 200,
+    "hp_mid": 220,
+    "hp_max": 250,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Helm / Gauntlets / Greaves",
+    "quality": "excellent",
+    "hp_min": 125,
+    "hp_mid": 138,
+    "hp_max": 157,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Thread Helm / Gloves / Boots",
+    "quality": "excellent",
+    "hp_min": 125,
+    "hp_mid": 138,
+    "hp_max": 157,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platemail",
+    "quality": "excellent",
+    "hp_min": 375,
+    "hp_mid": 413,
+    "hp_max": 469,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadTop",
+    "quality": "excellent",
+    "hp_min": 375,
+    "hp_mid": 413,
+    "hp_max": 469,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platelegs",
+    "quality": "excellent",
+    "hp_min": 188,
+    "hp_mid": 207,
+    "hp_max": 235,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadBottom",
+    "quality": "excellent",
+    "hp_min": 188,
+    "hp_mid": 207,
+    "hp_max": 235,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Shield",
+    "quality": "excellent",
+    "hp_min": 313,
+    "hp_mid": 345,
+    "hp_max": 392,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Gilded Spellbook",
+    "quality": "excellent",
+    "hp_min": 313,
+    "hp_mid": 345,
+    "hp_max": 392,
+    "gear_set": "Spiderfang",
+    "tier": 4
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Helm / Gauntlets / Greaves",
+    "quality": "normal",
+    "hp_min": 125,
+    "hp_mid": 138,
+    "hp_max": 157,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Thread Helm / Gloves / Boots",
+    "quality": "normal",
+    "hp_min": 125,
+    "hp_mid": 138,
+    "hp_max": 157,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platemail",
+    "quality": "normal",
+    "hp_min": 375,
+    "hp_mid": 413,
+    "hp_max": 469,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadTop",
+    "quality": "normal",
+    "hp_min": 375,
+    "hp_mid": 413,
+    "hp_max": 469,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platelegs",
+    "quality": "normal",
+    "hp_min": 188,
+    "hp_mid": 207,
+    "hp_max": 235,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadBottom",
+    "quality": "normal",
+    "hp_min": 188,
+    "hp_mid": 207,
+    "hp_max": 235,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Shield",
+    "quality": "normal",
+    "hp_min": 313,
+    "hp_mid": 345,
+    "hp_max": 392,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Gilded Spellbook",
+    "quality": "normal",
+    "hp_min": 313,
+    "hp_mid": 345,
+    "hp_max": 392,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Helm / Gauntlets / Greaves",
+    "quality": "excellent",
+    "hp_min": 180,
+    "hp_mid": 198,
+    "hp_max": 225,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Thread Helm / Gloves / Boots",
+    "quality": "excellent",
+    "hp_min": 180,
+    "hp_mid": 198,
+    "hp_max": 225,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platemail",
+    "quality": "excellent",
+    "hp_min": 540,
+    "hp_mid": 594,
+    "hp_max": 675,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadTop",
+    "quality": "excellent",
+    "hp_min": 540,
+    "hp_mid": 594,
+    "hp_max": 675,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platelegs",
+    "quality": "excellent",
+    "hp_min": 270,
+    "hp_mid": 297,
+    "hp_max": 338,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadBottom",
+    "quality": "excellent",
+    "hp_min": 270,
+    "hp_mid": 297,
+    "hp_max": 338,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Shield",
+    "quality": "excellent",
+    "hp_min": 450,
+    "hp_mid": 495,
+    "hp_max": 563,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Gilded Spellbook",
+    "quality": "excellent",
+    "hp_min": 450,
+    "hp_mid": 495,
+    "hp_max": 563,
+    "gear_set": "Ghostly",
+    "tier": 5
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Helm / Gauntlets / Greaves",
+    "quality": "normal",
+    "hp_min": 180,
+    "hp_mid": 198,
+    "hp_max": 225,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Thread Helm / Gloves / Boots",
+    "quality": "normal",
+    "hp_min": 180,
+    "hp_mid": 198,
+    "hp_max": 225,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platemail",
+    "quality": "normal",
+    "hp_min": 540,
+    "hp_mid": 594,
+    "hp_max": 675,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadTop",
+    "quality": "normal",
+    "hp_min": 540,
+    "hp_mid": 594,
+    "hp_max": 675,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platelegs",
+    "quality": "normal",
+    "hp_min": 270,
+    "hp_mid": 297,
+    "hp_max": 338,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadBottom",
+    "quality": "normal",
+    "hp_min": 270,
+    "hp_mid": 297,
+    "hp_max": 338,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Shield",
+    "quality": "normal",
+    "hp_min": 450,
+    "hp_mid": 495,
+    "hp_max": 563,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Gilded Spellbook",
+    "quality": "normal",
+    "hp_min": 450,
+    "hp_mid": 495,
+    "hp_max": 563,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Helm / Gauntlets / Greaves",
+    "quality": "excellent",
+    "hp_min": 125,
+    "hp_mid": 138,
+    "hp_max": 157,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Thread Helm / Gloves / Boots",
+    "quality": "excellent",
+    "hp_min": 125,
+    "hp_mid": 138,
+    "hp_max": 157,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platemail",
+    "quality": "excellent",
+    "hp_min": 375,
+    "hp_mid": 413,
+    "hp_max": 469,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadTop",
+    "quality": "excellent",
+    "hp_min": 375,
+    "hp_mid": 413,
+    "hp_max": 469,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Platelegs",
+    "quality": "excellent",
+    "hp_min": 188,
+    "hp_mid": 207,
+    "hp_max": 235,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "ThreadBottom",
+    "quality": "excellent",
+    "hp_min": 188,
+    "hp_mid": 207,
+    "hp_max": 235,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "item_name": "Shield",
+    "quality": "excellent",
+    "hp_min": 313,
+    "hp_mid": 345,
+    "hp_max": 392,
+    "gear_set": "Fireborn",
+    "tier": 6
+  },
+  {
+    "classes": [
+      "Sorcerer"
+    ],
+    "item_name": "Gilded Spellbook",
+    "quality": "excellent",
+    "hp_min": 313,
+    "hp_mid": 345,
+    "hp_max": 392,
+    "gear_set": "Fireborn",
+    "tier": 6
+  }
+]
