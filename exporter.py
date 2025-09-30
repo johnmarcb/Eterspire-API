@@ -14,80 +14,122 @@ def export_to_json():
     cursor.execute('SELECT * FROM gear_sets')
     gear_sets = cursor.fetchall()
     
+    all_gear = []
     all_weapons = []
     all_armor = []
-    all_items = []
     
     for gear_set in gear_sets:
         gear_id = gear_set['id']
         gear_name = gear_set['name']
         
-        # Get armor for this gear set
-        cursor.execute('SELECT * FROM armor WHERE gear_set_id = ?', (gear_id,))
+        # Get armor variants
+        cursor.execute('SELECT * FROM armor_variants WHERE gear_set_id = ?', (gear_id,))
         armor_rows = cursor.fetchall()
         
-        armor_list = []
-        for armor_row in armor_rows:
-            armor_dict = {
-                "classes": armor_row['classes'].split(','),
-                "item_name": armor_row['item_name'],
-                "quality": armor_row['quality'],
-                "hp_min": armor_row['hp_min'],
-                "hp_mid": armor_row['hp_mid'],
-                "hp_max": armor_row['hp_max']
-            }
-            armor_list.append(armor_dict)
+        # Organize armor by slot and quality
+        armor_pieces = {}
+        for row in armor_rows:
+            slot = row['slot']
+            quality = row['quality']
             
-            # Add to all_armor with gear_set info
-            armor_with_set = armor_dict.copy()
-            armor_with_set['gear_set'] = gear_name
-            armor_with_set['tier'] = gear_set['tier']
-            all_armor.append(armor_with_set)
+            if slot not in armor_pieces:
+                armor_pieces[slot] = {'slot': slot, 'normal': {'variants': []}, 'excellent': {'variants': []}}
+            
+            variant_data = {
+                'classes': row['classes'].split(','),
+                'item_name': row['item_name']
+            }
+            
+            # Parse JSON arrays
+            if row['hp_values']:
+                variant_data['hp'] = json.loads(row['hp_values'])
+            
+            if row['attack_speed_values']:
+                variant_data['bonus_attack_speed'] = json.loads(row['attack_speed_values'])
+            
+            if row['strength_values']:
+                variant_data['strength'] = json.loads(row['strength_values'])
+            
+            armor_pieces[slot][quality]['variants'].append(variant_data)
+            
+            # Add to flat armor list
+            flat_armor = variant_data.copy()
+            flat_armor.update({
+                'gear_set': gear_name,
+                'tier': gear_set['tier'],
+                'level': gear_set['level'],
+                'slot': slot,
+                'quality': quality
+            })
+            all_armor.append(flat_armor)
         
-        # Get weapons for this gear set
+        # Get weapons
         cursor.execute('SELECT * FROM weapons WHERE gear_set_id = ?', (gear_id,))
         weapon_rows = cursor.fetchall()
         
-        weapon_list = []
-        for weapon_row in weapon_rows:
-            weapon_dict = {
-                "name": weapon_row['name'],
-                "class": weapon_row['class'],
-                "quality": weapon_row['quality'],
-                "damage_min": weapon_row['damage_min'],
-                "damage_mid": weapon_row['damage_mid'],
-                "damage_max": weapon_row['damage_max']
-            }
-            weapon_list.append(weapon_dict)
+        # Organize weapons
+        weapons = {}
+        for row in weapon_rows:
+            key = (row['class'], row['weapon_type'])
+            quality = row['quality']
             
-            # Add to all_weapons with gear_set info
-            weapon_with_set = weapon_dict.copy()
-            weapon_with_set['gear_set'] = gear_name
-            weapon_with_set['tier'] = gear_set['tier']
-            all_weapons.append(weapon_with_set)
+            if key not in weapons:
+                weapons[key] = {
+                    'class': row['class'],
+                    'weapon_type': row['weapon_type']
+                }
+            
+            weapon_data = {}
+            
+            # Parse JSON arrays
+            if row['damage_values']:
+                weapon_data['damage'] = json.loads(row['damage_values'])
+            
+            if row['attack_speed_values']:
+                weapon_data['bonus_attack_speed'] = json.loads(row['attack_speed_values'])
+            
+            if row['vitality_values']:
+                weapon_data['vitality'] = json.loads(row['vitality_values'])
+            
+            weapons[key][quality] = weapon_data
+            
+            # Add to flat weapons list
+            flat_weapon = weapon_data.copy()
+            flat_weapon.update({
+                'gear_set': gear_name,
+                'tier': gear_set['tier'],
+                'level': gear_set['level'],
+                'class': row['class'],
+                'weapon_type': row['weapon_type'],
+                'quality': quality
+            })
+            all_weapons.append(flat_weapon)
         
-        # Build complete gear set object
-        all_items.append({
-            "name": gear_name,
-            "tier": gear_set['tier'],
-            "armor": armor_list,
-            "weapons": weapon_list
-        })
+        # Build gear set
+        gear_item = {
+            'name': gear_name,
+            'tier': gear_set['tier'],
+            'level': gear_set['level'],
+            'armor_pieces': list(armor_pieces.values()),
+            'weapons': list(weapons.values())
+        }
+        
+        all_gear.append(gear_item)
     
     conn.close()
     
-    # Export 3 files
-    with open('output/items.json', 'w') as f:
-        json.dump(all_items, f, indent=2)
-    print(f"✓ Exported output/items.json ({len(all_items)} gear sets)")
+    # Export files
+    with open('output/gear_sets.json', 'w') as f:
+        json.dump(all_gear, f, indent=2)
+    print(f"✓ Exported output/gear_sets.json ({len(all_gear)} gear sets)")
     
     with open('output/weapons.json', 'w') as f:
         json.dump(all_weapons, f, indent=2)
-    print(f"✓ Exported output/weapons.json ({len(all_weapons)} weapons)")
+    print(f"✓ Exported output/weapons.json ({len(all_weapons)} weapon entries)")
     
     with open('output/armor.json', 'w') as f:
         json.dump(all_armor, f, indent=2)
-    print(f"✓ Exported output/armor.json ({len(all_armor)} armor pieces)")
+    print(f"✓ Exported output/armor.json ({len(all_armor)} armor entries)")
 
 if __name__ == "__main__":
     export_to_json()
