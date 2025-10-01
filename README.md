@@ -3,7 +3,6 @@
 A data pipeline that scrapes, processes, and exports Eterspire game data from the wiki into clean, structured JSON files suitable for API consumption.
 
 ## Table of Contents
-
 - [Overview](#overview)
 - [Features](#features)
 - [Setup](#setup)
@@ -11,6 +10,7 @@ A data pipeline that scrapes, processes, and exports Eterspire game data from th
 - [Output Files](#output-files)
 - [Data Structure](#data-structure)
 - [Project Structure](#project-structure)
+- [Known Issues & Workarounds](#known-issues--workarounds)
 
 ## Overview
 
@@ -28,7 +28,6 @@ This tool converts Eterspire wiki pages into structured JSON data, creating indi
 ## Setup
 
 ### Prerequisites
-
 - Python 3.8 or higher
 - pip (Python package manager)
 
@@ -84,9 +83,95 @@ You need to manually download the JSON data for each gear set from the Eterspire
 3. **Save each file** in the `manual-download/` folder:
    - Save as: `{GEAR_NAME}_Gear.json`
    - Example: `Bronze_Gear.json`, `Steel_Gear.json`, etc.
-
-   > Tip: Right-click the page → Save As → JSON file, or copy the JSON and save it manually.
+   
+   > **Tip:** Right-click the page → Save As → JSON file, or copy the JSON and save it manually.
 
 ### Step 2: Run the Pipeline
 
-Once you have all the gear set JSON files in `manual-download/`, simply run:
+Once you have all the gear set JSON files in `manual-download/`, run:
+
+```bash
+python main.py
+```
+
+The script will process all downloaded files and generate structured JSON output in the `output/` directory.
+
+## Output Files
+
+The pipeline generates the following files in the `output/` directory:
+
+- `all_items.json` - Flat list of all individual items
+- `gear_sets.json` - Hierarchical collection organized by gear set
+- `items_by_class.json` - Items filtered and grouped by character class
+- `items_by_type.json` - Items organized by equipment slot/type
+
+## Data Structure
+
+### Individual Item Object
+```json
+{
+  "id": "Bronze-Helm-Normal",
+  "name": "Bronze Helm",
+  "quality": "Normal",
+  "type": "Helm",
+  "gearSet": "Bronze",
+  "requiredLevel": 1,
+  "defense": 10,
+  "allowedClasses": ["Warrior", "Knight"],
+  "setBonus": {
+    "2": "+5 Defense",
+    "4": "+10% HP"
+  }
+}
+```
+
+## Project Structure
+
+```
+eterspire-api-generator/
+├── main.py                 # Main pipeline script
+├── requirements.txt        # Python dependencies
+├── manual-download/        # Downloaded wiki JSON files (you create this)
+│   ├── Bronze_Gear.json
+│   ├── Steel_Gear.json
+│   └── ...
+└── output/                 # Generated JSON files (created by script)
+    ├── all_items.json
+    ├── gear_sets.json
+    ├── items_by_class.json
+    └── items_by_type.json
+```
+
+## Known Issues & Workarounds
+
+### ⚠️ Cloudflare Protection Issue
+
+**Unfortunately, due to Eterspire Wiki's aggressive Cloudflare protection, automated scraping via Selenium or other web automation tools is currently not possible.** The wiki employs anti-bot measures that make direct scraping extremely challenging.
+
+**Current Workaround:** Manual download of JSON files (see [Step 1](#step-1-download-wiki-pages) above)
+
+### Potential Solutions (Help Wanted!)
+
+If you have experience bypassing Cloudflare protection or suggestions for workarounds, please consider:
+
+1. **Undetected Chromedriver**: Tools like `undetected-chromedriver` that may bypass some detection
+2. **Residential Proxies**: Using proxy services with residential IP addresses
+3. **Browser Automation with Human-like Behavior**: Adding random delays, mouse movements, and realistic browsing patterns
+4. **API Access**: Contacting wiki administrators for legitimate API access
+5. **Cloudflare Solver Services**: Third-party services that handle Cloudflare challenges
+
+**Have a solution?** Please open an issue or pull request! The community would greatly benefit from an automated scraping solution.
+
+---
+
+## Contributing
+
+Contributions are welcome! Especially solutions for the Cloudflare issue. Please feel free to:
+- Open issues for bugs or feature requests
+- Submit pull requests with improvements
+- Share workarounds for the scraping challenge
+
+
+---
+
+**Note:** This tool is for personal/educational use. Please respect the Eterspire Wiki's terms of service and rate limits when downloading data.
