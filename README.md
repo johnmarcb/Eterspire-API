@@ -12,6 +12,7 @@ A data pipeline that scrapes, processes, and exports Eterspire game data from th
 - [Data Structure](#data-structure)
 - [Project Structure](#project-structure)
 - [Known Issues & Workarounds](#known-issues--workarounds)
+- [Credits](#credits)
 
 ## Overview
 
@@ -176,13 +177,12 @@ eterspire-api-generator/
 ```
 
 ## In Progress Items
+
 - Create a parser for rings
 - Test with ring wiki table formats
 - Include upgrade tiers data tables (this will be wayyyy later)
 
-
 ## Known Issues
-
 
 ### ⚠️ Cloudflare Protection Issue
 
@@ -191,6 +191,25 @@ eterspire-api-generator/
 **Current Workaround:** Manual download of JSON files (see [Step 1](#step-1-download-wiki-pages) above)
 
 **Have a solution?** Please open an issue or pull request! The community would greatly benefit from an automated scraping solution.
+
+---
+
+## Credits
+
+### 🙏 Special Thanks
+
+This project wouldn't have been possible without the incredible **Eterspire Wiki community**!
+
+**Massive appreciation to:**
+
+- **All wiki founders** who took the initiative to create [eterspire.wiki](https://eterspire.wiki) and establish a central knowledge hub for the community
+- **Every contributor** who has meticulously documented items, stats, mechanics, and strategies
+- **Active editors** who continuously update the wiki with new content, corrections, and improvements
+- **The Eterspire community** for their ongoing support, feedback, and collaborative spirit
+
+Your dedication to documenting this game has created an invaluable resource that benefits players worldwide. This API simply transforms your hard work into a more accessible format.
+
+**Thank you for building and maintaining such a comprehensive knowledge base!** 🎮✨
 
 ---
 
