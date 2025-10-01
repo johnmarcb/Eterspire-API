@@ -756,5 +756,434 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Steel",
+    "tier": 2,
+    "level": 10,
+    "bonus_stats": {
+      "normal": {
+        "armor": {
+          "bonus_attack_speed": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "strength": [
+            -1,
+            0,
+            1
+          ],
+          "vitality": null
+        },
+        "weapon": {
+          "bonus_attack_speed": [
+            -10,
+            -5,
+            0,
+            5,
+            10
+          ],
+          "strength": null,
+          "vitality": [
+            -5,
+            -2,
+            0,
+            2,
+            5
+          ]
+        }
+      },
+      "excellent": {
+        "armor": {
+          "bonus_attack_speed": [
+            0,
+            3,
+            4
+          ],
+          "strength": [
+            0,
+            4
+          ],
+          "vitality": null
+        },
+        "weapon": {
+          "bonus_attack_speed": [
+            0,
+            7,
+            12
+          ],
+          "strength": null,
+          "vitality": [
+            0,
+            5,
+            12
+          ]
+        }
+      }
+    },
+    "armor": [],
+    "weapons": [
+      {
+        "class": "Guardian",
+        "weapon_type": "Bardiche",
+        "quality": "normal",
+        "damage": [
+          16,
+          19,
+          21,
+          24,
+          27
+        ],
+        "attack_speed": 117
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Battleaxe",
+        "quality": "normal",
+        "damage": [
+          15,
+          18,
+          20,
+          22,
+          25
+        ],
+        "attack_speed": 123
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Mace",
+        "quality": "normal",
+        "damage": [
+          17,
+          20,
+          22,
+          25,
+          28
+        ],
+        "attack_speed": 111
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Warhammer",
+        "quality": "normal",
+        "damage": [
+          18,
+          21,
+          23,
+          26,
+          29
+        ],
+        "attack_speed": 106
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Widesword",
+        "quality": "normal",
+        "damage": [
+          15,
+          18,
+          19,
+          21,
+          24
+        ],
+        "attack_speed": 129
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Bardiche",
+        "quality": "excellent",
+        "damage": [
+          48,
+          52,
+          60
+        ],
+        "attack_speed": 117
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Battleaxe",
+        "quality": "excellent",
+        "damage": [
+          45,
+          50,
+          57
+        ],
+        "attack_speed": 123
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Mace",
+        "quality": "excellent",
+        "damage": [
+          50,
+          55,
+          63
+        ],
+        "attack_speed": 111
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Warhammer",
+        "quality": "excellent",
+        "damage": [
+          52,
+          58,
+          65
+        ],
+        "attack_speed": 106
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Widesword",
+        "quality": "excellent",
+        "damage": [
+          43,
+          48,
+          54
+        ],
+        "attack_speed": 129
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Curved Dagger",
+        "quality": "normal",
+        "damage": [
+          9,
+          10,
+          11,
+          13,
+          14
+        ],
+        "attack_speed": 223
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Dagger",
+        "quality": "normal",
+        "damage": [
+          8,
+          9,
+          10,
+          11,
+          13
+        ],
+        "attack_speed": 246
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Short Sword",
+        "quality": "normal",
+        "damage": [
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "attack_speed": 205
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Sword",
+        "quality": "normal",
+        "damage": [
+          10,
+          12,
+          13,
+          15,
+          17
+        ],
+        "attack_speed": 189
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Curved Dagger",
+        "quality": "excellent",
+        "damage": [
+          25,
+          28,
+          32
+        ],
+        "attack_speed": 223
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Dagger",
+        "quality": "excellent",
+        "damage": [
+          23,
+          26,
+          29
+        ],
+        "attack_speed": 246
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Short Sword",
+        "quality": "excellent",
+        "damage": [
+          27,
+          30,
+          34
+        ],
+        "attack_speed": 205
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Sword",
+        "quality": "excellent",
+        "damage": [
+          30,
+          33,
+          38
+        ],
+        "attack_speed": 189
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Broadsword",
+        "quality": "normal",
+        "damage": [
+          14,
+          17,
+          18,
+          20,
+          23
+        ],
+        "attack_speed": 136
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Claymore",
+        "quality": "normal",
+        "damage": [
+          12,
+          14,
+          15,
+          17,
+          19
+        ],
+        "attack_speed": 164
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Halberd",
+        "quality": "normal",
+        "damage": [
+          13,
+          16,
+          17,
+          19,
+          22
+        ],
+        "attack_speed": 144
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Longsword",
+        "quality": "normal",
+        "damage": [
+          11,
+          13,
+          14,
+          16,
+          18
+        ],
+        "attack_speed": 175
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Trident",
+        "quality": "normal",
+        "damage": [
+          12,
+          15,
+          16,
+          18,
+          20
+        ],
+        "attack_speed": 153
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Broadsword",
+        "quality": "excellent",
+        "damage": [
+          41,
+          46,
+          51
+        ],
+        "attack_speed": 136
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Claymore",
+        "quality": "excellent",
+        "damage": [
+          34,
+          38,
+          43
+        ],
+        "attack_speed": 164
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Halberd",
+        "quality": "excellent",
+        "damage": [
+          39,
+          43,
+          49
+        ],
+        "attack_speed": 144
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Longsword",
+        "quality": "excellent",
+        "damage": [
+          29,
+          32,
+          37
+        ],
+        "attack_speed": 175
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Trident",
+        "quality": "excellent",
+        "damage": [
+          30,
+          33,
+          38
+        ],
+        "attack_speed": 153
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Arcane / Fire / Ice / Thunder Staff",
+        "quality": "normal",
+        "damage": [
+          15,
+          18,
+          20,
+          22,
+          25
+        ]
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Arcane / Fire / Ice / Thunder Staff",
+        "quality": "excellent",
+        "damage": [
+          45,
+          50,
+          57
+        ]
+      }
+    ]
   }
 ]

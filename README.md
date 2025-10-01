@@ -142,23 +142,13 @@ eterspire-api-generator/
     └── items_by_type.json
 ```
 
-## Known Issues & Workarounds
+## Known Issues
 
 ### ⚠️ Cloudflare Protection Issue
 
 **Unfortunately, due to Eterspire Wiki's aggressive Cloudflare protection, automated scraping via Selenium or other web automation tools is currently not possible.** The wiki employs anti-bot measures that make direct scraping extremely challenging.
 
 **Current Workaround:** Manual download of JSON files (see [Step 1](#step-1-download-wiki-pages) above)
-
-### Potential Solutions (Help Wanted!)
-
-If you have experience bypassing Cloudflare protection or suggestions for workarounds, please consider:
-
-1. **Undetected Chromedriver**: Tools like `undetected-chromedriver` that may bypass some detection
-2. **Residential Proxies**: Using proxy services with residential IP addresses
-3. **Browser Automation with Human-like Behavior**: Adding random delays, mouse movements, and realistic browsing patterns
-4. **API Access**: Contacting wiki administrators for legitimate API access
-5. **Cloudflare Solver Services**: Third-party services that handle Cloudflare challenges
 
 **Have a solution?** Please open an issue or pull request! The community would greatly benefit from an automated scraping solution.
 
