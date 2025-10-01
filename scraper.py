@@ -16,7 +16,6 @@ def parse_number(text):
         except:
             return None
     
-    # Handle regular numbers (including negative)
     try:
         return int(text)
     except:
@@ -24,8 +23,6 @@ def parse_number(text):
 
 def extract_all_stat_values(text):
     """Extract all numeric values from text, including negatives"""
-    # Match numbers with optional minus sign, including decimals for K notation
-    # Pattern: optional minus, digits, optional decimal point and more digits, optional K
     pattern = r'-?\d+\.?\d*K?'
     matches = re.findall(pattern, text, re.IGNORECASE)
     
@@ -64,6 +61,27 @@ def parse_wikitext_table(table_text):
     
     return rows
 
+# Fixed attack speeds for each weapon type
+WEAPON_ATTACK_SPEEDS = {
+    # Guardian weapons
+    'Widesword': 129,
+    'Battleaxe': 123,
+    'Bardiche': 117,
+    'Mace': 111,
+    'Warhammer': 106,
+    # Warrior weapons
+    'Longsword': 175,
+    'Claymore': 164,
+    'Trident': 153,
+    'Halberd': 144,
+    'Broadsword': 136,
+    # Rogue weapons
+    'Dagger': 246,
+    'Curved Dagger': 223,
+    'Short Sword': 205,
+    'Sword': 189
+}
+
 def scrape_gear_json(filename):
     """Scrape a single gear JSON file"""
     
@@ -80,11 +98,22 @@ def scrape_gear_json(filename):
     
     gear_name = data.get('title', '').replace(' Gear', '')
     
+    # Extract tier
     tier = None
     tier_match = re.search(r'Tier\s+(\d+)', source)
     if tier_match:
         tier = int(tier_match.group(1))
+    else:
+        # Manual tier mapping for gear sets without explicit tier
+        tier_mapping = {
+            'Bronze': 1, 'Steel': 2, 'Sunstone': 3, 'Bloodchrome': 4, 
+            'Meteor': 5, 'Onyx': 6, 'Lypriptite': 7, 'Azurite': 8,
+            'Emerald': 9, 'Citrine': 10, 'Kunzite': 11, 'Aquamarine': 12,
+            'Jade': 13, 'Zircon': 14, 'Topaz': 15, 'Rhodonite': 16
+        }
+        tier = tier_mapping.get(gear_name)
     
+    # Extract level
     level = None
     level_match = re.search(r'level\s+(\d+)', source, re.IGNORECASE)
     if level_match:
@@ -98,12 +127,15 @@ def scrape_gear_json(filename):
         "name": gear_name,
         "tier": tier,
         "level": level,
-        "armor_pieces": {},
+        "bonus_stats": {
+            "normal": {},
+            "excellent": {}
+        },
+        "armor": [],
         "weapons": []
     }
     
-    # Parse bonus stats
-    bonus_stats = {}
+    # Parse bonus stats (global for the gear set)
     bonus_match = re.search(r'=== Bonus Stats ===\s*\{\|(.*?)\n\|\}', source, re.DOTALL)
     if bonus_match:
         table_text = bonus_match.group(1)
@@ -112,30 +144,42 @@ def scrape_gear_json(filename):
         for row in rows:
             if len(row) >= 2:
                 item_type = re.sub(r'<[^>]+>', '', row[0]).strip()
-                stats = {}
                 
+                # Determine if it's armor or weapon, and quality
+                is_armor = 'Armor' in item_type
+                is_excellent = 'Excellent' in item_type
+                quality = 'excellent' if is_excellent else 'normal'
+                category = 'armor' if is_armor else 'weapon'
+                
+                if category not in gear_data['bonus_stats'][quality]:
+                    gear_data['bonus_stats'][quality][category] = {}
+                
+                # Attack speed
                 if len(row) > 1:
                     speed = extract_all_stat_values(row[1])
                     if speed:
-                        stats['bonus_attack_speed'] = speed
+                        gear_data['bonus_stats'][quality][category]['bonus_attack_speed'] = speed
                 
+                # Strength
                 if len(row) > 2 and row[2].strip() != '-':
                     strength = extract_all_stat_values(row[2])
                     if strength:
-                        stats['strength'] = strength
+                        gear_data['bonus_stats'][quality][category]['strength'] = strength
                 
+                # Vitality
                 if len(row) > 3 and row[3].strip() != '-':
                     vitality = extract_all_stat_values(row[3])
                     if vitality:
-                        stats['vitality'] = vitality
-                
-                bonus_stats[item_type] = stats
+                        gear_data['bonus_stats'][quality][category]['vitality'] = vitality
     
-    # Parse armor table
+    # Parse armor table - Excellent items are separate objects
     armor_match = re.search(r'=== All Classes Armors ===\s*\{\|(.*?)\n\|\}', source, re.DOTALL)
     if armor_match:
         table_text = armor_match.group(1)
         rows = parse_wikitext_table(table_text)
+        
+        # Store armor pieces directly
+        armor_pieces = []
         
         for row in rows:
             if len(row) >= 3:
@@ -144,7 +188,7 @@ def scrape_gear_json(filename):
                 hp_text = re.sub(r'<[^>]+>', '', row[2]).strip()
                 
                 is_excellent = "Ex." in warrior_text
-                quality = "excellent" if is_excellent else "normal"
+                quality = 'excellent' if is_excellent else 'normal'
                 
                 warrior_text = warrior_text.replace("Ex.", "").strip()
                 sorcerer_text = sorcerer_text.replace("Ex.", "").strip()
@@ -153,9 +197,6 @@ def scrape_gear_json(filename):
                 
                 if not hp:
                     continue
-                
-                bonus_key = "Excellent Armor" if is_excellent else "Normal Armor"
-                bonus = bonus_stats.get(bonus_key, {})
                 
                 warrior_items = [item.strip() for item in warrior_text.split('/')]
                 sorcerer_items = [item.strip() for item in sorcerer_text.split('/')]
@@ -172,31 +213,32 @@ def scrape_gear_json(filename):
                 for w_item, s_item in zip(warrior_items, sorcerer_items):
                     slot = slot_map.get(w_item, w_item.lower().replace(' ', '_'))
                     
-                    if slot not in gear_data['armor_pieces']:
-                        gear_data['armor_pieces'][slot] = {'slot': slot, 'normal': {}, 'excellent': {}}
-                    
-                    if 'variants' not in gear_data['armor_pieces'][slot][quality]:
-                        gear_data['armor_pieces'][slot][quality]['variants'] = []
-                    
-                    # Add warrior variant
-                    gear_data['armor_pieces'][slot][quality]['variants'].append({
+                    # Create warrior armor piece
+                    armor_pieces.append({
+                        'slot': slot,
+                        'quality': quality,
                         'classes': ['Guardian', 'Warrior', 'Rogue'],
                         'item_name': w_item,
-                        'hp': hp,
-                        **bonus
+                        'hp': hp
                     })
                     
-                    # Add sorcerer variant
-                    gear_data['armor_pieces'][slot][quality]['variants'].append({
+                    # Create sorcerer armor piece
+                    armor_pieces.append({
+                        'slot': slot,
+                        'quality': quality,
                         'classes': ['Sorcerer'],
                         'item_name': s_item,
-                        'hp': hp,
-                        **bonus
+                        'hp': hp
                     })
+        
+        gear_data['armor'] = armor_pieces
     
-    # Parse weapons
+    # Parse weapons - Excellent items are separate objects
+    weapons = []
+    
     for class_name in ["Guardian", "Rogue", "Warrior", "Sorcerer"]:
-        weapon_match = re.search(rf'=== {class_name} Weapons ===\s*\{{\|(.*?)\n\|\}}', source, re.DOTALL)
+        # More flexible regex to handle variable whitespace
+        weapon_match = re.search(rf'===\s+{class_name} Weapons\s+===\s*\{{\|(.*?)\n\|\}}', source, re.DOTALL)
         if weapon_match:
             table_text = weapon_match.group(1)
             rows = parse_wikitext_table(table_text)
@@ -211,7 +253,7 @@ def scrape_gear_json(filename):
                     weapon_name = weapon_name.replace('*', '').strip()
                     
                     is_excellent = "Ex." in weapon_name or has_asterisk
-                    quality = "excellent" if is_excellent else "normal"
+                    quality = 'excellent' if is_excellent else 'normal'
                     weapon_name = weapon_name.replace("Ex.", "").strip()
                     
                     damage = extract_all_stat_values(damage_text)
@@ -219,29 +261,23 @@ def scrape_gear_json(filename):
                     if not damage:
                         continue
                     
-                    bonus_key = "Excellent Weapon" if is_excellent else "Normal Weapon"
-                    weapon_bonus = bonus_stats.get(bonus_key, {})
+                    # Get fixed attack speed for this weapon type
+                    attack_speed = WEAPON_ATTACK_SPEEDS.get(weapon_name)
                     
-                    existing = next((w for w in gear_data['weapons'] 
-                                   if w['class'] == class_name and w['weapon_type'] == weapon_name), None)
+                    weapon = {
+                        'class': class_name,
+                        'weapon_type': weapon_name,
+                        'quality': quality,
+                        'damage': damage
+                    }
                     
-                    if existing:
-                        existing[quality] = {
-                            'damage': damage,
-                            **weapon_bonus
-                        }
-                    else:
-                        weapon_entry = {
-                            'class': class_name,
-                            'weapon_type': weapon_name,
-                            quality: {
-                                'damage': damage,
-                                **weapon_bonus
-                            }
-                        }
-                        gear_data['weapons'].append(weapon_entry)
+                    # Add attack speed if found
+                    if attack_speed:
+                        weapon['attack_speed'] = attack_speed
+                    
+                    weapons.append(weapon)
     
-    gear_data['armor_pieces'] = list(gear_data['armor_pieces'].values())
+    gear_data['weapons'] = weapons
     
     return gear_data
 
@@ -279,7 +315,7 @@ def scrape_all_files():
             
             seen_names.add(gear_data['name'])
             all_gear_data.append(gear_data)
-            print(f"  Tier: {gear_data['tier']} | Level: {gear_data['level']} | Armor Pieces: {len(gear_data['armor_pieces'])} | Weapons: {len(gear_data['weapons'])}")
+            print(f"  Tier: {gear_data['tier']} | Level: {gear_data['level']} | Armor: {len(gear_data['armor'])} slots | Weapons: {len(gear_data['weapons'])}")
         except Exception as e:
             print(f"  Error: {e}")
             import traceback

@@ -1,678 +1,822 @@
 [
   {
-    "classes": [
+    "id": "Bronze-Helm-Normal",
+    "name": "Helm",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Guardian",
       "Warrior",
       "Rogue"
     ],
-    "item_name": "Helm",
-    "hp": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "helm",
-    "quality": "normal"
+    "quality": "normal",
+    "base": {
+      "hp": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Thread-Helm-Normal",
+    "name": "Thread Helm",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Sorcerer"
     ],
-    "item_name": "Thread Helm",
-    "hp": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "helm",
-    "quality": "normal"
+    "quality": "normal",
+    "base": {
+      "hp": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Gauntlets-Normal",
+    "name": "Gauntlets",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Guardian",
       "Warrior",
       "Rogue"
     ],
-    "item_name": "Helm",
-    "hp": [
-      20,
-      22,
-      25
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
+    "type": "armor",
+    "slot": "gauntlets",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Gloves-Normal",
+    "name": "Gloves",
+    "tier": 1,
     "level": 1,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "gauntlets",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Greaves-Normal",
+    "name": "Greaves",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "greaves",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Boots-Normal",
+    "name": "Boots",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "greaves",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Platemail-Normal",
+    "name": "Platemail",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "chest",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        12,
+        14,
+        15,
+        17,
+        19
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Thread-Top-Normal",
+    "name": "Thread Top",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "chest",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        12,
+        14,
+        15,
+        17,
+        19
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Platelegs-Normal",
+    "name": "Platelegs",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "legs",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        6,
+        8,
+        9,
+        10
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Thread-Bottom-Normal",
+    "name": "Thread Bottom",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "legs",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        6,
+        8,
+        9,
+        10
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Shield-Normal",
+    "name": "Shield",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "shield",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        10,
+        12,
+        13,
+        15,
+        17
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Gilded-Spellbook-Normal",
+    "name": "Gilded Spellbook",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "shield",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        10,
+        12,
+        13,
+        15,
+        17
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Helm-Excellent",
+    "name": "Helm",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
     "slot": "helm",
-    "quality": "excellent"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        20,
+        22,
+        25
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Thread-Helm-Excellent",
+    "name": "Thread Helm",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Sorcerer"
     ],
-    "item_name": "Thread Helm",
-    "hp": [
-      20,
-      22,
-      25
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "helm",
-    "quality": "excellent"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        20,
+        22,
+        25
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Gauntlets-Excellent",
+    "name": "Gauntlets",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Guardian",
       "Warrior",
       "Rogue"
     ],
-    "item_name": "Gauntlets",
-    "hp": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "gauntlets",
-    "quality": "normal"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        20,
+        22,
+        25
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Gloves-Excellent",
+    "name": "Gloves",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Sorcerer"
     ],
-    "item_name": "Gloves",
-    "hp": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "gauntlets",
-    "quality": "normal"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        20,
+        22,
+        25
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Greaves-Excellent",
+    "name": "Greaves",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Guardian",
       "Warrior",
       "Rogue"
     ],
-    "item_name": "Gauntlets",
-    "hp": [
-      20,
-      22,
-      25
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "gauntlets",
-    "quality": "excellent"
-  },
-  {
-    "classes": [
-      "Sorcerer"
-    ],
-    "item_name": "Gloves",
-    "hp": [
-      20,
-      22,
-      25
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "gauntlets",
-    "quality": "excellent"
-  },
-  {
-    "classes": [
-      "Guardian",
-      "Warrior",
-      "Rogue"
-    ],
-    "item_name": "Greaves",
-    "hp": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "greaves",
-    "quality": "normal"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        20,
+        22,
+        25
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Boots-Excellent",
+    "name": "Boots",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Sorcerer"
     ],
-    "item_name": "Boots",
-    "hp": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "greaves",
-    "quality": "normal"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        20,
+        22,
+        25
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Platemail-Excellent",
+    "name": "Platemail",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Guardian",
       "Warrior",
       "Rogue"
     ],
-    "item_name": "Greaves",
-    "hp": [
-      20,
-      22,
-      25
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "greaves",
-    "quality": "excellent"
-  },
-  {
-    "classes": [
-      "Sorcerer"
-    ],
-    "item_name": "Boots",
-    "hp": [
-      20,
-      22,
-      25
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "greaves",
-    "quality": "excellent"
-  },
-  {
-    "classes": [
-      "Guardian",
-      "Warrior",
-      "Rogue"
-    ],
-    "item_name": "Platemail",
-    "hp": [
-      12,
-      14,
-      15,
-      17,
-      19
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "chest",
-    "quality": "normal"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        60,
+        66,
+        75
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Thread-Top-Excellent",
+    "name": "Thread Top",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Sorcerer"
     ],
-    "item_name": "Thread Top",
-    "hp": [
-      12,
-      14,
-      15,
-      17,
-      19
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "chest",
-    "quality": "normal"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        60,
+        66,
+        75
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Platelegs-Excellent",
+    "name": "Platelegs",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Guardian",
       "Warrior",
       "Rogue"
     ],
-    "item_name": "Platemail",
-    "hp": [
-      60,
-      66,
-      75
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "chest",
-    "quality": "excellent"
-  },
-  {
-    "classes": [
-      "Sorcerer"
-    ],
-    "item_name": "Thread Top",
-    "hp": [
-      60,
-      66,
-      75
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "chest",
-    "quality": "excellent"
-  },
-  {
-    "classes": [
-      "Guardian",
-      "Warrior",
-      "Rogue"
-    ],
-    "item_name": "Platelegs",
-    "hp": [
-      6,
-      8,
-      9,
-      10
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "legs",
-    "quality": "normal"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        31,
+        34,
+        39
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Thread-Bottom-Excellent",
+    "name": "Thread Bottom",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Sorcerer"
     ],
-    "item_name": "Thread Bottom",
-    "hp": [
-      6,
-      8,
-      9,
-      10
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "legs",
-    "quality": "normal"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        31,
+        34,
+        39
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Shield-Excellent",
+    "name": "Shield",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Guardian",
       "Warrior",
       "Rogue"
     ],
-    "item_name": "Platelegs",
-    "hp": [
-      31,
-      34,
-      39
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "legs",
-    "quality": "excellent"
+    "type": "armor",
+    "slot": "shield",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        51,
+        56,
+        64
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   },
   {
-    "classes": [
+    "id": "Bronze-Gilded-Spellbook-Excellent",
+    "name": "Gilded Spellbook",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
       "Sorcerer"
     ],
-    "item_name": "Thread Bottom",
-    "hp": [
-      31,
-      34,
-      39
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "legs",
-    "quality": "excellent"
-  },
-  {
-    "classes": [
-      "Guardian",
-      "Warrior",
-      "Rogue"
-    ],
-    "item_name": "Shield",
-    "hp": [
-      10,
-      12,
-      13,
-      15,
-      17
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
+    "type": "armor",
     "slot": "shield",
-    "quality": "normal"
-  },
-  {
-    "classes": [
-      "Sorcerer"
-    ],
-    "item_name": "Gilded Spellbook",
-    "hp": [
-      10,
-      12,
-      13,
-      15,
-      17
-    ],
-    "bonus_attack_speed": [
-      -2,
-      -1,
-      0,
-      1,
-      2
-    ],
-    "strength": [
-      -1,
-      0,
-      1
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "shield",
-    "quality": "normal"
-  },
-  {
-    "classes": [
-      "Guardian",
-      "Warrior",
-      "Rogue"
-    ],
-    "item_name": "Shield",
-    "hp": [
-      51,
-      56,
-      64
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "shield",
-    "quality": "excellent"
-  },
-  {
-    "classes": [
-      "Sorcerer"
-    ],
-    "item_name": "Gilded Spellbook",
-    "hp": [
-      51,
-      56,
-      64
-    ],
-    "bonus_attack_speed": [
-      0,
-      3,
-      4
-    ],
-    "strength": [
-      0,
-      3
-    ],
-    "gear_set": "Bronze",
-    "tier": null,
-    "level": 1,
-    "slot": "shield",
-    "quality": "excellent"
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        51,
+        56,
+        64
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Bronze"
   }
 ]

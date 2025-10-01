@@ -1,1053 +1,755 @@
 [
   {
     "name": "Bronze",
-    "tier": null,
+    "tier": 1,
     "level": 1,
-    "armor_pieces": [
-      {
-        "slot": "helm",
-        "normal": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Helm",
-              "hp": [
-                4,
-                5,
-                6,
-                7
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Thread Helm",
-              "hp": [
-                4,
-                5,
-                6,
-                7
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            }
+    "bonus_stats": {
+      "normal": {
+        "armor": {
+          "bonus_attack_speed": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "strength": [
+            -1,
+            0,
+            1
           ]
         },
-        "excellent": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Helm",
-              "hp": [
-                20,
-                22,
-                25
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Thread Helm",
-              "hp": [
-                20,
-                22,
-                25
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            }
+        "weapon": {
+          "bonus_attack_speed": [
+            -10,
+            -5,
+            0,
+            5,
+            10
+          ],
+          "vitality": [
+            -2,
+            -1,
+            0,
+            1,
+            2
           ]
         }
+      },
+      "excellent": {
+        "armor": {
+          "bonus_attack_speed": [
+            0,
+            3,
+            4
+          ],
+          "strength": [
+            0,
+            3
+          ]
+        },
+        "weapon": {
+          "bonus_attack_speed": [
+            0,
+            7,
+            12
+          ],
+          "vitality": [
+            0,
+            3,
+            5
+          ]
+        }
+      }
+    },
+    "armor": [
+      {
+        "slot": "helm",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm",
+        "hp": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "slot": "helm",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm",
+        "hp": [
+          4,
+          5,
+          6,
+          7
+        ]
       },
       {
         "slot": "gauntlets",
-        "normal": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Gauntlets",
-              "hp": [
-                4,
-                5,
-                6,
-                7
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Gloves",
-              "hp": [
-                4,
-                5,
-                6,
-                7
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            }
-          ]
-        },
-        "excellent": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Gauntlets",
-              "hp": [
-                20,
-                22,
-                25
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Gloves",
-              "hp": [
-                20,
-                22,
-                25
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            }
-          ]
-        }
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Gauntlets",
+        "hp": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gloves",
+        "hp": [
+          4,
+          5,
+          6,
+          7
+        ]
       },
       {
         "slot": "greaves",
-        "normal": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Greaves",
-              "hp": [
-                4,
-                5,
-                6,
-                7
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Boots",
-              "hp": [
-                4,
-                5,
-                6,
-                7
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            }
-          ]
-        },
-        "excellent": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Greaves",
-              "hp": [
-                20,
-                22,
-                25
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Boots",
-              "hp": [
-                20,
-                22,
-                25
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            }
-          ]
-        }
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Greaves",
+        "hp": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Boots",
+        "hp": [
+          4,
+          5,
+          6,
+          7
+        ]
       },
       {
         "slot": "chest",
-        "normal": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Platemail",
-              "hp": [
-                12,
-                14,
-                15,
-                17,
-                19
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Thread Top",
-              "hp": [
-                12,
-                14,
-                15,
-                17,
-                19
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            }
-          ]
-        },
-        "excellent": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Platemail",
-              "hp": [
-                60,
-                66,
-                75
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Thread Top",
-              "hp": [
-                60,
-                66,
-                75
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            }
-          ]
-        }
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "hp": [
+          12,
+          14,
+          15,
+          17,
+          19
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Top",
+        "hp": [
+          12,
+          14,
+          15,
+          17,
+          19
+        ]
       },
       {
         "slot": "legs",
-        "normal": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Platelegs",
-              "hp": [
-                6,
-                8,
-                9,
-                10
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Thread Bottom",
-              "hp": [
-                6,
-                8,
-                9,
-                10
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            }
-          ]
-        },
-        "excellent": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Platelegs",
-              "hp": [
-                31,
-                34,
-                39
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Thread Bottom",
-              "hp": [
-                31,
-                34,
-                39
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            }
-          ]
-        }
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "hp": [
+          6,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Bottom",
+        "hp": [
+          6,
+          8,
+          9,
+          10
+        ]
       },
       {
         "slot": "shield",
-        "normal": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Shield",
-              "hp": [
-                10,
-                12,
-                13,
-                15,
-                17
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Gilded Spellbook",
-              "hp": [
-                10,
-                12,
-                13,
-                15,
-                17
-              ],
-              "bonus_attack_speed": [
-                -2,
-                -1,
-                0,
-                1,
-                2
-              ],
-              "strength": [
-                -1,
-                0,
-                1
-              ]
-            }
-          ]
-        },
-        "excellent": {
-          "variants": [
-            {
-              "classes": [
-                "Guardian",
-                "Warrior",
-                "Rogue"
-              ],
-              "item_name": "Shield",
-              "hp": [
-                51,
-                56,
-                64
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            },
-            {
-              "classes": [
-                "Sorcerer"
-              ],
-              "item_name": "Gilded Spellbook",
-              "hp": [
-                51,
-                56,
-                64
-              ],
-              "bonus_attack_speed": [
-                0,
-                3,
-                4
-              ],
-              "strength": [
-                0,
-                3
-              ]
-            }
-          ]
-        }
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "hp": [
+          10,
+          12,
+          13,
+          15,
+          17
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "hp": [
+          10,
+          12,
+          13,
+          15,
+          17
+        ]
+      },
+      {
+        "slot": "helm",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm",
+        "hp": [
+          20,
+          22,
+          25
+        ]
+      },
+      {
+        "slot": "helm",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm",
+        "hp": [
+          20,
+          22,
+          25
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Gauntlets",
+        "hp": [
+          20,
+          22,
+          25
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gloves",
+        "hp": [
+          20,
+          22,
+          25
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Greaves",
+        "hp": [
+          20,
+          22,
+          25
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Boots",
+        "hp": [
+          20,
+          22,
+          25
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "hp": [
+          60,
+          66,
+          75
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Top",
+        "hp": [
+          60,
+          66,
+          75
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "hp": [
+          31,
+          34,
+          39
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Bottom",
+        "hp": [
+          31,
+          34,
+          39
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "hp": [
+          51,
+          56,
+          64
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "hp": [
+          51,
+          56,
+          64
+        ]
       }
     ],
     "weapons": [
       {
+        "class": "Guardian",
+        "weapon_type": "Bardiche",
+        "quality": "normal",
+        "damage": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "attack_speed": 117
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Battleaxe",
+        "quality": "normal",
+        "damage": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "attack_speed": 123
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Mace",
+        "quality": "normal",
+        "damage": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "attack_speed": 111
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Warhammer",
+        "quality": "normal",
+        "damage": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "attack_speed": 106
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Widesword",
+        "quality": "normal",
+        "damage": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "attack_speed": 129
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Bardiche",
+        "quality": "excellent",
+        "damage": [
+          22,
+          24,
+          28
+        ],
+        "attack_speed": 117
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Battleaxe",
+        "quality": "excellent",
+        "damage": [
+          20,
+          22,
+          25
+        ],
+        "attack_speed": 123
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Mace",
+        "quality": "excellent",
+        "damage": [
+          23,
+          25,
+          29
+        ],
+        "attack_speed": 111
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Warhammer",
+        "quality": "excellent",
+        "damage": [
+          24,
+          26,
+          30
+        ],
+        "attack_speed": 106
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Widesword",
+        "quality": "excellent",
+        "damage": [
+          20,
+          22,
+          25
+        ],
+        "attack_speed": 129
+      },
+      {
         "class": "Rogue",
         "weapon_type": "Curved Dagger",
-        "normal": {
-          "damage": [
-            3,
-            4
-          ],
-          "bonus_attack_speed": [
-            -10,
-            -5,
-            0,
-            5,
-            10
-          ],
-          "vitality": [
-            -2,
-            -1,
-            0,
-            1,
-            2
-          ]
-        },
-        "excellent": {
-          "damage": [
-            12,
-            13,
-            15
-          ],
-          "bonus_attack_speed": [
-            0,
-            7,
-            12
-          ],
-          "vitality": [
-            0,
-            3,
-            5
-          ]
-        }
+        "quality": "normal",
+        "damage": [
+          3,
+          4
+        ],
+        "attack_speed": 223
       },
       {
         "class": "Rogue",
         "weapon_type": "Dagger",
-        "normal": {
-          "damage": [
-            3,
-            4
-          ],
-          "bonus_attack_speed": [
-            -10,
-            -5,
-            0,
-            5,
-            10
-          ],
-          "vitality": [
-            -2,
-            -1,
-            0,
-            1,
-            2
-          ]
-        },
-        "excellent": {
-          "damage": [
-            11,
-            12,
-            14
-          ],
-          "bonus_attack_speed": [
-            0,
-            7,
-            12
-          ],
-          "vitality": [
-            0,
-            3,
-            5
-          ]
-        }
+        "quality": "normal",
+        "damage": [
+          3,
+          4
+        ],
+        "attack_speed": 246
       },
       {
         "class": "Rogue",
         "weapon_type": "Short Sword",
-        "normal": {
-          "damage": [
-            3,
-            4
-          ],
-          "bonus_attack_speed": [
-            -10,
-            -5,
-            0,
-            5,
-            10
-          ],
-          "vitality": [
-            -2,
-            -1,
-            0,
-            1,
-            2
-          ]
-        },
-        "excellent": {
-          "damage": [
-            12,
-            14,
-            15
-          ],
-          "bonus_attack_speed": [
-            0,
-            7,
-            12
-          ],
-          "vitality": [
-            0,
-            3,
-            5
-          ]
-        }
+        "quality": "normal",
+        "damage": [
+          3,
+          4
+        ],
+        "attack_speed": 205
       },
       {
         "class": "Rogue",
         "weapon_type": "Sword",
-        "normal": {
-          "damage": [
-            3,
-            4,
-            5
-          ],
-          "bonus_attack_speed": [
-            -10,
-            -5,
-            0,
-            5,
-            10
-          ],
-          "vitality": [
-            -2,
-            -1,
-            0,
-            1,
-            2
-          ]
-        },
-        "excellent": {
-          "damage": [
-            14,
-            16,
-            18
-          ],
-          "bonus_attack_speed": [
-            0,
-            7,
-            12
-          ],
-          "vitality": [
-            0,
-            3,
-            5
-          ]
-        }
+        "quality": "normal",
+        "damage": [
+          3,
+          4,
+          5
+        ],
+        "attack_speed": 189
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Curved Dagger",
+        "quality": "excellent",
+        "damage": [
+          12,
+          13,
+          15
+        ],
+        "attack_speed": 223
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Dagger",
+        "quality": "excellent",
+        "damage": [
+          11,
+          12,
+          14
+        ],
+        "attack_speed": 246
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Short Sword",
+        "quality": "excellent",
+        "damage": [
+          12,
+          14,
+          15
+        ],
+        "attack_speed": 205
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Sword",
+        "quality": "excellent",
+        "damage": [
+          14,
+          16,
+          18
+        ],
+        "attack_speed": 189
       },
       {
         "class": "Warrior",
         "weapon_type": "Broadsword",
-        "normal": {
-          "damage": [
-            4,
-            5,
-            6,
-            7
-          ],
-          "bonus_attack_speed": [
-            -10,
-            -5,
-            0,
-            5,
-            10
-          ],
-          "vitality": [
-            -2,
-            -1,
-            0,
-            1,
-            2
-          ]
-        },
-        "excellent": {
-          "damage": [
-            19,
-            21,
-            24
-          ],
-          "bonus_attack_speed": [
-            0,
-            7,
-            12
-          ],
-          "vitality": [
-            0,
-            3,
-            5
-          ]
-        }
+        "quality": "normal",
+        "damage": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "attack_speed": 136
       },
       {
         "class": "Warrior",
         "weapon_type": "Claymore",
-        "normal": {
-          "damage": [
-            3,
-            4,
-            5
-          ],
-          "bonus_attack_speed": [
-            -10,
-            -5,
-            0,
-            5,
-            10
-          ],
-          "vitality": [
-            -2,
-            -1,
-            0,
-            1,
-            2
-          ]
-        },
-        "excellent": {
-          "damage": [
-            16,
-            17,
-            20
-          ],
-          "bonus_attack_speed": [
-            0,
-            7,
-            12
-          ],
-          "vitality": [
-            0,
-            3,
-            5
-          ]
-        }
+        "quality": "normal",
+        "damage": [
+          3,
+          4,
+          5
+        ],
+        "attack_speed": 164
       },
       {
         "class": "Warrior",
         "weapon_type": "Halberd",
-        "normal": {
-          "damage": [
-            4,
-            5,
-            6,
-            7
-          ],
-          "bonus_attack_speed": [
-            -10,
-            -5,
-            0,
-            5,
-            10
-          ],
-          "vitality": [
-            -2,
-            -1,
-            0,
-            1,
-            2
-          ]
-        },
-        "excellent": {
-          "damage": [
-            18,
-            20,
-            23
-          ],
-          "bonus_attack_speed": [
-            0,
-            7,
-            12
-          ],
-          "vitality": [
-            0,
-            3,
-            5
-          ]
-        }
+        "quality": "normal",
+        "damage": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "attack_speed": 144
       },
       {
         "class": "Warrior",
         "weapon_type": "Longsword",
-        "normal": {
-          "damage": [
-            3,
-            4,
-            5,
-            6
-          ],
-          "bonus_attack_speed": [
-            -10,
-            -5,
-            0,
-            5,
-            10
-          ],
-          "vitality": [
-            -2,
-            -1,
-            0,
-            1,
-            2
-          ]
-        },
-        "excellent": {
-          "damage": [
-            15,
-            16,
-            19
-          ],
-          "bonus_attack_speed": [
-            0,
-            7,
-            12
-          ],
-          "vitality": [
-            0,
-            3,
-            5
-          ]
-        }
+        "quality": "normal",
+        "damage": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "attack_speed": 175
       },
       {
         "class": "Warrior",
         "weapon_type": "Trident",
-        "normal": {
-          "damage": [
-            3,
-            4,
-            5
-          ],
-          "bonus_attack_speed": [
-            -10,
-            -5,
-            0,
-            5,
-            10
-          ],
-          "vitality": [
-            -2,
-            -1,
-            0,
-            1,
-            2
-          ]
-        },
-        "excellent": {
-          "damage": [
-            16,
-            18,
-            20
-          ],
-          "bonus_attack_speed": [
-            0,
-            7,
-            12
-          ],
-          "vitality": [
-            0,
-            3,
-            5
-          ]
-        }
+        "quality": "normal",
+        "damage": [
+          3,
+          4,
+          5
+        ],
+        "attack_speed": 153
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Broadsword",
+        "quality": "excellent",
+        "damage": [
+          19,
+          21,
+          24
+        ],
+        "attack_speed": 136
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Claymore",
+        "quality": "excellent",
+        "damage": [
+          16,
+          17,
+          20
+        ],
+        "attack_speed": 164
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Halberd",
+        "quality": "excellent",
+        "damage": [
+          18,
+          20,
+          23
+        ],
+        "attack_speed": 144
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Longsword",
+        "quality": "excellent",
+        "damage": [
+          15,
+          16,
+          19
+        ],
+        "attack_speed": 175
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Trident",
+        "quality": "excellent",
+        "damage": [
+          16,
+          18,
+          20
+        ],
+        "attack_speed": 153
       },
       {
         "class": "Sorcerer",
         "weapon_type": "Arcane / Fire / Ice / Thunder Staff",
-        "normal": {
-          "damage": [
-            4,
-            5,
-            6,
-            7
-          ],
-          "bonus_attack_speed": [
-            -10,
-            -5,
-            0,
-            5,
-            10
-          ],
-          "vitality": [
-            -2,
-            -1,
-            0,
-            1,
-            2
-          ]
-        },
-        "excellent": {
-          "damage": [
-            20,
-            22,
-            25
-          ],
-          "bonus_attack_speed": [
-            0,
-            7,
-            12
-          ],
-          "vitality": [
-            0,
-            3,
-            5
-          ]
-        }
+        "quality": "normal",
+        "damage": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Arcane / Fire / Ice / Thunder Staff",
+        "quality": "excellent",
+        "damage": [
+          20,
+          22,
+          25
+        ]
       }
     ]
   }

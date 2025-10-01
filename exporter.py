@@ -1,6 +1,13 @@
 import sqlite3
 import json
 import os
+import hashlib
+from datetime import datetime
+
+def normalize_id_part(text):
+    """Normalize text for use in IDs"""
+    # Replace slashes and special chars, capitalize properly
+    return text.replace(' / ', '-').replace('/', '-').replace(' ', '-')
 
 def export_to_json():
     """Export database to JSON files for API"""
@@ -15,103 +22,153 @@ def export_to_json():
     gear_sets = cursor.fetchall()
     
     all_gear = []
-    all_weapons = []
-    all_armor = []
+    all_items = []  # Single array for all individual items
     
     for gear_set in gear_sets:
         gear_id = gear_set['id']
         gear_name = gear_set['name']
         
-        # Get armor variants
-        cursor.execute('SELECT * FROM armor_variants WHERE gear_set_id = ?', (gear_id,))
+        # Get bonus stats
+        cursor.execute('SELECT * FROM bonus_stats WHERE gear_set_id = ?', (gear_id,))
+        bonus_rows = cursor.fetchall()
+        
+        bonus_stats = {'normal': {}, 'excellent': {}}
+        for row in bonus_rows:
+            quality = row['quality']
+            category = row['category']
+            
+            stats = {}
+            if row['attack_speed_values']:
+                stats['bonus_attack_speed'] = json.loads(row['attack_speed_values'])
+            if row['strength_values']:
+                stats['strength'] = json.loads(row['strength_values'])
+            if row['vitality_values']:
+                stats['vitality'] = json.loads(row['vitality_values'])
+            
+            bonus_stats[quality][category] = stats
+        
+        # Get armor pieces
+        cursor.execute('SELECT * FROM armor WHERE gear_set_id = ?', (gear_id,))
         armor_rows = cursor.fetchall()
         
-        # Organize armor by slot and quality
-        armor_pieces = {}
+        armor_pieces = []
         for row in armor_rows:
-            slot = row['slot']
-            quality = row['quality']
-            
-            if slot not in armor_pieces:
-                armor_pieces[slot] = {'slot': slot, 'normal': {'variants': []}, 'excellent': {'variants': []}}
-            
-            variant_data = {
+            armor_piece = {
+                'slot': row['slot'],
+                'quality': row['quality'],
                 'classes': row['classes'].split(','),
                 'item_name': row['item_name']
             }
             
-            # Parse JSON arrays
             if row['hp_values']:
-                variant_data['hp'] = json.loads(row['hp_values'])
+                armor_piece['hp'] = json.loads(row['hp_values'])
             
-            if row['attack_speed_values']:
-                variant_data['bonus_attack_speed'] = json.loads(row['attack_speed_values'])
+            armor_pieces.append(armor_piece)
             
-            if row['strength_values']:
-                variant_data['strength'] = json.loads(row['strength_values'])
+            # Create individual armor items (don't split by class, keep them together)
+            classes = row['classes'].split(',')
+            hp_values = json.loads(row['hp_values']) if row['hp_values'] else None
+            armor_bonus = bonus_stats.get(row['quality'], {}).get('armor', {})
             
-            armor_pieces[slot][quality]['variants'].append(variant_data)
+            # Generate ID: {GearSet}-{ItemName}-{Quality}
+            item_id = f"{gear_name}-{normalize_id_part(row['item_name'])}-{row['quality'].capitalize()}"
             
-            # Add to flat armor list
-            flat_armor = variant_data.copy()
-            flat_armor.update({
-                'gear_set': gear_name,
+            # Build base stats (only include non-null values)
+            base = {}
+            if hp_values:
+                base['hp'] = hp_values
+            
+            # Build bonuses (only include non-null values)
+            bonuses = {}
+            if armor_bonus.get('bonus_attack_speed'):
+                bonuses['bonus_attack_speed'] = armor_bonus.get('bonus_attack_speed')
+            if armor_bonus.get('strength'):
+                bonuses['strength'] = armor_bonus.get('strength')
+            if armor_bonus.get('vitality'):
+                bonuses['vitality'] = armor_bonus.get('vitality')
+            
+            item = {
+                'id': item_id,
+                'name': row['item_name'],
                 'tier': gear_set['tier'],
                 'level': gear_set['level'],
-                'slot': slot,
-                'quality': quality
-            })
-            all_armor.append(flat_armor)
+                'allowed_classes': classes,
+                'type': 'armor',
+                'slot': row['slot'],
+                'quality': row['quality'],
+                'base': base,
+                'bonuses': bonuses,
+                'gear_set': gear_name
+            }
+            
+            all_items.append(item)
         
         # Get weapons
         cursor.execute('SELECT * FROM weapons WHERE gear_set_id = ?', (gear_id,))
         weapon_rows = cursor.fetchall()
         
-        # Organize weapons
-        weapons = {}
+        weapons = []
         for row in weapon_rows:
-            key = (row['class'], row['weapon_type'])
-            quality = row['quality']
-            
-            if key not in weapons:
-                weapons[key] = {
-                    'class': row['class'],
-                    'weapon_type': row['weapon_type']
-                }
-            
-            weapon_data = {}
-            
-            # Parse JSON arrays
-            if row['damage_values']:
-                weapon_data['damage'] = json.loads(row['damage_values'])
-            
-            if row['attack_speed_values']:
-                weapon_data['bonus_attack_speed'] = json.loads(row['attack_speed_values'])
-            
-            if row['vitality_values']:
-                weapon_data['vitality'] = json.loads(row['vitality_values'])
-            
-            weapons[key][quality] = weapon_data
-            
-            # Add to flat weapons list
-            flat_weapon = weapon_data.copy()
-            flat_weapon.update({
-                'gear_set': gear_name,
-                'tier': gear_set['tier'],
-                'level': gear_set['level'],
+            weapon = {
                 'class': row['class'],
                 'weapon_type': row['weapon_type'],
-                'quality': quality
-            })
-            all_weapons.append(flat_weapon)
+                'quality': row['quality']
+            }
+            
+            if row['damage_values']:
+                weapon['damage'] = json.loads(row['damage_values'])
+            if row['attack_speed']:
+                weapon['attack_speed'] = row['attack_speed']
+            
+            weapons.append(weapon)
+            
+            # Create individual weapon item
+            damage_values = json.loads(row['damage_values']) if row['damage_values'] else None
+            weapon_bonus = bonus_stats.get(row['quality'], {}).get('weapon', {})
+            
+            # Generate ID: {GearSet}-{WeaponType}-{Quality}
+            item_id = f"{gear_name}-{normalize_id_part(row['weapon_type'])}-{row['quality'].capitalize()}"
+            
+            # Build base stats (only include non-null values)
+            base = {}
+            if damage_values:
+                base['damage'] = damage_values
+            if row['attack_speed']:
+                base['attack_speed'] = row['attack_speed']
+            
+            # Build bonuses (only include non-null values)
+            bonuses = {}
+            if weapon_bonus.get('bonus_attack_speed'):
+                bonuses['bonus_attack_speed'] = weapon_bonus.get('bonus_attack_speed')
+            if weapon_bonus.get('strength'):
+                bonuses['strength'] = weapon_bonus.get('strength')
+            if weapon_bonus.get('vitality'):
+                bonuses['vitality'] = weapon_bonus.get('vitality')
+            
+            item = {
+                'id': item_id,
+                'name': row['weapon_type'],
+                'tier': gear_set['tier'],
+                'level': gear_set['level'],
+                'allowed_classes': [row['class']],
+                'type': 'weapon',
+                'slot': row['weapon_type'],
+                'quality': row['quality'],
+                'base': base,
+                'bonuses': bonuses,
+                'gear_set': gear_name
+            }
+            
+            all_items.append(item)
         
         # Build gear set
         gear_item = {
             'name': gear_name,
             'tier': gear_set['tier'],
             'level': gear_set['level'],
-            'armor_pieces': list(armor_pieces.values()),
-            'weapons': list(weapons.values())
+            'bonus_stats': bonus_stats,
+            'armor': armor_pieces,
+            'weapons': weapons
         }
         
         all_gear.append(gear_item)
@@ -123,13 +180,21 @@ def export_to_json():
         json.dump(all_gear, f, indent=2)
     print(f"✓ Exported output/gear_sets.json ({len(all_gear)} gear sets)")
     
+    with open('output/items.json', 'w') as f:
+        json.dump(all_items, f, indent=2)
+    print(f"✓ Exported output/items.json ({len(all_items)} individual items)")
+    
+    # Also export separated by type for convenience
+    weapons_only = [item for item in all_items if item['type'] == 'weapon']
+    armor_only = [item for item in all_items if item['type'] == 'armor']
+    
     with open('output/weapons.json', 'w') as f:
-        json.dump(all_weapons, f, indent=2)
-    print(f"✓ Exported output/weapons.json ({len(all_weapons)} weapon entries)")
+        json.dump(weapons_only, f, indent=2)
+    print(f"✓ Exported output/weapons.json ({len(weapons_only)} weapon items)")
     
     with open('output/armor.json', 'w') as f:
-        json.dump(all_armor, f, indent=2)
-    print(f"✓ Exported output/armor.json ({len(all_armor)} armor entries)")
+        json.dump(armor_only, f, indent=2)
+    print(f"✓ Exported output/armor.json ({len(armor_only)} armor items)")
 
 if __name__ == "__main__":
     export_to_json()

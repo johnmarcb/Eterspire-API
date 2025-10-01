@@ -16,7 +16,20 @@ def init_database():
     ''')
     
     cursor.execute('''
-        CREATE TABLE IF NOT EXISTS armor_variants (
+        CREATE TABLE IF NOT EXISTS bonus_stats (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            gear_set_id INTEGER,
+            quality TEXT,
+            category TEXT,
+            attack_speed_values TEXT,
+            strength_values TEXT,
+            vitality_values TEXT,
+            FOREIGN KEY (gear_set_id) REFERENCES gear_sets(id)
+        )
+    ''')
+    
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS armor (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             gear_set_id INTEGER,
             slot TEXT,
@@ -24,8 +37,6 @@ def init_database():
             classes TEXT,
             item_name TEXT,
             hp_values TEXT,
-            attack_speed_values TEXT,
-            strength_values TEXT,
             FOREIGN KEY (gear_set_id) REFERENCES gear_sets(id)
         )
     ''')
@@ -38,8 +49,7 @@ def init_database():
             weapon_type TEXT,
             quality TEXT,
             damage_values TEXT,
-            attack_speed_values TEXT,
-            vitality_values TEXT,
+            attack_speed INTEGER,
             FOREIGN KEY (gear_set_id) REFERENCES gear_sets(id)
         )
     ''')
@@ -52,7 +62,8 @@ def clear_database():
     conn = sqlite3.connect('eterspire.db')
     cursor = conn.cursor()
     cursor.execute('DELETE FROM weapons')
-    cursor.execute('DELETE FROM armor_variants')
+    cursor.execute('DELETE FROM armor')
+    cursor.execute('DELETE FROM bonus_stats')
     cursor.execute('DELETE FROM gear_sets')
     conn.commit()
     conn.close()
@@ -73,55 +84,55 @@ def insert_all_gear_data(all_gear_data):
             cursor.execute('SELECT id FROM gear_sets WHERE name = ?', (gear_data['name'],))
             gear_set_id = cursor.fetchone()[0]
         
-        # Insert armor variants
-        for armor_piece in gear_data.get('armor_pieces', []):
-            slot = armor_piece['slot']
-            
-            for quality in ['normal', 'excellent']:
-                if quality not in armor_piece:
-                    continue
-                
-                quality_data = armor_piece[quality]
-                
-                # Insert each variant
-                for variant in quality_data.get('variants', []):
+        # Insert bonus stats
+        for quality in ['normal', 'excellent']:
+            for category in ['armor', 'weapon']:
+                stats = gear_data.get('bonus_stats', {}).get(quality, {}).get(category, {})
+                if stats:
                     cursor.execute('''
-                        INSERT INTO armor_variants (
-                            gear_set_id, slot, quality, classes, item_name,
-                            hp_values, attack_speed_values, strength_values
-                        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                        INSERT INTO bonus_stats (
+                            gear_set_id, quality, category,
+                            attack_speed_values, strength_values, vitality_values
+                        ) VALUES (?, ?, ?, ?, ?, ?)
                     ''', (
-                        gear_set_id, slot, quality,
-                        ','.join(variant['classes']), variant['item_name'],
-                        json.dumps(variant.get('hp')),
-                        json.dumps(variant.get('bonus_attack_speed')),
-                        json.dumps(variant.get('strength'))
+                        gear_set_id, quality, category,
+                        json.dumps(stats.get('bonus_attack_speed')),
+                        json.dumps(stats.get('strength')),
+                        json.dumps(stats.get('vitality'))
                     ))
+        
+        # Insert armor pieces
+        for armor_piece in gear_data.get('armor', []):
+            cursor.execute('''
+                INSERT INTO armor (
+                    gear_set_id, slot, quality, classes, item_name, hp_values
+                ) VALUES (?, ?, ?, ?, ?, ?)
+            ''', (
+                gear_set_id,
+                armor_piece['slot'],
+                armor_piece['quality'],
+                ','.join(armor_piece['classes']),
+                armor_piece['item_name'],
+                json.dumps(armor_piece.get('hp'))
+            ))
         
         # Insert weapons
         for weapon in gear_data.get('weapons', []):
-            for quality in ['normal', 'excellent']:
-                if quality not in weapon:
-                    continue
-                
-                quality_data = weapon[quality]
-                cursor.execute('''
-                    INSERT INTO weapons (
-                        gear_set_id, class, weapon_type, quality,
-                        damage_values, attack_speed_values, vitality_values
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?)
-                ''', (
-                    gear_set_id, weapon['class'], weapon['weapon_type'], quality,
-                    json.dumps(quality_data.get('damage')),
-                    json.dumps(quality_data.get('bonus_attack_speed')),
-                    json.dumps(quality_data.get('vitality'))
-                ))
+            cursor.execute('''
+                INSERT INTO weapons (
+                    gear_set_id, class, weapon_type, quality,
+                    damage_values, attack_speed
+                ) VALUES (?, ?, ?, ?, ?, ?)
+            ''', (
+                gear_set_id,
+                weapon['class'],
+                weapon['weapon_type'],
+                weapon['quality'],
+                json.dumps(weapon.get('damage')),
+                weapon.get('attack_speed')
+            ))
         
-        armor_count = sum(len(piece.get('normal', {}).get('variants', [])) + 
-                         len(piece.get('excellent', {}).get('variants', [])) 
-                         for piece in gear_data.get('armor_pieces', []))
-        
-        print(f"  Inserted {gear_data['name']} (Tier {gear_data['tier']}) - Armor variants: {armor_count}, Weapons: {len(gear_data.get('weapons', []))}")
+        print(f"  Inserted {gear_data['name']} (Tier {gear_data['tier']}) - Armor: {len(gear_data.get('armor', []))} slots, Weapons: {len(gear_data.get('weapons', []))}")
     
     conn.commit()
     conn.close()
