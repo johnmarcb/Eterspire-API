@@ -1,8 +1,8 @@
 [
   {
-    "name": "Everfrost",
-    "tier": 21,
-    "level": 160,
+    "name": "Bronze",
+    "tier": 1,
+    "level": 1,
     "bonus_stats": {
       "normal": {
         "armor": {
@@ -414,342 +414,6 @@
           56,
           64
         ]
-      },
-      {
-        "slot": "helm",
-        "quality": "normal",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Helm",
-        "hp": [
-          3308,
-          3639,
-          4135
-        ]
-      },
-      {
-        "slot": "helm",
-        "quality": "excellent",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Helm",
-        "hp": [
-          3631,
-          3994,
-          4539
-        ]
-      },
-      {
-        "slot": "helm",
-        "quality": "normal",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Thread Helm",
-        "hp": [
-          3308,
-          3639,
-          4135
-        ]
-      },
-      {
-        "slot": "helm",
-        "quality": "excellent",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Thread Helm",
-        "hp": [
-          3631,
-          3994,
-          4539
-        ]
-      },
-      {
-        "slot": "gauntlets",
-        "quality": "normal",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Gauntlets",
-        "hp": [
-          3308,
-          3639,
-          4135
-        ]
-      },
-      {
-        "slot": "gauntlets",
-        "quality": "excellent",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Gauntlets",
-        "hp": [
-          3631,
-          3994,
-          4539
-        ]
-      },
-      {
-        "slot": "gauntlets",
-        "quality": "normal",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Gloves",
-        "hp": [
-          3308,
-          3639,
-          4135
-        ]
-      },
-      {
-        "slot": "gauntlets",
-        "quality": "excellent",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Gloves",
-        "hp": [
-          3631,
-          3994,
-          4539
-        ]
-      },
-      {
-        "slot": "greaves",
-        "quality": "normal",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Greaves",
-        "hp": [
-          3308,
-          3639,
-          4135
-        ]
-      },
-      {
-        "slot": "greaves",
-        "quality": "excellent",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Greaves",
-        "hp": [
-          3631,
-          3994,
-          4539
-        ]
-      },
-      {
-        "slot": "greaves",
-        "quality": "normal",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Boots",
-        "hp": [
-          3308,
-          3639,
-          4135
-        ]
-      },
-      {
-        "slot": "greaves",
-        "quality": "excellent",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Boots",
-        "hp": [
-          3631,
-          3994,
-          4539
-        ]
-      },
-      {
-        "slot": "chest",
-        "quality": "normal",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Platemail",
-        "hp": [
-          9923,
-          10900,
-          12400
-        ]
-      },
-      {
-        "slot": "chest",
-        "quality": "excellent",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Platemail",
-        "hp": [
-          10800,
-          11900,
-          13600
-        ]
-      },
-      {
-        "slot": "chest",
-        "quality": "normal",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Thread Top",
-        "hp": [
-          9923,
-          10900,
-          12400
-        ]
-      },
-      {
-        "slot": "chest",
-        "quality": "excellent",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Thread Top",
-        "hp": [
-          10800,
-          11900,
-          13600
-        ]
-      },
-      {
-        "slot": "legs",
-        "quality": "normal",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Platelegs",
-        "hp": [
-          4962,
-          5459,
-          6203
-        ]
-      },
-      {
-        "slot": "legs",
-        "quality": "excellent",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Platelegs",
-        "hp": [
-          5446,
-          5991,
-          6808
-        ]
-      },
-      {
-        "slot": "legs",
-        "quality": "normal",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Thread Bottom",
-        "hp": [
-          4962,
-          5459,
-          6203
-        ]
-      },
-      {
-        "slot": "legs",
-        "quality": "excellent",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Thread Bottom",
-        "hp": [
-          5446,
-          5991,
-          6808
-        ]
-      },
-      {
-        "slot": "shield",
-        "quality": "normal",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Shield",
-        "hp": [
-          8269,
-          9096,
-          10337
-        ]
-      },
-      {
-        "slot": "shield",
-        "quality": "excellent",
-        "classes": [
-          "Guardian",
-          "Warrior",
-          "Rogue"
-        ],
-        "item_name": "Shield",
-        "hp": [
-          9076,
-          9983,
-          11344
-        ]
-      },
-      {
-        "slot": "shield",
-        "quality": "normal",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Gilded Spellbook",
-        "hp": [
-          8269,
-          9096,
-          10337
-        ]
-      },
-      {
-        "slot": "shield",
-        "quality": "excellent",
-        "classes": [
-          "Sorcerer"
-        ],
-        "item_name": "Gilded Spellbook",
-        "hp": [
-          9076,
-          9983,
-          11344
-        ]
       }
     ],
     "weapons": [
@@ -1149,7 +813,406 @@
           22,
           25
         ]
+      }
+    ]
+  },
+  {
+    "name": "Everfrost",
+    "tier": 21,
+    "level": 160,
+    "bonus_stats": {
+      "normal": {
+        "armor": {
+          "bonus_attack_speed": [
+            0,
+            1,
+            2
+          ],
+          "strength": [
+            0,
+            100,
+            166
+          ]
+        },
+        "weapon": {
+          "bonus_attack_speed": [
+            0,
+            5,
+            10
+          ],
+          "vitality": [
+            0,
+            331,
+            827
+          ]
+        }
       },
+      "excellent": {
+        "armor": {
+          "bonus_attack_speed": [
+            0,
+            3,
+            4
+          ],
+          "strength": [
+            0,
+            109,
+            182
+          ]
+        },
+        "weapon": {
+          "bonus_attack_speed": [
+            0,
+            7,
+            12
+          ],
+          "vitality": [
+            0,
+            363,
+            908
+          ]
+        }
+      }
+    },
+    "armor": [
+      {
+        "slot": "helm",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "helm",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "helm",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "helm",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Gauntlets",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Gauntlets",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gloves",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gloves",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Greaves",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Greaves",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Boots",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Boots",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "hp": [
+          9923,
+          10900,
+          12400
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "hp": [
+          10800,
+          11900,
+          13600
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Top",
+        "hp": [
+          9923,
+          10900,
+          12400
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Top",
+        "hp": [
+          10800,
+          11900,
+          13600
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "hp": [
+          4962,
+          5459,
+          6203
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "hp": [
+          5446,
+          5991,
+          6808
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Bottom",
+        "hp": [
+          4962,
+          5459,
+          6203
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Bottom",
+        "hp": [
+          5446,
+          5991,
+          6808
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "hp": [
+          8269,
+          9096,
+          10337
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "hp": [
+          9076,
+          9983,
+          11344
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "hp": [
+          8269,
+          9096,
+          10337
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "hp": [
+          9076,
+          9983,
+          11344
+        ]
+      }
+    ],
+    "weapons": [
       {
         "class": "Guardian",
         "weapon_type": "Bardiche",

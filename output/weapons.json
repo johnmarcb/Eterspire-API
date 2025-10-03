@@ -1,9 +1,9 @@
 [
   {
-    "id": "Everfrost-Bardiche-Normal",
+    "id": "Bronze-Bardiche-Normal",
     "name": "Bardiche",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
@@ -35,13 +35,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Bardiche-Excellent",
+    "id": "Bronze-Bardiche-Excellent",
     "name": "Bardiche",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
@@ -68,13 +68,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Battleaxe-Normal",
+    "id": "Bronze-Battleaxe-Normal",
     "name": "Battleaxe",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
@@ -106,13 +106,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Battleaxe-Excellent",
+    "id": "Bronze-Battleaxe-Excellent",
     "name": "Battleaxe",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
@@ -139,13 +139,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Mace-Normal",
+    "id": "Bronze-Mace-Normal",
     "name": "Mace",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
@@ -177,13 +177,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Mace-Excellent",
+    "id": "Bronze-Mace-Excellent",
     "name": "Mace",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
@@ -210,13 +210,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Warhammer-Normal",
+    "id": "Bronze-Warhammer-Normal",
     "name": "Warhammer",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
@@ -248,13 +248,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Warhammer-Excellent",
+    "id": "Bronze-Warhammer-Excellent",
     "name": "Warhammer",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
@@ -281,13 +281,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Widesword-Normal",
+    "id": "Bronze-Widesword-Normal",
     "name": "Widesword",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
@@ -319,13 +319,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Widesword-Excellent",
+    "id": "Bronze-Widesword-Excellent",
     "name": "Widesword",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
@@ -352,13 +352,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Curved-Dagger-Normal",
+    "id": "Bronze-Curved-Dagger-Normal",
     "name": "Curved Dagger",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
@@ -388,13 +388,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Curved-Dagger-Excellent",
+    "id": "Bronze-Curved-Dagger-Excellent",
     "name": "Curved Dagger",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
@@ -421,13 +421,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Dagger-Normal",
+    "id": "Bronze-Dagger-Normal",
     "name": "Dagger",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
@@ -457,13 +457,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Dagger-Excellent",
+    "id": "Bronze-Dagger-Excellent",
     "name": "Dagger",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
@@ -490,13 +490,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Short-Sword-Normal",
+    "id": "Bronze-Short-Sword-Normal",
     "name": "Short Sword",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
@@ -526,13 +526,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Short-Sword-Excellent",
+    "id": "Bronze-Short-Sword-Excellent",
     "name": "Short Sword",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
@@ -559,13 +559,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Sword-Normal",
+    "id": "Bronze-Sword-Normal",
     "name": "Sword",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
@@ -596,13 +596,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Sword-Excellent",
+    "id": "Bronze-Sword-Excellent",
     "name": "Sword",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
@@ -629,13 +629,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Broadsword-Normal",
+    "id": "Bronze-Broadsword-Normal",
     "name": "Broadsword",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
@@ -667,13 +667,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Broadsword-Excellent",
+    "id": "Bronze-Broadsword-Excellent",
     "name": "Broadsword",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
@@ -700,13 +700,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Claymore-Normal",
+    "id": "Bronze-Claymore-Normal",
     "name": "Claymore",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
@@ -737,13 +737,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Claymore-Excellent",
+    "id": "Bronze-Claymore-Excellent",
     "name": "Claymore",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
@@ -770,13 +770,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Halberd-Normal",
+    "id": "Bronze-Halberd-Normal",
     "name": "Halberd",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
@@ -808,13 +808,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Halberd-Excellent",
+    "id": "Bronze-Halberd-Excellent",
     "name": "Halberd",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
@@ -841,13 +841,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Longsword-Normal",
+    "id": "Bronze-Longsword-Normal",
     "name": "Longsword",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
@@ -879,13 +879,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Longsword-Excellent",
+    "id": "Bronze-Longsword-Excellent",
     "name": "Longsword",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
@@ -912,13 +912,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Trident-Normal",
+    "id": "Bronze-Trident-Normal",
     "name": "Trident",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
@@ -949,13 +949,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Trident-Excellent",
+    "id": "Bronze-Trident-Excellent",
     "name": "Trident",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
@@ -982,13 +982,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Arcane-Staff-Normal",
+    "id": "Bronze-Arcane-Staff-Normal",
     "name": "Arcane Staff",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1019,13 +1019,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Arcane-Staff-Excellent",
+    "id": "Bronze-Arcane-Staff-Excellent",
     "name": "Arcane Staff",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1051,13 +1051,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Fire-Staff-Normal",
+    "id": "Bronze-Fire-Staff-Normal",
     "name": "Fire Staff",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1088,13 +1088,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Fire-Staff-Excellent",
+    "id": "Bronze-Fire-Staff-Excellent",
     "name": "Fire Staff",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1120,13 +1120,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Ice-Staff-Normal",
+    "id": "Bronze-Ice-Staff-Normal",
     "name": "Ice Staff",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1157,13 +1157,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Ice-Staff-Excellent",
+    "id": "Bronze-Ice-Staff-Excellent",
     "name": "Ice Staff",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1189,13 +1189,13 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Thunder-Staff-Normal",
+    "id": "Bronze-Thunder-Staff-Normal",
     "name": "Thunder Staff",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1226,13 +1226,13 @@
         2
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Everfrost-Thunder-Staff-Excellent",
+    "id": "Bronze-Thunder-Staff-Excellent",
     "name": "Thunder Staff",
-    "tier": 21,
-    "level": 160,
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1258,7 +1258,7 @@
         5
       ]
     },
-    "gear_set": "Everfrost"
+    "gear_set": "Bronze"
   },
   {
     "id": "Everfrost-Bardiche-Normal",
@@ -1281,18 +1281,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -1324,8 +1320,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -1351,18 +1347,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -1394,8 +1386,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -1421,18 +1413,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -1462,8 +1450,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -1489,18 +1477,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -1532,8 +1516,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -1559,18 +1543,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -1602,8 +1582,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -1629,18 +1609,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -1672,8 +1648,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -1699,18 +1675,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -1742,8 +1714,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -1769,18 +1741,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -1812,8 +1780,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -1839,18 +1807,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -1882,8 +1846,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -1909,18 +1873,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -1952,8 +1912,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -1979,18 +1939,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -2017,8 +1973,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -2044,18 +2000,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -2087,8 +2039,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -2114,18 +2066,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -2157,8 +2105,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -2184,18 +2132,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -2227,8 +2171,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -2253,18 +2197,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -2295,8 +2235,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -2321,18 +2261,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -2363,8 +2299,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -2389,18 +2325,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -2431,8 +2363,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"
@@ -2457,18 +2389,14 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
-        -10,
-        -5,
         0,
         5,
         10
       ],
       "vitality": [
-        -2,
-        -1,
         0,
-        1,
-        2
+        331,
+        827
       ]
     },
     "gear_set": "Everfrost"
@@ -2499,8 +2427,8 @@
       ],
       "vitality": [
         0,
-        3,
-        5
+        363,
+        908
       ]
     },
     "gear_set": "Everfrost"

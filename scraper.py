@@ -38,7 +38,7 @@ def extract_all_stat_values(text):
     return values if values else None
 
 def scrape_gear_html(filename):
-    """Scrape a single gear HTML file"""
+    """Scrape a single gear HTML file - can contain multiple gear sets"""
     
     filepath = os.path.join('manual-download', filename)
     
@@ -52,19 +52,10 @@ def scrape_gear_html(filename):
     
     if not tables:
         print(f"  WARNING: No tables found")
-        return None
+        return []
     
-    gear_data = {
-        "name": None,
-        "tier": None,
-        "level": None,
-        "bonus_stats": {
-            "normal": {"armor": {}, "weapon": {}},
-            "excellent": {"armor": {}, "weapon": {}}
-        },
-        "armor": [],
-        "weapons": []
-    }
+    # Dictionary to hold multiple gear sets, keyed by gear name
+    gear_sets = {}
     
     # Process each table
     for table in tables:
@@ -81,15 +72,37 @@ def scrape_gear_html(filename):
         if not (is_armor or is_weapon):
             continue
         
-        # Extract tier from caption (e.g., "Bronze Armor (Tier 1)")
-        tier_match = re.search(r'Tier\s+(\d+)', caption_text)
-        if tier_match:
-            gear_data['tier'] = int(tier_match.group(1))
-        
         # Extract gear name from caption (e.g., "Bronze Armor (Tier 1)" -> "Bronze")
         name_match = re.match(r'(\w+)\s+(Armor|Weapons?)', caption_text)
-        if name_match:
-            gear_data['name'] = name_match.group(1)
+        if not name_match:
+            continue
+        
+        gear_name = name_match.group(1)
+        
+        # Extract tier from caption (e.g., "Bronze Armor (Tier 1)")
+        tier_match = re.search(r'Tier\s+(\d+)', caption_text)
+        tier = int(tier_match.group(1)) if tier_match else None
+        
+        # Create gear set entry if it doesn't exist
+        if gear_name not in gear_sets:
+            gear_sets[gear_name] = {
+                "name": gear_name,
+                "tier": tier,
+                "level": None,
+                "bonus_stats": {
+                    "normal": {"armor": {}, "weapon": {}},
+                    "excellent": {"armor": {}, "weapon": {}}
+                },
+                "armor": [],
+                "weapons": []
+            }
+        
+        # Update tier if we have it
+        if tier and not gear_sets[gear_name]['tier']:
+            gear_sets[gear_name]['tier'] = tier
+        
+        # Get reference to this gear set
+        gear_data = gear_sets[gear_name]
         
         # Get all rows (skip header row)
         rows = table.find('tbody').find_all('tr')[1:]  # Skip header
@@ -209,15 +222,18 @@ def scrape_gear_html(filename):
                     if 'vitality' not in gear_data['bonus_stats'][quality]['weapon']:
                         gear_data['bonus_stats'][quality]['weapon']['vitality'] = vitality
     
-    # Set level based on tier (manual mapping or extraction)
-    if gear_data['tier']:
-        level_mapping = {
-            1: 1, 2: 10, 3: 20, 4: 30, 5: 40, 6: 50, 7: 60, 8: 70,
-            9: 80, 10: 90, 11: 100, 12: 110, 13: 120, 14: 130, 15: 140, 16: 150
-        }
-        gear_data['level'] = level_mapping.get(gear_data['tier'], 160 if gear_data['tier'] >= 17 else None)
+    # Set level based on tier for each gear set (manual mapping or extraction)
+    level_mapping = {
+        1: 1, 2: 10, 3: 20, 4: 30, 5: 40, 6: 50, 7: 60, 8: 70,
+        9: 80, 10: 90, 11: 100, 12: 110, 13: 120, 14: 130, 15: 140, 16: 150
+    }
     
-    return gear_data
+    for gear_set in gear_sets.values():
+        if gear_set['tier']:
+            gear_set['level'] = level_mapping.get(gear_set['tier'], 160 if gear_set['tier'] >= 17 else None)
+    
+    # Return list of all gear sets found in this file
+    return list(gear_sets.values())
 
 def scrape_all_files():
     """Scrape all HTML files in manual-download folder"""
@@ -242,18 +258,22 @@ def scrape_all_files():
     for filename in html_files:
         print(f"\nProcessing: {filename}")
         try:
-            gear_data = scrape_gear_html(filename)
+            # scrape_gear_html now returns a list of gear sets
+            gear_sets = scrape_gear_html(filename)
             
-            if not gear_data:
+            if not gear_sets:
+                print(f"  WARNING: No gear sets found in {filename}")
                 continue
             
-            if gear_data['name'] in seen_names:
-                print(f"  SKIPPED - Duplicate of {gear_data['name']}")
-                continue
-            
-            seen_names.add(gear_data['name'])
-            all_gear_data.append(gear_data)
-            print(f"  Tier: {gear_data['tier']} | Level: {gear_data['level']} | Armor: {len(gear_data['armor'])} pieces | Weapons: {len(gear_data['weapons'])}")
+            # Process each gear set found in this file
+            for gear_data in gear_sets:
+                if gear_data['name'] in seen_names:
+                    print(f"  SKIPPED - Duplicate of {gear_data['name']}")
+                    continue
+                
+                seen_names.add(gear_data['name'])
+                all_gear_data.append(gear_data)
+                print(f"  ✓ {gear_data['name']}: Tier {gear_data['tier']} | Level {gear_data['level']} | Armor: {len(gear_data['armor'])} pieces | Weapons: {len(gear_data['weapons'])}")
         except Exception as e:
             print(f"  Error: {e}")
             import traceback
