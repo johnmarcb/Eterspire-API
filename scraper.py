@@ -122,9 +122,8 @@ def scrape_gear_html(filename):
                 attack_speed_text = cells[5].get_text().strip()
                 strength_text = cells[6].get_text().strip()
                 
-                # Strip gear prefix from item name (e.g., "Bronze Helm" -> "Helm")
-                if gear_data['name'] and item_name.startswith(gear_data['name'] + ' '):
-                    item_name = item_name[len(gear_data['name']) + 1:]
+                # Keep full item name (e.g., "Bronze Helm")
+                # item_name already contains the full name from the table
                 
                 # Parse classes
                 classes = [c.strip() for c in classes_text.split('/')]
@@ -176,9 +175,8 @@ def scrape_gear_html(filename):
                 bonus_attack_speed_text = cells[5].get_text().strip()
                 vitality_text = cells[6].get_text().strip()
                 
-                # Strip gear prefix from item name (e.g., "Bronze Bardiche" -> "Bardiche")
-                if gear_data['name'] and item_name.startswith(gear_data['name'] + ' '):
-                    item_name = item_name[len(gear_data['name']) + 1:]
+                # Keep full weapon name (e.g., "Bronze Bardiche")
+                # item_name already contains the full name from the table
                 
                 # Parse damage values
                 damage_values = extract_all_stat_values(damage_text)

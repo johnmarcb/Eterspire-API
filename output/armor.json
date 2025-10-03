@@ -1,7 +1,7 @@
 [
   {
     "id": "Bronze-Helm-Normal",
-    "name": "Helm",
+    "name": "Bronze Helm",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -38,7 +38,7 @@
   },
   {
     "id": "Bronze-Helm-Excellent",
-    "name": "Helm",
+    "name": "Bronze Helm",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -71,7 +71,7 @@
   },
   {
     "id": "Bronze-Thread-Helm-Normal",
-    "name": "Thread Helm",
+    "name": "Bronze Thread Helm",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -106,7 +106,7 @@
   },
   {
     "id": "Bronze-Thread-Helm-Excellent",
-    "name": "Thread Helm",
+    "name": "Bronze Thread Helm",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -137,7 +137,7 @@
   },
   {
     "id": "Bronze-Gauntlets-Normal",
-    "name": "Gauntlets",
+    "name": "Bronze Gauntlets",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -174,7 +174,7 @@
   },
   {
     "id": "Bronze-Gauntlets-Excellent",
-    "name": "Gauntlets",
+    "name": "Bronze Gauntlets",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -207,7 +207,7 @@
   },
   {
     "id": "Bronze-Gloves-Normal",
-    "name": "Gloves",
+    "name": "Bronze Gloves",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -242,7 +242,7 @@
   },
   {
     "id": "Bronze-Gloves-Excellent",
-    "name": "Gloves",
+    "name": "Bronze Gloves",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -273,7 +273,7 @@
   },
   {
     "id": "Bronze-Greaves-Normal",
-    "name": "Greaves",
+    "name": "Bronze Greaves",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -310,7 +310,7 @@
   },
   {
     "id": "Bronze-Greaves-Excellent",
-    "name": "Greaves",
+    "name": "Bronze Greaves",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -343,7 +343,7 @@
   },
   {
     "id": "Bronze-Boots-Normal",
-    "name": "Boots",
+    "name": "Bronze Boots",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -378,7 +378,7 @@
   },
   {
     "id": "Bronze-Boots-Excellent",
-    "name": "Boots",
+    "name": "Bronze Boots",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -409,7 +409,7 @@
   },
   {
     "id": "Bronze-Platemail-Normal",
-    "name": "Platemail",
+    "name": "Bronze Platemail",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -447,7 +447,7 @@
   },
   {
     "id": "Bronze-Platemail-Excellent",
-    "name": "Platemail",
+    "name": "Bronze Platemail",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -480,7 +480,7 @@
   },
   {
     "id": "Bronze-Thread-Top-Normal",
-    "name": "Thread Top",
+    "name": "Bronze Thread Top",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -516,7 +516,7 @@
   },
   {
     "id": "Bronze-Thread-Top-Excellent",
-    "name": "Thread Top",
+    "name": "Bronze Thread Top",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -547,7 +547,7 @@
   },
   {
     "id": "Bronze-Platelegs-Normal",
-    "name": "Platelegs",
+    "name": "Bronze Platelegs",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -584,7 +584,7 @@
   },
   {
     "id": "Bronze-Platelegs-Excellent",
-    "name": "Platelegs",
+    "name": "Bronze Platelegs",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -617,7 +617,7 @@
   },
   {
     "id": "Bronze-Thread-Bottom-Normal",
-    "name": "Thread Bottom",
+    "name": "Bronze Thread Bottom",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -652,7 +652,7 @@
   },
   {
     "id": "Bronze-Thread-Bottom-Excellent",
-    "name": "Thread Bottom",
+    "name": "Bronze Thread Bottom",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -683,7 +683,7 @@
   },
   {
     "id": "Bronze-Shield-Normal",
-    "name": "Shield",
+    "name": "Bronze Shield",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -721,7 +721,7 @@
   },
   {
     "id": "Bronze-Shield-Excellent",
-    "name": "Shield",
+    "name": "Bronze Shield",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -754,7 +754,7 @@
   },
   {
     "id": "Bronze-Gilded-Spellbook-Normal",
-    "name": "Gilded Spellbook",
+    "name": "Bronze Gilded Spellbook",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -790,7 +790,7 @@
   },
   {
     "id": "Bronze-Gilded-Spellbook-Excellent",
-    "name": "Gilded Spellbook",
+    "name": "Bronze Gilded Spellbook",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -821,7 +821,7 @@
   },
   {
     "id": "Everfrost-Helm-Normal",
-    "name": "Helm",
+    "name": "Everfrost Helm",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -855,7 +855,7 @@
   },
   {
     "id": "Everfrost-Helm-Excellent",
-    "name": "Helm",
+    "name": "Everfrost Helm",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -889,7 +889,7 @@
   },
   {
     "id": "Everfrost-Thread-Helm-Normal",
-    "name": "Thread Helm",
+    "name": "Everfrost Thread Helm",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -921,7 +921,7 @@
   },
   {
     "id": "Everfrost-Thread-Helm-Excellent",
-    "name": "Thread Helm",
+    "name": "Everfrost Thread Helm",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -953,7 +953,7 @@
   },
   {
     "id": "Everfrost-Gauntlets-Normal",
-    "name": "Gauntlets",
+    "name": "Everfrost Gauntlets",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -987,7 +987,7 @@
   },
   {
     "id": "Everfrost-Gauntlets-Excellent",
-    "name": "Gauntlets",
+    "name": "Everfrost Gauntlets",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1021,7 +1021,7 @@
   },
   {
     "id": "Everfrost-Gloves-Normal",
-    "name": "Gloves",
+    "name": "Everfrost Gloves",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1053,7 +1053,7 @@
   },
   {
     "id": "Everfrost-Gloves-Excellent",
-    "name": "Gloves",
+    "name": "Everfrost Gloves",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1085,7 +1085,7 @@
   },
   {
     "id": "Everfrost-Greaves-Normal",
-    "name": "Greaves",
+    "name": "Everfrost Greaves",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "Everfrost-Greaves-Excellent",
-    "name": "Greaves",
+    "name": "Everfrost Greaves",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1153,7 +1153,7 @@
   },
   {
     "id": "Everfrost-Boots-Normal",
-    "name": "Boots",
+    "name": "Everfrost Boots",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1185,7 +1185,7 @@
   },
   {
     "id": "Everfrost-Boots-Excellent",
-    "name": "Boots",
+    "name": "Everfrost Boots",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1217,7 +1217,7 @@
   },
   {
     "id": "Everfrost-Platemail-Normal",
-    "name": "Platemail",
+    "name": "Everfrost Platemail",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1251,7 +1251,7 @@
   },
   {
     "id": "Everfrost-Platemail-Excellent",
-    "name": "Platemail",
+    "name": "Everfrost Platemail",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1285,7 +1285,7 @@
   },
   {
     "id": "Everfrost-Thread-Top-Normal",
-    "name": "Thread Top",
+    "name": "Everfrost Thread Top",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1317,7 +1317,7 @@
   },
   {
     "id": "Everfrost-Thread-Top-Excellent",
-    "name": "Thread Top",
+    "name": "Everfrost Thread Top",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1349,7 +1349,7 @@
   },
   {
     "id": "Everfrost-Platelegs-Normal",
-    "name": "Platelegs",
+    "name": "Everfrost Platelegs",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1383,7 +1383,7 @@
   },
   {
     "id": "Everfrost-Platelegs-Excellent",
-    "name": "Platelegs",
+    "name": "Everfrost Platelegs",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1417,7 +1417,7 @@
   },
   {
     "id": "Everfrost-Thread-Bottom-Normal",
-    "name": "Thread Bottom",
+    "name": "Everfrost Thread Bottom",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1449,7 +1449,7 @@
   },
   {
     "id": "Everfrost-Thread-Bottom-Excellent",
-    "name": "Thread Bottom",
+    "name": "Everfrost Thread Bottom",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1481,7 +1481,7 @@
   },
   {
     "id": "Everfrost-Shield-Normal",
-    "name": "Shield",
+    "name": "Everfrost Shield",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1515,7 +1515,7 @@
   },
   {
     "id": "Everfrost-Shield-Excellent",
-    "name": "Shield",
+    "name": "Everfrost Shield",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1549,7 +1549,7 @@
   },
   {
     "id": "Everfrost-Gilded-Spellbook-Normal",
-    "name": "Gilded Spellbook",
+    "name": "Everfrost Gilded Spellbook",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -1581,7 +1581,7 @@
   },
   {
     "id": "Everfrost-Gilded-Spellbook-Excellent",
-    "name": "Gilded Spellbook",
+    "name": "Everfrost Gilded Spellbook",
     "tier": 21,
     "level": 160,
     "allowed_classes": [

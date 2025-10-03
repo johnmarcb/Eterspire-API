@@ -1,7 +1,7 @@
 [
   {
     "id": "Bronze-Helm-Normal",
-    "name": "Helm",
+    "name": "Bronze Helm",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -38,7 +38,7 @@
   },
   {
     "id": "Bronze-Helm-Excellent",
-    "name": "Helm",
+    "name": "Bronze Helm",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -71,7 +71,7 @@
   },
   {
     "id": "Bronze-Thread-Helm-Normal",
-    "name": "Thread Helm",
+    "name": "Bronze Thread Helm",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -106,7 +106,7 @@
   },
   {
     "id": "Bronze-Thread-Helm-Excellent",
-    "name": "Thread Helm",
+    "name": "Bronze Thread Helm",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -137,7 +137,7 @@
   },
   {
     "id": "Bronze-Gauntlets-Normal",
-    "name": "Gauntlets",
+    "name": "Bronze Gauntlets",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -174,7 +174,7 @@
   },
   {
     "id": "Bronze-Gauntlets-Excellent",
-    "name": "Gauntlets",
+    "name": "Bronze Gauntlets",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -207,7 +207,7 @@
   },
   {
     "id": "Bronze-Gloves-Normal",
-    "name": "Gloves",
+    "name": "Bronze Gloves",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -242,7 +242,7 @@
   },
   {
     "id": "Bronze-Gloves-Excellent",
-    "name": "Gloves",
+    "name": "Bronze Gloves",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -273,7 +273,7 @@
   },
   {
     "id": "Bronze-Greaves-Normal",
-    "name": "Greaves",
+    "name": "Bronze Greaves",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -310,7 +310,7 @@
   },
   {
     "id": "Bronze-Greaves-Excellent",
-    "name": "Greaves",
+    "name": "Bronze Greaves",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -343,7 +343,7 @@
   },
   {
     "id": "Bronze-Boots-Normal",
-    "name": "Boots",
+    "name": "Bronze Boots",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -378,7 +378,7 @@
   },
   {
     "id": "Bronze-Boots-Excellent",
-    "name": "Boots",
+    "name": "Bronze Boots",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -409,7 +409,7 @@
   },
   {
     "id": "Bronze-Platemail-Normal",
-    "name": "Platemail",
+    "name": "Bronze Platemail",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -447,7 +447,7 @@
   },
   {
     "id": "Bronze-Platemail-Excellent",
-    "name": "Platemail",
+    "name": "Bronze Platemail",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -480,7 +480,7 @@
   },
   {
     "id": "Bronze-Thread-Top-Normal",
-    "name": "Thread Top",
+    "name": "Bronze Thread Top",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -516,7 +516,7 @@
   },
   {
     "id": "Bronze-Thread-Top-Excellent",
-    "name": "Thread Top",
+    "name": "Bronze Thread Top",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -547,7 +547,7 @@
   },
   {
     "id": "Bronze-Platelegs-Normal",
-    "name": "Platelegs",
+    "name": "Bronze Platelegs",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -584,7 +584,7 @@
   },
   {
     "id": "Bronze-Platelegs-Excellent",
-    "name": "Platelegs",
+    "name": "Bronze Platelegs",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -617,7 +617,7 @@
   },
   {
     "id": "Bronze-Thread-Bottom-Normal",
-    "name": "Thread Bottom",
+    "name": "Bronze Thread Bottom",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -652,7 +652,7 @@
   },
   {
     "id": "Bronze-Thread-Bottom-Excellent",
-    "name": "Thread Bottom",
+    "name": "Bronze Thread Bottom",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -683,7 +683,7 @@
   },
   {
     "id": "Bronze-Shield-Normal",
-    "name": "Shield",
+    "name": "Bronze Shield",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -721,7 +721,7 @@
   },
   {
     "id": "Bronze-Shield-Excellent",
-    "name": "Shield",
+    "name": "Bronze Shield",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -754,7 +754,7 @@
   },
   {
     "id": "Bronze-Gilded-Spellbook-Normal",
-    "name": "Gilded Spellbook",
+    "name": "Bronze Gilded Spellbook",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -790,7 +790,7 @@
   },
   {
     "id": "Bronze-Gilded-Spellbook-Excellent",
-    "name": "Gilded Spellbook",
+    "name": "Bronze Gilded Spellbook",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
@@ -821,14 +821,14 @@
   },
   {
     "id": "Bronze-Bardiche-Normal",
-    "name": "Bardiche",
+    "name": "Bronze Bardiche",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Bardiche",
+    "type": "Bardiche",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -859,14 +859,14 @@
   },
   {
     "id": "Bronze-Bardiche-Excellent",
-    "name": "Bardiche",
+    "name": "Bronze Bardiche",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Bardiche",
+    "type": "Bardiche",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -892,14 +892,14 @@
   },
   {
     "id": "Bronze-Battleaxe-Normal",
-    "name": "Battleaxe",
+    "name": "Bronze Battleaxe",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Battleaxe",
+    "type": "Battleaxe",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -930,14 +930,14 @@
   },
   {
     "id": "Bronze-Battleaxe-Excellent",
-    "name": "Battleaxe",
+    "name": "Bronze Battleaxe",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Battleaxe",
+    "type": "Battleaxe",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -963,14 +963,14 @@
   },
   {
     "id": "Bronze-Mace-Normal",
-    "name": "Mace",
+    "name": "Bronze Mace",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Mace",
+    "type": "Mace",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1001,14 +1001,14 @@
   },
   {
     "id": "Bronze-Mace-Excellent",
-    "name": "Mace",
+    "name": "Bronze Mace",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Mace",
+    "type": "Mace",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1034,14 +1034,14 @@
   },
   {
     "id": "Bronze-Warhammer-Normal",
-    "name": "Warhammer",
+    "name": "Bronze Warhammer",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Warhammer",
+    "type": "Warhammer",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1072,14 +1072,14 @@
   },
   {
     "id": "Bronze-Warhammer-Excellent",
-    "name": "Warhammer",
+    "name": "Bronze Warhammer",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Warhammer",
+    "type": "Warhammer",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1105,14 +1105,14 @@
   },
   {
     "id": "Bronze-Widesword-Normal",
-    "name": "Widesword",
+    "name": "Bronze Widesword",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Widesword",
+    "type": "Widesword",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1143,14 +1143,14 @@
   },
   {
     "id": "Bronze-Widesword-Excellent",
-    "name": "Widesword",
+    "name": "Bronze Widesword",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Widesword",
+    "type": "Widesword",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1176,14 +1176,14 @@
   },
   {
     "id": "Bronze-Curved-Dagger-Normal",
-    "name": "Curved Dagger",
+    "name": "Bronze Curved Dagger",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Curved Dagger",
+    "type": "Curved Dagger",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1212,14 +1212,14 @@
   },
   {
     "id": "Bronze-Curved-Dagger-Excellent",
-    "name": "Curved Dagger",
+    "name": "Bronze Curved Dagger",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Curved Dagger",
+    "type": "Curved Dagger",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1245,14 +1245,14 @@
   },
   {
     "id": "Bronze-Dagger-Normal",
-    "name": "Dagger",
+    "name": "Bronze Dagger",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Dagger",
+    "type": "Dagger",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1281,14 +1281,14 @@
   },
   {
     "id": "Bronze-Dagger-Excellent",
-    "name": "Dagger",
+    "name": "Bronze Dagger",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Dagger",
+    "type": "Dagger",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1314,14 +1314,14 @@
   },
   {
     "id": "Bronze-Short-Sword-Normal",
-    "name": "Short Sword",
+    "name": "Bronze Short Sword",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Short Sword",
+    "type": "Short Sword",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1350,14 +1350,14 @@
   },
   {
     "id": "Bronze-Short-Sword-Excellent",
-    "name": "Short Sword",
+    "name": "Bronze Short Sword",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Short Sword",
+    "type": "Short Sword",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1383,14 +1383,14 @@
   },
   {
     "id": "Bronze-Sword-Normal",
-    "name": "Sword",
+    "name": "Bronze Sword",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Sword",
+    "type": "Sword",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1420,14 +1420,14 @@
   },
   {
     "id": "Bronze-Sword-Excellent",
-    "name": "Sword",
+    "name": "Bronze Sword",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Sword",
+    "type": "Sword",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1453,14 +1453,14 @@
   },
   {
     "id": "Bronze-Broadsword-Normal",
-    "name": "Broadsword",
+    "name": "Bronze Broadsword",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Broadsword",
+    "type": "Broadsword",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1491,14 +1491,14 @@
   },
   {
     "id": "Bronze-Broadsword-Excellent",
-    "name": "Broadsword",
+    "name": "Bronze Broadsword",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Broadsword",
+    "type": "Broadsword",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1524,14 +1524,14 @@
   },
   {
     "id": "Bronze-Claymore-Normal",
-    "name": "Claymore",
+    "name": "Bronze Claymore",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Claymore",
+    "type": "Claymore",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1561,14 +1561,14 @@
   },
   {
     "id": "Bronze-Claymore-Excellent",
-    "name": "Claymore",
+    "name": "Bronze Claymore",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Claymore",
+    "type": "Claymore",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1594,14 +1594,14 @@
   },
   {
     "id": "Bronze-Halberd-Normal",
-    "name": "Halberd",
+    "name": "Bronze Halberd",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Halberd",
+    "type": "Halberd",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1632,14 +1632,14 @@
   },
   {
     "id": "Bronze-Halberd-Excellent",
-    "name": "Halberd",
+    "name": "Bronze Halberd",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Halberd",
+    "type": "Halberd",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1665,14 +1665,14 @@
   },
   {
     "id": "Bronze-Longsword-Normal",
-    "name": "Longsword",
+    "name": "Bronze Longsword",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Longsword",
+    "type": "Longsword",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1703,14 +1703,14 @@
   },
   {
     "id": "Bronze-Longsword-Excellent",
-    "name": "Longsword",
+    "name": "Bronze Longsword",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Longsword",
+    "type": "Longsword",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1736,14 +1736,14 @@
   },
   {
     "id": "Bronze-Trident-Normal",
-    "name": "Trident",
+    "name": "Bronze Trident",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Trident",
+    "type": "Trident",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1773,14 +1773,14 @@
   },
   {
     "id": "Bronze-Trident-Excellent",
-    "name": "Trident",
+    "name": "Bronze Trident",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Trident",
+    "type": "Trident",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1806,14 +1806,14 @@
   },
   {
     "id": "Bronze-Arcane-Staff-Normal",
-    "name": "Arcane Staff",
+    "name": "Bronze Arcane Staff",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Arcane Staff",
+    "type": "Arcane Staff",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1843,14 +1843,14 @@
   },
   {
     "id": "Bronze-Arcane-Staff-Excellent",
-    "name": "Arcane Staff",
+    "name": "Bronze Arcane Staff",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Arcane Staff",
+    "type": "Arcane Staff",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1875,14 +1875,14 @@
   },
   {
     "id": "Bronze-Fire-Staff-Normal",
-    "name": "Fire Staff",
+    "name": "Bronze Fire Staff",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Fire Staff",
+    "type": "Fire Staff",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1912,14 +1912,14 @@
   },
   {
     "id": "Bronze-Fire-Staff-Excellent",
-    "name": "Fire Staff",
+    "name": "Bronze Fire Staff",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Fire Staff",
+    "type": "Fire Staff",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1944,14 +1944,14 @@
   },
   {
     "id": "Bronze-Ice-Staff-Normal",
-    "name": "Ice Staff",
+    "name": "Bronze Ice Staff",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Ice Staff",
+    "type": "Ice Staff",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1981,14 +1981,14 @@
   },
   {
     "id": "Bronze-Ice-Staff-Excellent",
-    "name": "Ice Staff",
+    "name": "Bronze Ice Staff",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Ice Staff",
+    "type": "Ice Staff",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -2013,14 +2013,14 @@
   },
   {
     "id": "Bronze-Thunder-Staff-Normal",
-    "name": "Thunder Staff",
+    "name": "Bronze Thunder Staff",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Thunder Staff",
+    "type": "Thunder Staff",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -2050,14 +2050,14 @@
   },
   {
     "id": "Bronze-Thunder-Staff-Excellent",
-    "name": "Thunder Staff",
+    "name": "Bronze Thunder Staff",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Thunder Staff",
+    "type": "Thunder Staff",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -2082,7 +2082,7 @@
   },
   {
     "id": "Everfrost-Helm-Normal",
-    "name": "Helm",
+    "name": "Everfrost Helm",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2116,7 +2116,7 @@
   },
   {
     "id": "Everfrost-Helm-Excellent",
-    "name": "Helm",
+    "name": "Everfrost Helm",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2150,7 +2150,7 @@
   },
   {
     "id": "Everfrost-Thread-Helm-Normal",
-    "name": "Thread Helm",
+    "name": "Everfrost Thread Helm",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2182,7 +2182,7 @@
   },
   {
     "id": "Everfrost-Thread-Helm-Excellent",
-    "name": "Thread Helm",
+    "name": "Everfrost Thread Helm",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2214,7 +2214,7 @@
   },
   {
     "id": "Everfrost-Gauntlets-Normal",
-    "name": "Gauntlets",
+    "name": "Everfrost Gauntlets",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2248,7 +2248,7 @@
   },
   {
     "id": "Everfrost-Gauntlets-Excellent",
-    "name": "Gauntlets",
+    "name": "Everfrost Gauntlets",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2282,7 +2282,7 @@
   },
   {
     "id": "Everfrost-Gloves-Normal",
-    "name": "Gloves",
+    "name": "Everfrost Gloves",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2314,7 +2314,7 @@
   },
   {
     "id": "Everfrost-Gloves-Excellent",
-    "name": "Gloves",
+    "name": "Everfrost Gloves",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2346,7 +2346,7 @@
   },
   {
     "id": "Everfrost-Greaves-Normal",
-    "name": "Greaves",
+    "name": "Everfrost Greaves",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2380,7 +2380,7 @@
   },
   {
     "id": "Everfrost-Greaves-Excellent",
-    "name": "Greaves",
+    "name": "Everfrost Greaves",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2414,7 +2414,7 @@
   },
   {
     "id": "Everfrost-Boots-Normal",
-    "name": "Boots",
+    "name": "Everfrost Boots",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2446,7 +2446,7 @@
   },
   {
     "id": "Everfrost-Boots-Excellent",
-    "name": "Boots",
+    "name": "Everfrost Boots",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2478,7 +2478,7 @@
   },
   {
     "id": "Everfrost-Platemail-Normal",
-    "name": "Platemail",
+    "name": "Everfrost Platemail",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2512,7 +2512,7 @@
   },
   {
     "id": "Everfrost-Platemail-Excellent",
-    "name": "Platemail",
+    "name": "Everfrost Platemail",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2546,7 +2546,7 @@
   },
   {
     "id": "Everfrost-Thread-Top-Normal",
-    "name": "Thread Top",
+    "name": "Everfrost Thread Top",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2578,7 +2578,7 @@
   },
   {
     "id": "Everfrost-Thread-Top-Excellent",
-    "name": "Thread Top",
+    "name": "Everfrost Thread Top",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2610,7 +2610,7 @@
   },
   {
     "id": "Everfrost-Platelegs-Normal",
-    "name": "Platelegs",
+    "name": "Everfrost Platelegs",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2644,7 +2644,7 @@
   },
   {
     "id": "Everfrost-Platelegs-Excellent",
-    "name": "Platelegs",
+    "name": "Everfrost Platelegs",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2678,7 +2678,7 @@
   },
   {
     "id": "Everfrost-Thread-Bottom-Normal",
-    "name": "Thread Bottom",
+    "name": "Everfrost Thread Bottom",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2710,7 +2710,7 @@
   },
   {
     "id": "Everfrost-Thread-Bottom-Excellent",
-    "name": "Thread Bottom",
+    "name": "Everfrost Thread Bottom",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2742,7 +2742,7 @@
   },
   {
     "id": "Everfrost-Shield-Normal",
-    "name": "Shield",
+    "name": "Everfrost Shield",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2776,7 +2776,7 @@
   },
   {
     "id": "Everfrost-Shield-Excellent",
-    "name": "Shield",
+    "name": "Everfrost Shield",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2810,7 +2810,7 @@
   },
   {
     "id": "Everfrost-Gilded-Spellbook-Normal",
-    "name": "Gilded Spellbook",
+    "name": "Everfrost Gilded Spellbook",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2842,7 +2842,7 @@
   },
   {
     "id": "Everfrost-Gilded-Spellbook-Excellent",
-    "name": "Gilded Spellbook",
+    "name": "Everfrost Gilded Spellbook",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
@@ -2874,14 +2874,14 @@
   },
   {
     "id": "Everfrost-Bardiche-Normal",
-    "name": "Bardiche",
+    "name": "Everfrost Bardiche",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Bardiche",
+    "type": "Bardiche",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -2907,14 +2907,14 @@
   },
   {
     "id": "Everfrost-Bardiche-Excellent",
-    "name": "Bardiche",
+    "name": "Everfrost Bardiche",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Bardiche",
+    "type": "Bardiche",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -2940,14 +2940,14 @@
   },
   {
     "id": "Everfrost-Battleaxe-Normal",
-    "name": "Battleaxe",
+    "name": "Everfrost Battleaxe",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Battleaxe",
+    "type": "Battleaxe",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -2973,14 +2973,14 @@
   },
   {
     "id": "Everfrost-Battleaxe-Excellent",
-    "name": "Battleaxe",
+    "name": "Everfrost Battleaxe",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Battleaxe",
+    "type": "Battleaxe",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3006,14 +3006,14 @@
   },
   {
     "id": "Everfrost-Mace-Normal",
-    "name": "Mace",
+    "name": "Everfrost Mace",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Mace",
+    "type": "Mace",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3039,14 +3039,14 @@
   },
   {
     "id": "Everfrost-Mace-Excellent",
-    "name": "Mace",
+    "name": "Everfrost Mace",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Mace",
+    "type": "Mace",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3070,14 +3070,14 @@
   },
   {
     "id": "Everfrost-Warhammer-Normal",
-    "name": "Warhammer",
+    "name": "Everfrost Warhammer",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Warhammer",
+    "type": "Warhammer",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3103,14 +3103,14 @@
   },
   {
     "id": "Everfrost-Warhammer-Excellent",
-    "name": "Warhammer",
+    "name": "Everfrost Warhammer",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Warhammer",
+    "type": "Warhammer",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3136,14 +3136,14 @@
   },
   {
     "id": "Everfrost-Widesword-Normal",
-    "name": "Widesword",
+    "name": "Everfrost Widesword",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Widesword",
+    "type": "Widesword",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3169,14 +3169,14 @@
   },
   {
     "id": "Everfrost-Widesword-Excellent",
-    "name": "Widesword",
+    "name": "Everfrost Widesword",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
-    "type": "weapon",
-    "slot": "Widesword",
+    "type": "Widesword",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3202,14 +3202,14 @@
   },
   {
     "id": "Everfrost-Curved-Dagger-Normal",
-    "name": "Curved Dagger",
+    "name": "Everfrost Curved Dagger",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Curved Dagger",
+    "type": "Curved Dagger",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3235,14 +3235,14 @@
   },
   {
     "id": "Everfrost-Curved-Dagger-Excellent",
-    "name": "Curved Dagger",
+    "name": "Everfrost Curved Dagger",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Curved Dagger",
+    "type": "Curved Dagger",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3268,14 +3268,14 @@
   },
   {
     "id": "Everfrost-Dagger-Normal",
-    "name": "Dagger",
+    "name": "Everfrost Dagger",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Dagger",
+    "type": "Dagger",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3301,14 +3301,14 @@
   },
   {
     "id": "Everfrost-Dagger-Excellent",
-    "name": "Dagger",
+    "name": "Everfrost Dagger",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Dagger",
+    "type": "Dagger",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3334,14 +3334,14 @@
   },
   {
     "id": "Everfrost-Short-Sword-Normal",
-    "name": "Short Sword",
+    "name": "Everfrost Short Sword",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Short Sword",
+    "type": "Short Sword",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3367,14 +3367,14 @@
   },
   {
     "id": "Everfrost-Short-Sword-Excellent",
-    "name": "Short Sword",
+    "name": "Everfrost Short Sword",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Short Sword",
+    "type": "Short Sword",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3400,14 +3400,14 @@
   },
   {
     "id": "Everfrost-Sword-Normal",
-    "name": "Sword",
+    "name": "Everfrost Sword",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Sword",
+    "type": "Sword",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3433,14 +3433,14 @@
   },
   {
     "id": "Everfrost-Sword-Excellent",
-    "name": "Sword",
+    "name": "Everfrost Sword",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
-    "type": "weapon",
-    "slot": "Sword",
+    "type": "Sword",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3466,14 +3466,14 @@
   },
   {
     "id": "Everfrost-Broadsword-Normal",
-    "name": "Broadsword",
+    "name": "Everfrost Broadsword",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Broadsword",
+    "type": "Broadsword",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3499,14 +3499,14 @@
   },
   {
     "id": "Everfrost-Broadsword-Excellent",
-    "name": "Broadsword",
+    "name": "Everfrost Broadsword",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Broadsword",
+    "type": "Broadsword",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3532,14 +3532,14 @@
   },
   {
     "id": "Everfrost-Claymore-Normal",
-    "name": "Claymore",
+    "name": "Everfrost Claymore",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Claymore",
+    "type": "Claymore",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3565,14 +3565,14 @@
   },
   {
     "id": "Everfrost-Claymore-Excellent",
-    "name": "Claymore",
+    "name": "Everfrost Claymore",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Claymore",
+    "type": "Claymore",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "attack_speed": 164
@@ -3593,14 +3593,14 @@
   },
   {
     "id": "Everfrost-Halberd-Normal",
-    "name": "Halberd",
+    "name": "Everfrost Halberd",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Halberd",
+    "type": "Halberd",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3626,14 +3626,14 @@
   },
   {
     "id": "Everfrost-Halberd-Excellent",
-    "name": "Halberd",
+    "name": "Everfrost Halberd",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Halberd",
+    "type": "Halberd",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3659,14 +3659,14 @@
   },
   {
     "id": "Everfrost-Longsword-Normal",
-    "name": "Longsword",
+    "name": "Everfrost Longsword",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Longsword",
+    "type": "Longsword",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3692,14 +3692,14 @@
   },
   {
     "id": "Everfrost-Longsword-Excellent",
-    "name": "Longsword",
+    "name": "Everfrost Longsword",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Longsword",
+    "type": "Longsword",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3725,14 +3725,14 @@
   },
   {
     "id": "Everfrost-Trident-Normal",
-    "name": "Trident",
+    "name": "Everfrost Trident",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Trident",
+    "type": "Trident",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3758,14 +3758,14 @@
   },
   {
     "id": "Everfrost-Trident-Excellent",
-    "name": "Trident",
+    "name": "Everfrost Trident",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
-    "type": "weapon",
-    "slot": "Trident",
+    "type": "Trident",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3791,14 +3791,14 @@
   },
   {
     "id": "Everfrost-Arcane-Staff-Normal",
-    "name": "Arcane Staff",
+    "name": "Everfrost Arcane Staff",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Arcane Staff",
+    "type": "Arcane Staff",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3823,14 +3823,14 @@
   },
   {
     "id": "Everfrost-Arcane-Staff-Excellent",
-    "name": "Arcane Staff",
+    "name": "Everfrost Arcane Staff",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Arcane Staff",
+    "type": "Arcane Staff",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3855,14 +3855,14 @@
   },
   {
     "id": "Everfrost-Fire-Staff-Normal",
-    "name": "Fire Staff",
+    "name": "Everfrost Fire Staff",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Fire Staff",
+    "type": "Fire Staff",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3887,14 +3887,14 @@
   },
   {
     "id": "Everfrost-Fire-Staff-Excellent",
-    "name": "Fire Staff",
+    "name": "Everfrost Fire Staff",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Fire Staff",
+    "type": "Fire Staff",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3919,14 +3919,14 @@
   },
   {
     "id": "Everfrost-Ice-Staff-Normal",
-    "name": "Ice Staff",
+    "name": "Everfrost Ice Staff",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Ice Staff",
+    "type": "Ice Staff",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -3951,14 +3951,14 @@
   },
   {
     "id": "Everfrost-Ice-Staff-Excellent",
-    "name": "Ice Staff",
+    "name": "Everfrost Ice Staff",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Ice Staff",
+    "type": "Ice Staff",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -3983,14 +3983,14 @@
   },
   {
     "id": "Everfrost-Thunder-Staff-Normal",
-    "name": "Thunder Staff",
+    "name": "Everfrost Thunder Staff",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Thunder Staff",
+    "type": "Thunder Staff",
+    "slot": "weapon",
     "quality": "normal",
     "base": {
       "damage": [
@@ -4015,14 +4015,14 @@
   },
   {
     "id": "Everfrost-Thunder-Staff-Excellent",
-    "name": "Thunder Staff",
+    "name": "Everfrost Thunder Staff",
     "tier": 21,
     "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
-    "type": "weapon",
-    "slot": "Thunder Staff",
+    "type": "Thunder Staff",
+    "slot": "weapon",
     "quality": "excellent",
     "base": {
       "damage": [

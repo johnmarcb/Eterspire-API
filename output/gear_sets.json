@@ -75,7 +75,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Helm",
+        "item_name": "Bronze Helm",
         "hp": [
           4,
           5,
@@ -91,7 +91,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Helm",
+        "item_name": "Bronze Helm",
         "hp": [
           20,
           22,
@@ -104,7 +104,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Helm",
+        "item_name": "Bronze Thread Helm",
         "hp": [
           4,
           5,
@@ -118,7 +118,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Helm",
+        "item_name": "Bronze Thread Helm",
         "hp": [
           20,
           22,
@@ -133,7 +133,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Gauntlets",
+        "item_name": "Bronze Gauntlets",
         "hp": [
           4,
           5,
@@ -149,7 +149,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Gauntlets",
+        "item_name": "Bronze Gauntlets",
         "hp": [
           20,
           22,
@@ -162,7 +162,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Gloves",
+        "item_name": "Bronze Gloves",
         "hp": [
           4,
           5,
@@ -176,7 +176,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Gloves",
+        "item_name": "Bronze Gloves",
         "hp": [
           20,
           22,
@@ -191,7 +191,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Greaves",
+        "item_name": "Bronze Greaves",
         "hp": [
           4,
           5,
@@ -207,7 +207,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Greaves",
+        "item_name": "Bronze Greaves",
         "hp": [
           20,
           22,
@@ -220,7 +220,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Boots",
+        "item_name": "Bronze Boots",
         "hp": [
           4,
           5,
@@ -234,7 +234,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Boots",
+        "item_name": "Bronze Boots",
         "hp": [
           20,
           22,
@@ -249,7 +249,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Platemail",
+        "item_name": "Bronze Platemail",
         "hp": [
           12,
           14,
@@ -266,7 +266,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Platemail",
+        "item_name": "Bronze Platemail",
         "hp": [
           60,
           66,
@@ -279,7 +279,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Top",
+        "item_name": "Bronze Thread Top",
         "hp": [
           12,
           14,
@@ -294,7 +294,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Top",
+        "item_name": "Bronze Thread Top",
         "hp": [
           60,
           66,
@@ -309,7 +309,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Platelegs",
+        "item_name": "Bronze Platelegs",
         "hp": [
           6,
           8,
@@ -325,7 +325,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Platelegs",
+        "item_name": "Bronze Platelegs",
         "hp": [
           31,
           34,
@@ -338,7 +338,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Bottom",
+        "item_name": "Bronze Thread Bottom",
         "hp": [
           6,
           8,
@@ -352,7 +352,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Bottom",
+        "item_name": "Bronze Thread Bottom",
         "hp": [
           31,
           34,
@@ -367,7 +367,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Shield",
+        "item_name": "Bronze Shield",
         "hp": [
           10,
           12,
@@ -384,7 +384,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Shield",
+        "item_name": "Bronze Shield",
         "hp": [
           51,
           56,
@@ -397,7 +397,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Gilded Spellbook",
+        "item_name": "Bronze Gilded Spellbook",
         "hp": [
           10,
           12,
@@ -412,7 +412,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Gilded Spellbook",
+        "item_name": "Bronze Gilded Spellbook",
         "hp": [
           51,
           56,
@@ -423,7 +423,7 @@
     "weapons": [
       {
         "class": "Guardian",
-        "weapon_type": "Bardiche",
+        "weapon_type": "Bronze Bardiche",
         "quality": "normal",
         "damage": [
           5,
@@ -435,7 +435,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Bardiche",
+        "weapon_type": "Bronze Bardiche",
         "quality": "excellent",
         "damage": [
           22,
@@ -446,7 +446,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Battleaxe",
+        "weapon_type": "Bronze Battleaxe",
         "quality": "normal",
         "damage": [
           4,
@@ -458,7 +458,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Battleaxe",
+        "weapon_type": "Bronze Battleaxe",
         "quality": "excellent",
         "damage": [
           20,
@@ -469,7 +469,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Mace",
+        "weapon_type": "Bronze Mace",
         "quality": "normal",
         "damage": [
           5,
@@ -481,7 +481,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Mace",
+        "weapon_type": "Bronze Mace",
         "quality": "excellent",
         "damage": [
           23,
@@ -492,7 +492,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Warhammer",
+        "weapon_type": "Bronze Warhammer",
         "quality": "normal",
         "damage": [
           5,
@@ -504,7 +504,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Warhammer",
+        "weapon_type": "Bronze Warhammer",
         "quality": "excellent",
         "damage": [
           24,
@@ -515,7 +515,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Widesword",
+        "weapon_type": "Bronze Widesword",
         "quality": "normal",
         "damage": [
           4,
@@ -527,7 +527,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Widesword",
+        "weapon_type": "Bronze Widesword",
         "quality": "excellent",
         "damage": [
           20,
@@ -538,7 +538,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Curved Dagger",
+        "weapon_type": "Bronze Curved Dagger",
         "quality": "normal",
         "damage": [
           3,
@@ -548,7 +548,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Curved Dagger",
+        "weapon_type": "Bronze Curved Dagger",
         "quality": "excellent",
         "damage": [
           12,
@@ -559,7 +559,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Dagger",
+        "weapon_type": "Bronze Dagger",
         "quality": "normal",
         "damage": [
           3,
@@ -569,7 +569,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Dagger",
+        "weapon_type": "Bronze Dagger",
         "quality": "excellent",
         "damage": [
           11,
@@ -580,7 +580,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Short Sword",
+        "weapon_type": "Bronze Short Sword",
         "quality": "normal",
         "damage": [
           3,
@@ -590,7 +590,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Short Sword",
+        "weapon_type": "Bronze Short Sword",
         "quality": "excellent",
         "damage": [
           12,
@@ -601,7 +601,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Sword",
+        "weapon_type": "Bronze Sword",
         "quality": "normal",
         "damage": [
           3,
@@ -612,7 +612,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Sword",
+        "weapon_type": "Bronze Sword",
         "quality": "excellent",
         "damage": [
           14,
@@ -623,7 +623,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Broadsword",
+        "weapon_type": "Bronze Broadsword",
         "quality": "normal",
         "damage": [
           4,
@@ -635,7 +635,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Broadsword",
+        "weapon_type": "Bronze Broadsword",
         "quality": "excellent",
         "damage": [
           19,
@@ -646,7 +646,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Claymore",
+        "weapon_type": "Bronze Claymore",
         "quality": "normal",
         "damage": [
           3,
@@ -657,7 +657,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Claymore",
+        "weapon_type": "Bronze Claymore",
         "quality": "excellent",
         "damage": [
           16,
@@ -668,7 +668,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Halberd",
+        "weapon_type": "Bronze Halberd",
         "quality": "normal",
         "damage": [
           4,
@@ -680,7 +680,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Halberd",
+        "weapon_type": "Bronze Halberd",
         "quality": "excellent",
         "damage": [
           18,
@@ -691,7 +691,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Longsword",
+        "weapon_type": "Bronze Longsword",
         "quality": "normal",
         "damage": [
           3,
@@ -703,7 +703,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Longsword",
+        "weapon_type": "Bronze Longsword",
         "quality": "excellent",
         "damage": [
           15,
@@ -714,7 +714,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Trident",
+        "weapon_type": "Bronze Trident",
         "quality": "normal",
         "damage": [
           3,
@@ -725,7 +725,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Trident",
+        "weapon_type": "Bronze Trident",
         "quality": "excellent",
         "damage": [
           16,
@@ -736,7 +736,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Arcane Staff",
+        "weapon_type": "Bronze Arcane Staff",
         "quality": "normal",
         "damage": [
           4,
@@ -747,7 +747,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Arcane Staff",
+        "weapon_type": "Bronze Arcane Staff",
         "quality": "excellent",
         "damage": [
           20,
@@ -757,7 +757,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Fire Staff",
+        "weapon_type": "Bronze Fire Staff",
         "quality": "normal",
         "damage": [
           4,
@@ -768,7 +768,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Fire Staff",
+        "weapon_type": "Bronze Fire Staff",
         "quality": "excellent",
         "damage": [
           20,
@@ -778,7 +778,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Ice Staff",
+        "weapon_type": "Bronze Ice Staff",
         "quality": "normal",
         "damage": [
           4,
@@ -789,7 +789,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Ice Staff",
+        "weapon_type": "Bronze Ice Staff",
         "quality": "excellent",
         "damage": [
           20,
@@ -799,7 +799,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Thunder Staff",
+        "weapon_type": "Bronze Thunder Staff",
         "quality": "normal",
         "damage": [
           4,
@@ -810,7 +810,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Thunder Staff",
+        "weapon_type": "Bronze Thunder Staff",
         "quality": "excellent",
         "damage": [
           20,
@@ -891,7 +891,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Helm",
+        "item_name": "Everfrost Helm",
         "hp": [
           3308,
           3639,
@@ -906,7 +906,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Helm",
+        "item_name": "Everfrost Helm",
         "hp": [
           3631,
           3994,
@@ -919,7 +919,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Helm",
+        "item_name": "Everfrost Thread Helm",
         "hp": [
           3308,
           3639,
@@ -932,7 +932,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Helm",
+        "item_name": "Everfrost Thread Helm",
         "hp": [
           3631,
           3994,
@@ -947,7 +947,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Gauntlets",
+        "item_name": "Everfrost Gauntlets",
         "hp": [
           3308,
           3639,
@@ -962,7 +962,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Gauntlets",
+        "item_name": "Everfrost Gauntlets",
         "hp": [
           3631,
           3994,
@@ -975,7 +975,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Gloves",
+        "item_name": "Everfrost Gloves",
         "hp": [
           3308,
           3639,
@@ -988,7 +988,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Gloves",
+        "item_name": "Everfrost Gloves",
         "hp": [
           3631,
           3994,
@@ -1003,7 +1003,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Greaves",
+        "item_name": "Everfrost Greaves",
         "hp": [
           3308,
           3639,
@@ -1018,7 +1018,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Greaves",
+        "item_name": "Everfrost Greaves",
         "hp": [
           3631,
           3994,
@@ -1031,7 +1031,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Boots",
+        "item_name": "Everfrost Boots",
         "hp": [
           3308,
           3639,
@@ -1044,7 +1044,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Boots",
+        "item_name": "Everfrost Boots",
         "hp": [
           3631,
           3994,
@@ -1059,7 +1059,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Platemail",
+        "item_name": "Everfrost Platemail",
         "hp": [
           9923,
           10900,
@@ -1074,7 +1074,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Platemail",
+        "item_name": "Everfrost Platemail",
         "hp": [
           10800,
           11900,
@@ -1087,7 +1087,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Top",
+        "item_name": "Everfrost Thread Top",
         "hp": [
           9923,
           10900,
@@ -1100,7 +1100,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Top",
+        "item_name": "Everfrost Thread Top",
         "hp": [
           10800,
           11900,
@@ -1115,7 +1115,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Platelegs",
+        "item_name": "Everfrost Platelegs",
         "hp": [
           4962,
           5459,
@@ -1130,7 +1130,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Platelegs",
+        "item_name": "Everfrost Platelegs",
         "hp": [
           5446,
           5991,
@@ -1143,7 +1143,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Bottom",
+        "item_name": "Everfrost Thread Bottom",
         "hp": [
           4962,
           5459,
@@ -1156,7 +1156,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Thread Bottom",
+        "item_name": "Everfrost Thread Bottom",
         "hp": [
           5446,
           5991,
@@ -1171,7 +1171,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Shield",
+        "item_name": "Everfrost Shield",
         "hp": [
           8269,
           9096,
@@ -1186,7 +1186,7 @@
           "Warrior",
           "Rogue"
         ],
-        "item_name": "Shield",
+        "item_name": "Everfrost Shield",
         "hp": [
           9076,
           9983,
@@ -1199,7 +1199,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Gilded Spellbook",
+        "item_name": "Everfrost Gilded Spellbook",
         "hp": [
           8269,
           9096,
@@ -1212,7 +1212,7 @@
         "classes": [
           "Sorcerer"
         ],
-        "item_name": "Gilded Spellbook",
+        "item_name": "Everfrost Gilded Spellbook",
         "hp": [
           9076,
           9983,
@@ -1223,7 +1223,7 @@
     "weapons": [
       {
         "class": "Guardian",
-        "weapon_type": "Bardiche",
+        "weapon_type": "Everfrost Bardiche",
         "quality": "normal",
         "damage": [
           3474,
@@ -1234,7 +1234,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Bardiche",
+        "weapon_type": "Everfrost Bardiche",
         "quality": "excellent",
         "damage": [
           3812,
@@ -1245,7 +1245,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Battleaxe",
+        "weapon_type": "Everfrost Battleaxe",
         "quality": "normal",
         "damage": [
           3308,
@@ -1256,7 +1256,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Battleaxe",
+        "weapon_type": "Everfrost Battleaxe",
         "quality": "excellent",
         "damage": [
           3631,
@@ -1267,7 +1267,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Mace",
+        "weapon_type": "Everfrost Mace",
         "quality": "normal",
         "damage": [
           3639,
@@ -1278,7 +1278,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Mace",
+        "weapon_type": "Everfrost Mace",
         "quality": "excellent",
         "damage": [
           4993
@@ -1287,7 +1287,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Warhammer",
+        "weapon_type": "Everfrost Warhammer",
         "quality": "normal",
         "damage": [
           3804,
@@ -1298,7 +1298,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Warhammer",
+        "weapon_type": "Everfrost Warhammer",
         "quality": "excellent",
         "damage": [
           4175,
@@ -1309,7 +1309,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Widesword",
+        "weapon_type": "Everfrost Widesword",
         "quality": "normal",
         "damage": [
           3143,
@@ -1320,7 +1320,7 @@
       },
       {
         "class": "Guardian",
-        "weapon_type": "Widesword",
+        "weapon_type": "Everfrost Widesword",
         "quality": "excellent",
         "damage": [
           3449,
@@ -1331,7 +1331,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Curved Dagger",
+        "weapon_type": "Everfrost Curved Dagger",
         "quality": "normal",
         "damage": [
           1820,
@@ -1342,7 +1342,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Curved Dagger",
+        "weapon_type": "Everfrost Curved Dagger",
         "quality": "excellent",
         "damage": [
           1998,
@@ -1353,7 +1353,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Dagger",
+        "weapon_type": "Everfrost Dagger",
         "quality": "normal",
         "damage": [
           1654,
@@ -1364,7 +1364,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Dagger",
+        "weapon_type": "Everfrost Dagger",
         "quality": "excellent",
         "damage": [
           1816,
@@ -1375,7 +1375,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Short Sword",
+        "weapon_type": "Everfrost Short Sword",
         "quality": "normal",
         "damage": [
           1986,
@@ -1386,7 +1386,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Short Sword",
+        "weapon_type": "Everfrost Short Sword",
         "quality": "excellent",
         "damage": [
           2179,
@@ -1397,7 +1397,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Sword",
+        "weapon_type": "Everfrost Sword",
         "quality": "normal",
         "damage": [
           2150,
@@ -1408,7 +1408,7 @@
       },
       {
         "class": "Rogue",
-        "weapon_type": "Sword",
+        "weapon_type": "Everfrost Sword",
         "quality": "excellent",
         "damage": [
           2360,
@@ -1419,7 +1419,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Broadsword",
+        "weapon_type": "Everfrost Broadsword",
         "quality": "normal",
         "damage": [
           2977,
@@ -1430,7 +1430,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Broadsword",
+        "weapon_type": "Everfrost Broadsword",
         "quality": "excellent",
         "damage": [
           3268,
@@ -1441,7 +1441,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Claymore",
+        "weapon_type": "Everfrost Claymore",
         "quality": "normal",
         "damage": [
           2482,
@@ -1452,14 +1452,14 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Claymore",
+        "weapon_type": "Everfrost Claymore",
         "quality": "excellent",
         "damage": null,
         "attack_speed": 164
       },
       {
         "class": "Warrior",
-        "weapon_type": "Halberd",
+        "weapon_type": "Everfrost Halberd",
         "quality": "normal",
         "damage": [
           2812,
@@ -1470,7 +1470,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Halberd",
+        "weapon_type": "Everfrost Halberd",
         "quality": "excellent",
         "damage": [
           3087,
@@ -1481,7 +1481,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Longsword",
+        "weapon_type": "Everfrost Longsword",
         "quality": "normal",
         "damage": [
           2316,
@@ -1492,7 +1492,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Longsword",
+        "weapon_type": "Everfrost Longsword",
         "quality": "excellent",
         "damage": [
           2542,
@@ -1503,7 +1503,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Trident",
+        "weapon_type": "Everfrost Trident",
         "quality": "normal",
         "damage": [
           2646,
@@ -1514,7 +1514,7 @@
       },
       {
         "class": "Warrior",
-        "weapon_type": "Trident",
+        "weapon_type": "Everfrost Trident",
         "quality": "excellent",
         "damage": [
           2904,
@@ -1525,7 +1525,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Arcane Staff",
+        "weapon_type": "Everfrost Arcane Staff",
         "quality": "normal",
         "damage": [
           3308,
@@ -1535,7 +1535,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Arcane Staff",
+        "weapon_type": "Everfrost Arcane Staff",
         "quality": "excellent",
         "damage": [
           3631,
@@ -1545,7 +1545,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Fire Staff",
+        "weapon_type": "Everfrost Fire Staff",
         "quality": "normal",
         "damage": [
           3308,
@@ -1555,7 +1555,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Fire Staff",
+        "weapon_type": "Everfrost Fire Staff",
         "quality": "excellent",
         "damage": [
           3631,
@@ -1565,7 +1565,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Ice Staff",
+        "weapon_type": "Everfrost Ice Staff",
         "quality": "normal",
         "damage": [
           3308,
@@ -1575,7 +1575,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Ice Staff",
+        "weapon_type": "Everfrost Ice Staff",
         "quality": "excellent",
         "damage": [
           3631,
@@ -1585,7 +1585,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Thunder Staff",
+        "weapon_type": "Everfrost Thunder Staff",
         "quality": "normal",
         "damage": [
           3308,
@@ -1595,7 +1595,7 @@
       },
       {
         "class": "Sorcerer",
-        "weapon_type": "Thunder Staff",
+        "weapon_type": "Everfrost Thunder Staff",
         "quality": "excellent",
         "damage": [
           3631,

@@ -71,7 +71,11 @@ def export_to_json():
             armor_bonus = bonus_stats.get(row['quality'], {}).get('armor', {})
             
             # Generate ID: {GearSet}-{ItemName}-{Quality}
-            item_id = f"{gear_name}-{normalize_id_part(row['item_name'])}-{row['quality'].capitalize()}"
+            # Strip gear set prefix from item name if present (e.g., "Bronze Helm" -> "Helm")
+            item_name_for_id = row['item_name']
+            if item_name_for_id.startswith(gear_name + ' '):
+                item_name_for_id = item_name_for_id[len(gear_name) + 1:]
+            item_id = f"{gear_name}-{normalize_id_part(item_name_for_id)}-{row['quality'].capitalize()}"
             
             # Build base stats (only include non-null values)
             base = {}
@@ -127,7 +131,11 @@ def export_to_json():
             weapon_bonus = bonus_stats.get(row['quality'], {}).get('weapon', {})
             
             # Generate ID: {GearSet}-{WeaponType}-{Quality}
-            item_id = f"{gear_name}-{normalize_id_part(row['weapon_type'])}-{row['quality'].capitalize()}"
+            # Strip gear set prefix from weapon type if present (e.g., "Bronze Bardiche" -> "Bardiche")
+            weapon_type_clean = row['weapon_type']
+            if weapon_type_clean.startswith(gear_name + ' '):
+                weapon_type_clean = weapon_type_clean[len(gear_name) + 1:]
+            item_id = f"{gear_name}-{normalize_id_part(weapon_type_clean)}-{row['quality'].capitalize()}"
             
             # Build base stats (only include non-null values)
             base = {}
@@ -151,8 +159,8 @@ def export_to_json():
                 'tier': gear_set['tier'],
                 'level': gear_set['level'],
                 'allowed_classes': [row['class']],
-                'type': 'weapon',
-                'slot': row['weapon_type'],
+                'type': weapon_type_clean,
+                'slot': 'weapon',
                 'quality': row['quality'],
                 'base': base,
                 'bonuses': bonuses,
@@ -184,9 +192,9 @@ def export_to_json():
         json.dump(all_items, f, indent=2)
     print(f"✓ Exported output/items.json ({len(all_items)} individual items)")
     
-    # Also export separated by type for convenience
-    weapons_only = [item for item in all_items if item['type'] == 'weapon']
-    armor_only = [item for item in all_items if item['type'] == 'armor']
+    # Also export separated by slot for convenience
+    weapons_only = [item for item in all_items if item['slot'] == 'weapon']
+    armor_only = [item for item in all_items if item['slot'] != 'weapon']
     
     with open('output/weapons.json', 'w') as f:
         json.dump(weapons_only, f, indent=2)
