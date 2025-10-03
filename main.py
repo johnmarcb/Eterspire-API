@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Eterspire API Data Generator - Main Pipeline
-Runs the complete data generation pipeline from wiki JSON to clean API-ready JSON files.
+Runs the complete data generation pipeline from wiki HTML to clean API-ready JSON files.
 """
 
 import os
@@ -27,27 +27,27 @@ def main():
     # Check if manual-download folder exists
     if not os.path.exists('manual-download'):
         print("\n❌ ERROR: 'manual-download' folder not found!")
-        print("\nPlease create the folder and add your wiki JSON files:")
+        print("\nPlease create the folder and add the GearDatabase HTML file:")
         print("  mkdir manual-download")
-        print("\nThen download gear pages from:")
-        print("  https://eterspire.wiki/rest.php/v1/page/{GEAR_NAME}_Gear")
-        print("\nExample: https://eterspire.wiki/rest.php/v1/page/Bronze_Gear")
+        print("\nThen download the GearDatabase page from:")
+        print("  https://eterspire.wiki/index.php/GearDatabase")
+        print("\nSave as: manual-download/GearDatabase.html")
         return 1
     
-    # Check if there are any JSON files
-    json_files = [f for f in os.listdir('manual-download') if f.endswith('.json')]
-    if not json_files:
-        print("\n❌ ERROR: No JSON files found in 'manual-download' folder!")
-        print("\nPlease download gear pages from the wiki:")
-        print("  https://eterspire.wiki/rest.php/v1/page/{GEAR_NAME}_Gear")
-        print("\nSave them as: {GEAR_NAME}_Gear.json")
-        print("Example: Bronze_Gear.json, Steel_Gear.json, etc.")
+    # Check if there are any HTML files
+    html_files = [f for f in os.listdir('manual-download') if f.endswith('.html')]
+    if not html_files:
+        print("\n❌ ERROR: No HTML files found in 'manual-download' folder!")
+        print("\nPlease download the GearDatabase page from the wiki:")
+        print("  https://eterspire.wiki/index.php/GearDatabase")
+        print("\nSave as: manual-download/GearDatabase.html")
+        print("(Right-click → Save As → Webpage, HTML Only)")
         return 1
     
-    print(f"\n✅ Found {len(json_files)} JSON file(s) to process")
+    print(f"\n✅ Found {len(html_files)} HTML file(s) to process")
     
     # Step 1: Scrape
-    print_header("STEP 1: Scraping Wiki JSON Files")
+    print_header("STEP 1: Scraping Wiki HTML Tables")
     all_data = scrape_all_files()
     
     if not all_data:

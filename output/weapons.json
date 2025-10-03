@@ -38,6 +38,39 @@
     "gear_set": "Bronze"
   },
   {
+    "id": "Bronze-Bardiche-Excellent",
+    "name": "Bardiche",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Bardiche",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        22,
+        24,
+        28
+      ],
+      "attack_speed": 117
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
     "id": "Bronze-Battleaxe-Normal",
     "name": "Battleaxe",
     "tier": 1,
@@ -71,6 +104,39 @@
         0,
         1,
         2
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Battleaxe-Excellent",
+    "name": "Battleaxe",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Battleaxe",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        20,
+        22,
+        25
+      ],
+      "attack_speed": 123
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
       ]
     },
     "gear_set": "Bronze"
@@ -114,6 +180,39 @@
     "gear_set": "Bronze"
   },
   {
+    "id": "Bronze-Mace-Excellent",
+    "name": "Mace",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Mace",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        23,
+        25,
+        29
+      ],
+      "attack_speed": 111
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
     "id": "Bronze-Warhammer-Normal",
     "name": "Warhammer",
     "tier": 1,
@@ -152,6 +251,39 @@
     "gear_set": "Bronze"
   },
   {
+    "id": "Bronze-Warhammer-Excellent",
+    "name": "Warhammer",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Warhammer",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        24,
+        26,
+        30
+      ],
+      "attack_speed": 106
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
     "id": "Bronze-Widesword-Normal",
     "name": "Widesword",
     "tier": 1,
@@ -185,138 +317,6 @@
         0,
         1,
         2
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
-    "id": "Bronze-Bardiche-Excellent",
-    "name": "Bardiche",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Bardiche",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        22,
-        24,
-        28
-      ],
-      "attack_speed": 117
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
-    "id": "Bronze-Battleaxe-Excellent",
-    "name": "Battleaxe",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Battleaxe",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        20,
-        22,
-        25
-      ],
-      "attack_speed": 123
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
-    "id": "Bronze-Mace-Excellent",
-    "name": "Mace",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Mace",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        23,
-        25,
-        29
-      ],
-      "attack_speed": 111
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
-    "id": "Bronze-Warhammer-Excellent",
-    "name": "Warhammer",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Warhammer",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        24,
-        26,
-        30
-      ],
-      "attack_speed": 106
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
       ]
     },
     "gear_set": "Bronze"
@@ -391,6 +391,39 @@
     "gear_set": "Bronze"
   },
   {
+    "id": "Bronze-Curved-Dagger-Excellent",
+    "name": "Curved Dagger",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Curved Dagger",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        12,
+        13,
+        15
+      ],
+      "attack_speed": 223
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
     "id": "Bronze-Dagger-Normal",
     "name": "Dagger",
     "tier": 1,
@@ -422,6 +455,39 @@
         0,
         1,
         2
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Dagger-Excellent",
+    "name": "Dagger",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Dagger",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        11,
+        12,
+        14
+      ],
+      "attack_speed": 246
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
       ]
     },
     "gear_set": "Bronze"
@@ -463,6 +529,39 @@
     "gear_set": "Bronze"
   },
   {
+    "id": "Bronze-Short-Sword-Excellent",
+    "name": "Short Sword",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Short Sword",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        12,
+        14,
+        15
+      ],
+      "attack_speed": 205
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
     "id": "Bronze-Sword-Normal",
     "name": "Sword",
     "tier": 1,
@@ -495,105 +594,6 @@
         0,
         1,
         2
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
-    "id": "Bronze-Curved-Dagger-Excellent",
-    "name": "Curved Dagger",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Curved Dagger",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        12,
-        13,
-        15
-      ],
-      "attack_speed": 223
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
-    "id": "Bronze-Dagger-Excellent",
-    "name": "Dagger",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Dagger",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        11,
-        12,
-        14
-      ],
-      "attack_speed": 246
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
-    "id": "Bronze-Short-Sword-Excellent",
-    "name": "Short Sword",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Short Sword",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        12,
-        14,
-        15
-      ],
-      "attack_speed": 205
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
       ]
     },
     "gear_set": "Bronze"
@@ -670,6 +670,39 @@
     "gear_set": "Bronze"
   },
   {
+    "id": "Bronze-Broadsword-Excellent",
+    "name": "Broadsword",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Broadsword",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        19,
+        21,
+        24
+      ],
+      "attack_speed": 136
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
     "id": "Bronze-Claymore-Normal",
     "name": "Claymore",
     "tier": 1,
@@ -702,6 +735,39 @@
         0,
         1,
         2
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Claymore-Excellent",
+    "name": "Claymore",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Claymore",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        16,
+        17,
+        20
+      ],
+      "attack_speed": 164
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
       ]
     },
     "gear_set": "Bronze"
@@ -745,6 +811,39 @@
     "gear_set": "Bronze"
   },
   {
+    "id": "Bronze-Halberd-Excellent",
+    "name": "Halberd",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Halberd",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        18,
+        20,
+        23
+      ],
+      "attack_speed": 144
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
     "id": "Bronze-Longsword-Normal",
     "name": "Longsword",
     "tier": 1,
@@ -778,6 +877,39 @@
         0,
         1,
         2
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Longsword-Excellent",
+    "name": "Longsword",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Longsword",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        15,
+        16,
+        19
+      ],
+      "attack_speed": 175
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
       ]
     },
     "gear_set": "Bronze"
@@ -820,138 +952,6 @@
     "gear_set": "Bronze"
   },
   {
-    "id": "Bronze-Broadsword-Excellent",
-    "name": "Broadsword",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Broadsword",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        19,
-        21,
-        24
-      ],
-      "attack_speed": 136
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
-    "id": "Bronze-Claymore-Excellent",
-    "name": "Claymore",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Claymore",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        16,
-        17,
-        20
-      ],
-      "attack_speed": 164
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
-    "id": "Bronze-Halberd-Excellent",
-    "name": "Halberd",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Halberd",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        18,
-        20,
-        23
-      ],
-      "attack_speed": 144
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
-    "id": "Bronze-Longsword-Excellent",
-    "name": "Longsword",
-    "tier": 1,
-    "level": 1,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Longsword",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        15,
-        16,
-        19
-      ],
-      "attack_speed": 175
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        3,
-        5
-      ]
-    },
-    "gear_set": "Bronze"
-  },
-  {
     "id": "Bronze-Trident-Excellent",
     "name": "Trident",
     "tier": 1,
@@ -985,15 +985,15 @@
     "gear_set": "Bronze"
   },
   {
-    "id": "Bronze-Arcane-Fire-Ice-Thunder-Staff-Normal",
-    "name": "Arcane / Fire / Ice / Thunder Staff",
+    "id": "Bronze-Arcane-Staff-Normal",
+    "name": "Arcane Staff",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
     "type": "weapon",
-    "slot": "Arcane / Fire / Ice / Thunder Staff",
+    "slot": "Arcane Staff",
     "quality": "normal",
     "base": {
       "damage": [
@@ -1022,15 +1022,15 @@
     "gear_set": "Bronze"
   },
   {
-    "id": "Bronze-Arcane-Fire-Ice-Thunder-Staff-Excellent",
-    "name": "Arcane / Fire / Ice / Thunder Staff",
+    "id": "Bronze-Arcane-Staff-Excellent",
+    "name": "Arcane Staff",
     "tier": 1,
     "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
     "type": "weapon",
-    "slot": "Arcane / Fire / Ice / Thunder Staff",
+    "slot": "Arcane Staff",
     "quality": "excellent",
     "base": {
       "damage": [
@@ -1054,1028 +1054,55 @@
     "gear_set": "Bronze"
   },
   {
-    "id": "Steel-Bardiche-Normal",
-    "name": "Bardiche",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Bardiche",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        16,
-        19,
-        21,
-        24,
-        27
-      ],
-      "attack_speed": 117
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Battleaxe-Normal",
-    "name": "Battleaxe",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Battleaxe",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        15,
-        18,
-        20,
-        22,
-        25
-      ],
-      "attack_speed": 123
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Mace-Normal",
-    "name": "Mace",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Mace",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        17,
-        20,
-        22,
-        25,
-        28
-      ],
-      "attack_speed": 111
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Warhammer-Normal",
-    "name": "Warhammer",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Warhammer",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        18,
-        21,
-        23,
-        26,
-        29
-      ],
-      "attack_speed": 106
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Widesword-Normal",
-    "name": "Widesword",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Widesword",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        15,
-        18,
-        19,
-        21,
-        24
-      ],
-      "attack_speed": 129
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Bardiche-Excellent",
-    "name": "Bardiche",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Bardiche",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        48,
-        52,
-        60
-      ],
-      "attack_speed": 117
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Battleaxe-Excellent",
-    "name": "Battleaxe",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Battleaxe",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        45,
-        50,
-        57
-      ],
-      "attack_speed": 123
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Mace-Excellent",
-    "name": "Mace",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Mace",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        50,
-        55,
-        63
-      ],
-      "attack_speed": 111
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Warhammer-Excellent",
-    "name": "Warhammer",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Warhammer",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        52,
-        58,
-        65
-      ],
-      "attack_speed": 106
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Widesword-Excellent",
-    "name": "Widesword",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Guardian"
-    ],
-    "type": "weapon",
-    "slot": "Widesword",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        43,
-        48,
-        54
-      ],
-      "attack_speed": 129
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Curved-Dagger-Normal",
-    "name": "Curved Dagger",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Curved Dagger",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        9,
-        10,
-        11,
-        13,
-        14
-      ],
-      "attack_speed": 223
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Dagger-Normal",
-    "name": "Dagger",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Dagger",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        8,
-        9,
-        10,
-        11,
-        13
-      ],
-      "attack_speed": 246
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Short-Sword-Normal",
-    "name": "Short Sword",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Short Sword",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        9,
-        11,
-        12,
-        14,
-        15
-      ],
-      "attack_speed": 205
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Sword-Normal",
-    "name": "Sword",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Sword",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        10,
-        12,
-        13,
-        15,
-        17
-      ],
-      "attack_speed": 189
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Curved-Dagger-Excellent",
-    "name": "Curved Dagger",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Curved Dagger",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        25,
-        28,
-        32
-      ],
-      "attack_speed": 223
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Dagger-Excellent",
-    "name": "Dagger",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Dagger",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        23,
-        26,
-        29
-      ],
-      "attack_speed": 246
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Short-Sword-Excellent",
-    "name": "Short Sword",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Short Sword",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        27,
-        30,
-        34
-      ],
-      "attack_speed": 205
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Sword-Excellent",
-    "name": "Sword",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Rogue"
-    ],
-    "type": "weapon",
-    "slot": "Sword",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        30,
-        33,
-        38
-      ],
-      "attack_speed": 189
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Broadsword-Normal",
-    "name": "Broadsword",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Broadsword",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        14,
-        17,
-        18,
-        20,
-        23
-      ],
-      "attack_speed": 136
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Claymore-Normal",
-    "name": "Claymore",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Claymore",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        12,
-        14,
-        15,
-        17,
-        19
-      ],
-      "attack_speed": 164
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Halberd-Normal",
-    "name": "Halberd",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Halberd",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        13,
-        16,
-        17,
-        19,
-        22
-      ],
-      "attack_speed": 144
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Longsword-Normal",
-    "name": "Longsword",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Longsword",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        11,
-        13,
-        14,
-        16,
-        18
-      ],
-      "attack_speed": 175
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Trident-Normal",
-    "name": "Trident",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Trident",
-    "quality": "normal",
-    "base": {
-      "damage": [
-        12,
-        15,
-        16,
-        18,
-        20
-      ],
-      "attack_speed": 153
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        -10,
-        -5,
-        0,
-        5,
-        10
-      ],
-      "vitality": [
-        -5,
-        -2,
-        0,
-        2,
-        5
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Broadsword-Excellent",
-    "name": "Broadsword",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Broadsword",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        41,
-        46,
-        51
-      ],
-      "attack_speed": 136
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Claymore-Excellent",
-    "name": "Claymore",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Claymore",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        34,
-        38,
-        43
-      ],
-      "attack_speed": 164
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Halberd-Excellent",
-    "name": "Halberd",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Halberd",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        39,
-        43,
-        49
-      ],
-      "attack_speed": 144
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Longsword-Excellent",
-    "name": "Longsword",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Longsword",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        29,
-        32,
-        37
-      ],
-      "attack_speed": 175
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Trident-Excellent",
-    "name": "Trident",
-    "tier": 2,
-    "level": 10,
-    "allowed_classes": [
-      "Warrior"
-    ],
-    "type": "weapon",
-    "slot": "Trident",
-    "quality": "excellent",
-    "base": {
-      "damage": [
-        30,
-        33,
-        38
-      ],
-      "attack_speed": 153
-    },
-    "bonuses": {
-      "bonus_attack_speed": [
-        0,
-        7,
-        12
-      ],
-      "vitality": [
-        0,
-        5,
-        12
-      ]
-    },
-    "gear_set": "Steel"
-  },
-  {
-    "id": "Steel-Arcane-Fire-Ice-Thunder-Staff-Normal",
-    "name": "Arcane / Fire / Ice / Thunder Staff",
-    "tier": 2,
-    "level": 10,
+    "id": "Bronze-Fire-Staff-Normal",
+    "name": "Fire Staff",
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
     "type": "weapon",
-    "slot": "Arcane / Fire / Ice / Thunder Staff",
+    "slot": "Fire Staff",
     "quality": "normal",
     "base": {
       "damage": [
-        15,
-        18,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Fire-Staff-Excellent",
+    "name": "Fire Staff",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Fire Staff",
+    "quality": "excellent",
+    "base": {
+      "damage": [
         20,
         22,
         25
@@ -2083,6 +1110,39 @@
     },
     "bonuses": {
       "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Ice-Staff-Normal",
+    "name": "Ice Staff",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Ice Staff",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
         -10,
         -5,
         0,
@@ -2090,31 +1150,31 @@
         10
       ],
       "vitality": [
-        -5,
         -2,
+        -1,
         0,
-        2,
-        5
+        1,
+        2
       ]
     },
-    "gear_set": "Steel"
+    "gear_set": "Bronze"
   },
   {
-    "id": "Steel-Arcane-Fire-Ice-Thunder-Staff-Excellent",
-    "name": "Arcane / Fire / Ice / Thunder Staff",
-    "tier": 2,
-    "level": 10,
+    "id": "Bronze-Ice-Staff-Excellent",
+    "name": "Ice Staff",
+    "tier": 1,
+    "level": 1,
     "allowed_classes": [
       "Sorcerer"
     ],
     "type": "weapon",
-    "slot": "Arcane / Fire / Ice / Thunder Staff",
+    "slot": "Ice Staff",
     "quality": "excellent",
     "base": {
       "damage": [
-        45,
-        50,
-        57
+        20,
+        22,
+        25
       ]
     },
     "bonuses": {
@@ -2125,10 +1185,79 @@
       ],
       "vitality": [
         0,
-        5,
-        12
+        3,
+        5
       ]
     },
-    "gear_set": "Steel"
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Thunder-Staff-Normal",
+    "name": "Thunder Staff",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Thunder Staff",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Bronze"
+  },
+  {
+    "id": "Bronze-Thunder-Staff-Excellent",
+    "name": "Thunder Staff",
+    "tier": 1,
+    "level": 1,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Thunder Staff",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        20,
+        22,
+        25
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Bronze"
   }
 ]

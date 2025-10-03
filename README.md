@@ -65,9 +65,9 @@ This tool converts Eterspire wiki pages into structured JSON data, creating indi
 
 ## Usage
 
-### Step 1: Download Wiki Pages
+### Step 1: Download Wiki Page
 
-You need to manually download the JSON data for each gear set from the Eterspire Wiki.
+You need to manually download the HTML GearDatabase page from the Eterspire Wiki.
 
 1. **Create the download folder** (if it doesn't exist):
 
@@ -75,45 +75,76 @@ You need to manually download the JSON data for each gear set from the Eterspire
    mkdir -p manual-download
    ```
 
-2. **Download each gear set page**:
+2. **Download the GearDatabase page**:
 
-   Visit the following URL pattern in your browser:
+   Visit the GearDatabase page in your browser:
 
    ```
-   https://eterspire.wiki/rest.php/v1/page/{GEAR_NAME}_Gear
+   https://eterspire.wiki/index.php/GearDatabase
    ```
 
-   **Examples:**
+3. **Save the HTML file** in the `manual-download/` folder:
 
-   - Bronze: `https://eterspire.wiki/rest.php/v1/page/Bronze_Gear`
-   - Steel: `https://eterspire.wiki/rest.php/v1/page/Steel_Gear`
-   - Sunstone: `https://eterspire.wiki/rest.php/v1/page/Sunstone_Gear`
+   - Right-click on the page → "Save As" → "Webpage, HTML Only"
+   - Save as: `GearDatabase.html`
+   - Full path: `manual-download/GearDatabase.html`
 
-3. **Save each file** in the `manual-download/` folder:
-
-   - Save as: `{GEAR_NAME}_Gear.json`
-   - Example: `Bronze_Gear.json`, `Steel_Gear.json`, etc.
-
-   > **Tip:** Right-click the page → Save As → JSON file, or copy the JSON and save it manually.
+   > **Note:** The page contains HTML tables with all gear data (armor and weapons) organized by tier.
 
 ### Step 2: Run the Pipeline
 
-Once you have all the gear set JSON files in `manual-download/`, run:
+#### Option A: Run Manually (One-time)
+
+Once you have the `GearDatabase.html` file in `manual-download/`, run the complete pipeline:
 
 ```bash
 python main.py
 ```
 
-The script will process all downloaded files and generate structured JSON output in the `output/` directory.
+This will run all three steps (scraping → database → exporting) automatically.
+
+Or run the individual scripts as needed:
+
+```bash
+# Run scraper to extract data from HTML
+python scraper.py
+
+# Load data into SQLite database
+python database.py
+
+# Export to JSON files
+python exporter.py
+```
+
+#### Option B: Auto-Watch Mode (Recommended) 🔥
+
+Start the file watcher to automatically run the pipeline whenever files are added or updated in `manual-download/`:
+
+```bash
+python watch.py
+```
+
+The watcher will:
+- ✅ Monitor the `manual-download/` folder for changes
+- ✅ Automatically run the pipeline when HTML files are added or updated
+- ✅ Debounce rapid changes to avoid multiple runs
+- ✅ Skip temporary/hidden files
+
+**Perfect for:**
+- Updating the GearDatabase.html file regularly
+- Adding new wiki pages to parse
+- Iterative development
+
+Press `Ctrl+C` to stop watching.
 
 ## Output Files
 
 The pipeline generates the following files in the `output/` directory:
 
-- `all_items.json` - Flat list of all individual items
-- `gear_sets.json` - Hierarchical collection organized by gear set
-- `items_by_class.json` - Items filtered and grouped by character class
-- `items_by_type.json` - Items organized by equipment slot/type
+- `items.json` - Flat list of all individual items (armor + weapons)
+- `weapons.json` - All weapon items only
+- `armor.json` - All armor items only
+- `gear_sets.json` - Hierarchical collection organized by gear set with bonus stats
 
 ## Data Structure
 
@@ -162,18 +193,20 @@ The pipeline generates the following files in the `output/` directory:
 ## Project Structure
 
 ```
-eterspire-api-generator/
-├── main.py                 # Main pipeline script
+eterspire-api/
+├── scraper.py              # HTML parser - extracts data from wiki tables
+├── database.py             # SQLite database loader
+├── exporter.py             # JSON exporter
 ├── requirements.txt        # Python dependencies
-├── manual-download/        # Downloaded wiki JSON files (you create this)
-│   ├── Bronze_Gear.json
-│   ├── Steel_Gear.json
-│   └── ...
-└── output/                 # Generated JSON files (created by script)
-    ├── all_items.json
-    ├── gear_sets.json
-    ├── items_by_class.json
-    └── items_by_type.json
+├── manual-download/        # Downloaded wiki HTML file (you create this)
+│   └── GearDatabase.html   # Main gear database page
+├── output/                 # Generated JSON files (created by exporter)
+│   ├── items.json          # All items combined
+│   ├── weapons.json        # Weapons only
+│   ├── armor.json          # Armor only
+│   └── gear_sets.json      # Hierarchical gear sets
+├── all_gear_raw.json       # Raw scraped data (intermediate)
+└── eterspire.db            # SQLite database (intermediate)
 ```
 
 ## In Progress Items
@@ -184,13 +217,15 @@ eterspire-api-generator/
 
 ## Known Issues
 
-### ⚠️ Cloudflare Protection Issue
+### ⚠️ Manual Download Required
 
-**Unfortunately, due to Eterspire Wiki's aggressive Cloudflare protection, automated scraping via Selenium or other web automation tools is currently not possible.** The wiki employs anti-bot measures that make direct scraping extremely challenging.
+**Due to Eterspire Wiki's Cloudflare protection, automated scraping via Selenium or other web automation tools is not feasible.** The wiki employs anti-bot measures that make direct scraping extremely challenging.
 
-**Current Workaround:** Manual download of JSON files (see [Step 1](#step-1-download-wiki-pages) above)
+**Current Solution:** Manual download of the HTML GearDatabase page (see [Step 1](#step-1-download-wiki-page) above)
 
-**Have a solution?** Please open an issue or pull request! The community would greatly benefit from an automated scraping solution.
+Once downloaded, the HTML tables are parsed efficiently using BeautifulSoup to extract all gear data.
+
+**Have an automated solution?** Please open an issue or pull request! The community would benefit from an automated download solution.
 
 ---
 
