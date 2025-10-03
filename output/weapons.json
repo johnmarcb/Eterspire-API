@@ -1,9 +1,9 @@
 [
   {
-    "id": "Bronze-Bardiche-Normal",
+    "id": "Everfrost-Bardiche-Normal",
     "name": "Bardiche",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
@@ -35,13 +35,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Bardiche-Excellent",
+    "id": "Everfrost-Bardiche-Excellent",
     "name": "Bardiche",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
@@ -68,13 +68,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Battleaxe-Normal",
+    "id": "Everfrost-Battleaxe-Normal",
     "name": "Battleaxe",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
@@ -106,13 +106,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Battleaxe-Excellent",
+    "id": "Everfrost-Battleaxe-Excellent",
     "name": "Battleaxe",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
@@ -139,13 +139,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Mace-Normal",
+    "id": "Everfrost-Mace-Normal",
     "name": "Mace",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
@@ -177,13 +177,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Mace-Excellent",
+    "id": "Everfrost-Mace-Excellent",
     "name": "Mace",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
@@ -210,13 +210,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Warhammer-Normal",
+    "id": "Everfrost-Warhammer-Normal",
     "name": "Warhammer",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
@@ -248,13 +248,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Warhammer-Excellent",
+    "id": "Everfrost-Warhammer-Excellent",
     "name": "Warhammer",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
@@ -281,13 +281,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Widesword-Normal",
+    "id": "Everfrost-Widesword-Normal",
     "name": "Widesword",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
@@ -319,13 +319,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Widesword-Excellent",
+    "id": "Everfrost-Widesword-Excellent",
     "name": "Widesword",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian"
     ],
@@ -352,13 +352,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Curved-Dagger-Normal",
+    "id": "Everfrost-Curved-Dagger-Normal",
     "name": "Curved Dagger",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
@@ -388,13 +388,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Curved-Dagger-Excellent",
+    "id": "Everfrost-Curved-Dagger-Excellent",
     "name": "Curved Dagger",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
@@ -421,13 +421,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Dagger-Normal",
+    "id": "Everfrost-Dagger-Normal",
     "name": "Dagger",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
@@ -457,13 +457,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Dagger-Excellent",
+    "id": "Everfrost-Dagger-Excellent",
     "name": "Dagger",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
@@ -490,13 +490,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Short-Sword-Normal",
+    "id": "Everfrost-Short-Sword-Normal",
     "name": "Short Sword",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
@@ -526,13 +526,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Short-Sword-Excellent",
+    "id": "Everfrost-Short-Sword-Excellent",
     "name": "Short Sword",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
@@ -559,13 +559,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Sword-Normal",
+    "id": "Everfrost-Sword-Normal",
     "name": "Sword",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
@@ -596,13 +596,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Sword-Excellent",
+    "id": "Everfrost-Sword-Excellent",
     "name": "Sword",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Rogue"
     ],
@@ -629,13 +629,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Broadsword-Normal",
+    "id": "Everfrost-Broadsword-Normal",
     "name": "Broadsword",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
@@ -667,13 +667,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Broadsword-Excellent",
+    "id": "Everfrost-Broadsword-Excellent",
     "name": "Broadsword",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
@@ -700,13 +700,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Claymore-Normal",
+    "id": "Everfrost-Claymore-Normal",
     "name": "Claymore",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
@@ -737,13 +737,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Claymore-Excellent",
+    "id": "Everfrost-Claymore-Excellent",
     "name": "Claymore",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
@@ -770,13 +770,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Halberd-Normal",
+    "id": "Everfrost-Halberd-Normal",
     "name": "Halberd",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
@@ -808,13 +808,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Halberd-Excellent",
+    "id": "Everfrost-Halberd-Excellent",
     "name": "Halberd",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
@@ -841,13 +841,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Longsword-Normal",
+    "id": "Everfrost-Longsword-Normal",
     "name": "Longsword",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
@@ -879,13 +879,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Longsword-Excellent",
+    "id": "Everfrost-Longsword-Excellent",
     "name": "Longsword",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
@@ -912,13 +912,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Trident-Normal",
+    "id": "Everfrost-Trident-Normal",
     "name": "Trident",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
@@ -949,13 +949,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Trident-Excellent",
+    "id": "Everfrost-Trident-Excellent",
     "name": "Trident",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Warrior"
     ],
@@ -982,13 +982,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Arcane-Staff-Normal",
+    "id": "Everfrost-Arcane-Staff-Normal",
     "name": "Arcane Staff",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1019,13 +1019,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Arcane-Staff-Excellent",
+    "id": "Everfrost-Arcane-Staff-Excellent",
     "name": "Arcane Staff",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1051,13 +1051,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Fire-Staff-Normal",
+    "id": "Everfrost-Fire-Staff-Normal",
     "name": "Fire Staff",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1088,13 +1088,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Fire-Staff-Excellent",
+    "id": "Everfrost-Fire-Staff-Excellent",
     "name": "Fire Staff",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1120,13 +1120,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Ice-Staff-Normal",
+    "id": "Everfrost-Ice-Staff-Normal",
     "name": "Ice Staff",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1157,13 +1157,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Ice-Staff-Excellent",
+    "id": "Everfrost-Ice-Staff-Excellent",
     "name": "Ice Staff",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1189,13 +1189,13 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Thunder-Staff-Normal",
+    "id": "Everfrost-Thunder-Staff-Normal",
     "name": "Thunder Staff",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1226,13 +1226,13 @@
         2
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Thunder-Staff-Excellent",
+    "id": "Everfrost-Thunder-Staff-Excellent",
     "name": "Thunder Staff",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -1258,6 +1258,1251 @@
         5
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Bardiche-Normal",
+    "name": "Bardiche",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Bardiche",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        3474,
+        3822,
+        4342
+      ],
+      "attack_speed": 117
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Bardiche-Excellent",
+    "name": "Bardiche",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Bardiche",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        3812,
+        4194,
+        4765
+      ],
+      "attack_speed": 117
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Battleaxe-Normal",
+    "name": "Battleaxe",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Battleaxe",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        3308,
+        3639,
+        4135
+      ],
+      "attack_speed": 123
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Battleaxe-Excellent",
+    "name": "Battleaxe",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Battleaxe",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        3631,
+        3995,
+        4539
+      ],
+      "attack_speed": 123
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Mace-Normal",
+    "name": "Mace",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Mace",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        3639,
+        4003,
+        4549
+      ],
+      "attack_speed": 111
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Mace-Excellent",
+    "name": "Mace",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Mace",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        4993
+      ],
+      "attack_speed": 111
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Warhammer-Normal",
+    "name": "Warhammer",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Warhammer",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        3804,
+        4185,
+        4755
+      ],
+      "attack_speed": 106
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Warhammer-Excellent",
+    "name": "Warhammer",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Warhammer",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        4175,
+        4593,
+        5219
+      ],
+      "attack_speed": 106
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Widesword-Normal",
+    "name": "Widesword",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Widesword",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        3143,
+        3458,
+        3929
+      ],
+      "attack_speed": 129
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Widesword-Excellent",
+    "name": "Widesword",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian"
+    ],
+    "type": "weapon",
+    "slot": "Widesword",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        3449,
+        3794,
+        4312
+      ],
+      "attack_speed": 129
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Curved-Dagger-Normal",
+    "name": "Curved Dagger",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Curved Dagger",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        1820,
+        2002,
+        2275
+      ],
+      "attack_speed": 223
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Curved-Dagger-Excellent",
+    "name": "Curved Dagger",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Curved Dagger",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        1998,
+        2198,
+        2497
+      ],
+      "attack_speed": 223
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Dagger-Normal",
+    "name": "Dagger",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Dagger",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        1654,
+        1820,
+        2068
+      ],
+      "attack_speed": 246
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Dagger-Excellent",
+    "name": "Dagger",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Dagger",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        1816,
+        1998,
+        2270
+      ],
+      "attack_speed": 246
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Short-Sword-Normal",
+    "name": "Short Sword",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Short Sword",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        1986,
+        2185,
+        2482
+      ],
+      "attack_speed": 205
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Short-Sword-Excellent",
+    "name": "Short Sword",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Short Sword",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        2179,
+        2397,
+        2724
+      ],
+      "attack_speed": 205
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Sword-Normal",
+    "name": "Sword",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Sword",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        2150,
+        2365,
+        2688
+      ],
+      "attack_speed": 189
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Sword-Excellent",
+    "name": "Sword",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Rogue"
+    ],
+    "type": "weapon",
+    "slot": "Sword",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        2360,
+        2596,
+        2950
+      ],
+      "attack_speed": 189
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Broadsword-Normal",
+    "name": "Broadsword",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Broadsword",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        2977,
+        3275,
+        3722
+      ],
+      "attack_speed": 136
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Broadsword-Excellent",
+    "name": "Broadsword",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Broadsword",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        3268,
+        3595,
+        4085
+      ],
+      "attack_speed": 136
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Claymore-Normal",
+    "name": "Claymore",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Claymore",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        2482,
+        2731,
+        3102
+      ],
+      "attack_speed": 164
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Claymore-Excellent",
+    "name": "Claymore",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Claymore",
+    "quality": "excellent",
+    "base": {
+      "attack_speed": 164
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Halberd-Normal",
+    "name": "Halberd",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Halberd",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        2812,
+        3094,
+        3515
+      ],
+      "attack_speed": 144
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Halberd-Excellent",
+    "name": "Halberd",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Halberd",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        3087,
+        3396,
+        3858
+      ],
+      "attack_speed": 144
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Longsword-Normal",
+    "name": "Longsword",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Longsword",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        2316,
+        2548,
+        2895
+      ],
+      "attack_speed": 175
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Longsword-Excellent",
+    "name": "Longsword",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Longsword",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        2542,
+        2796,
+        3178
+      ],
+      "attack_speed": 175
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Trident-Normal",
+    "name": "Trident",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Trident",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        2646,
+        2911,
+        3308
+      ],
+      "attack_speed": 153
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Trident-Excellent",
+    "name": "Trident",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Warrior"
+    ],
+    "type": "weapon",
+    "slot": "Trident",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        2904,
+        3195,
+        3630
+      ],
+      "attack_speed": 153
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Arcane-Staff-Normal",
+    "name": "Arcane Staff",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Arcane Staff",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        3308,
+        3639,
+        4135
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Arcane-Staff-Excellent",
+    "name": "Arcane Staff",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Arcane Staff",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        3631,
+        3995,
+        4539
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Fire-Staff-Normal",
+    "name": "Fire Staff",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Fire Staff",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        3308,
+        3639,
+        4135
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Fire-Staff-Excellent",
+    "name": "Fire Staff",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Fire Staff",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        3631,
+        3995,
+        4539
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Ice-Staff-Normal",
+    "name": "Ice Staff",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Ice Staff",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        3308,
+        3639,
+        4135
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Ice-Staff-Excellent",
+    "name": "Ice Staff",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Ice Staff",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        3631,
+        3995,
+        4539
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Thunder-Staff-Normal",
+    "name": "Thunder Staff",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Thunder Staff",
+    "quality": "normal",
+    "base": {
+      "damage": [
+        3308,
+        3639,
+        4135
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "vitality": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Thunder-Staff-Excellent",
+    "name": "Thunder Staff",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "weapon",
+    "slot": "Thunder Staff",
+    "quality": "excellent",
+    "base": {
+      "damage": [
+        3631,
+        3995,
+        4539
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        7,
+        12
+      ],
+      "vitality": [
+        0,
+        3,
+        5
+      ]
+    },
+    "gear_set": "Everfrost"
   }
 ]

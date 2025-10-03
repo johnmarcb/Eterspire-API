@@ -1,9 +1,9 @@
 [
   {
-    "id": "Bronze-Helm-Normal",
+    "id": "Everfrost-Helm-Normal",
     "name": "Helm",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -34,13 +34,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Helm-Excellent",
+    "id": "Everfrost-Helm-Excellent",
     "name": "Helm",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -67,13 +67,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Thread-Helm-Normal",
+    "id": "Everfrost-Thread-Helm-Normal",
     "name": "Thread Helm",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -102,13 +102,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Thread-Helm-Excellent",
+    "id": "Everfrost-Thread-Helm-Excellent",
     "name": "Thread Helm",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -133,13 +133,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Gauntlets-Normal",
+    "id": "Everfrost-Gauntlets-Normal",
     "name": "Gauntlets",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -170,13 +170,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Gauntlets-Excellent",
+    "id": "Everfrost-Gauntlets-Excellent",
     "name": "Gauntlets",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -203,13 +203,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Gloves-Normal",
+    "id": "Everfrost-Gloves-Normal",
     "name": "Gloves",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -238,13 +238,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Gloves-Excellent",
+    "id": "Everfrost-Gloves-Excellent",
     "name": "Gloves",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -269,13 +269,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Greaves-Normal",
+    "id": "Everfrost-Greaves-Normal",
     "name": "Greaves",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -306,13 +306,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Greaves-Excellent",
+    "id": "Everfrost-Greaves-Excellent",
     "name": "Greaves",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -339,13 +339,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Boots-Normal",
+    "id": "Everfrost-Boots-Normal",
     "name": "Boots",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -374,13 +374,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Boots-Excellent",
+    "id": "Everfrost-Boots-Excellent",
     "name": "Boots",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -405,13 +405,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Platemail-Normal",
+    "id": "Everfrost-Platemail-Normal",
     "name": "Platemail",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -443,13 +443,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Platemail-Excellent",
+    "id": "Everfrost-Platemail-Excellent",
     "name": "Platemail",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -476,13 +476,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Thread-Top-Normal",
+    "id": "Everfrost-Thread-Top-Normal",
     "name": "Thread Top",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -512,13 +512,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Thread-Top-Excellent",
+    "id": "Everfrost-Thread-Top-Excellent",
     "name": "Thread Top",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -543,13 +543,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Platelegs-Normal",
+    "id": "Everfrost-Platelegs-Normal",
     "name": "Platelegs",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -580,13 +580,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Platelegs-Excellent",
+    "id": "Everfrost-Platelegs-Excellent",
     "name": "Platelegs",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -613,13 +613,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Thread-Bottom-Normal",
+    "id": "Everfrost-Thread-Bottom-Normal",
     "name": "Thread Bottom",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -648,13 +648,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Thread-Bottom-Excellent",
+    "id": "Everfrost-Thread-Bottom-Excellent",
     "name": "Thread Bottom",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -679,13 +679,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Shield-Normal",
+    "id": "Everfrost-Shield-Normal",
     "name": "Shield",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -717,13 +717,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Shield-Excellent",
+    "id": "Everfrost-Shield-Excellent",
     "name": "Shield",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Guardian",
       "Warrior",
@@ -750,13 +750,13 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Gilded-Spellbook-Normal",
+    "id": "Everfrost-Gilded-Spellbook-Normal",
     "name": "Gilded Spellbook",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -786,13 +786,13 @@
         1
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
   },
   {
-    "id": "Bronze-Gilded-Spellbook-Excellent",
+    "id": "Everfrost-Gilded-Spellbook-Excellent",
     "name": "Gilded Spellbook",
-    "tier": 1,
-    "level": 1,
+    "tier": 21,
+    "level": 160,
     "allowed_classes": [
       "Sorcerer"
     ],
@@ -817,6 +817,810 @@
         3
       ]
     },
-    "gear_set": "Bronze"
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Helm-Normal",
+    "name": "Helm",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        3308,
+        3639,
+        4135
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Helm-Excellent",
+    "name": "Helm",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "helm",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        3631,
+        3994,
+        4539
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Thread-Helm-Normal",
+    "name": "Thread Helm",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "helm",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        3308,
+        3639,
+        4135
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Thread-Helm-Excellent",
+    "name": "Thread Helm",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "helm",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        3631,
+        3994,
+        4539
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Gauntlets-Normal",
+    "name": "Gauntlets",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "gauntlets",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        3308,
+        3639,
+        4135
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Gauntlets-Excellent",
+    "name": "Gauntlets",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "gauntlets",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        3631,
+        3994,
+        4539
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Gloves-Normal",
+    "name": "Gloves",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "gauntlets",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        3308,
+        3639,
+        4135
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Gloves-Excellent",
+    "name": "Gloves",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "gauntlets",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        3631,
+        3994,
+        4539
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Greaves-Normal",
+    "name": "Greaves",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "greaves",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        3308,
+        3639,
+        4135
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Greaves-Excellent",
+    "name": "Greaves",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "greaves",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        3631,
+        3994,
+        4539
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Boots-Normal",
+    "name": "Boots",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "greaves",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        3308,
+        3639,
+        4135
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Boots-Excellent",
+    "name": "Boots",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "greaves",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        3631,
+        3994,
+        4539
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Platemail-Normal",
+    "name": "Platemail",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "chest",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        9923,
+        10900,
+        12400
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Platemail-Excellent",
+    "name": "Platemail",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "chest",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        10800,
+        11900,
+        13600
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Thread-Top-Normal",
+    "name": "Thread Top",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "chest",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        9923,
+        10900,
+        12400
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Thread-Top-Excellent",
+    "name": "Thread Top",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "chest",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        10800,
+        11900,
+        13600
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Platelegs-Normal",
+    "name": "Platelegs",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "legs",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        4962,
+        5459,
+        6203
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Platelegs-Excellent",
+    "name": "Platelegs",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "legs",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        5446,
+        5991,
+        6808
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Thread-Bottom-Normal",
+    "name": "Thread Bottom",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "legs",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        4962,
+        5459,
+        6203
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Thread-Bottom-Excellent",
+    "name": "Thread Bottom",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "legs",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        5446,
+        5991,
+        6808
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Shield-Normal",
+    "name": "Shield",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "shield",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        8269,
+        9096,
+        10337
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Shield-Excellent",
+    "name": "Shield",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Guardian",
+      "Warrior",
+      "Rogue"
+    ],
+    "type": "armor",
+    "slot": "shield",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        9076,
+        9983,
+        11344
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Gilded-Spellbook-Normal",
+    "name": "Gilded Spellbook",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "shield",
+    "quality": "normal",
+    "base": {
+      "hp": [
+        8269,
+        9096,
+        10337
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "strength": [
+        -1,
+        0,
+        1
+      ]
+    },
+    "gear_set": "Everfrost"
+  },
+  {
+    "id": "Everfrost-Gilded-Spellbook-Excellent",
+    "name": "Gilded Spellbook",
+    "tier": 21,
+    "level": 160,
+    "allowed_classes": [
+      "Sorcerer"
+    ],
+    "type": "armor",
+    "slot": "shield",
+    "quality": "excellent",
+    "base": {
+      "hp": [
+        9076,
+        9983,
+        11344
+      ]
+    },
+    "bonuses": {
+      "bonus_attack_speed": [
+        0,
+        3,
+        4
+      ],
+      "strength": [
+        0,
+        3
+      ]
+    },
+    "gear_set": "Everfrost"
   }
 ]

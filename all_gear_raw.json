@@ -1,8 +1,8 @@
 [
   {
-    "name": "Bronze",
-    "tier": 1,
-    "level": 1,
+    "name": "Everfrost",
+    "tier": 21,
+    "level": 160,
     "bonus_stats": {
       "normal": {
         "armor": {
@@ -414,6 +414,342 @@
           56,
           64
         ]
+      },
+      {
+        "slot": "helm",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "helm",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Helm",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "helm",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "helm",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Helm",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Gauntlets",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Gauntlets",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gloves",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "gauntlets",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gloves",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Greaves",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Greaves",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Boots",
+        "hp": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "slot": "greaves",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Boots",
+        "hp": [
+          3631,
+          3994,
+          4539
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "hp": [
+          9923,
+          10900,
+          12400
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platemail",
+        "hp": [
+          10800,
+          11900,
+          13600
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Top",
+        "hp": [
+          9923,
+          10900,
+          12400
+        ]
+      },
+      {
+        "slot": "chest",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Top",
+        "hp": [
+          10800,
+          11900,
+          13600
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "hp": [
+          4962,
+          5459,
+          6203
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Platelegs",
+        "hp": [
+          5446,
+          5991,
+          6808
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Bottom",
+        "hp": [
+          4962,
+          5459,
+          6203
+        ]
+      },
+      {
+        "slot": "legs",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Thread Bottom",
+        "hp": [
+          5446,
+          5991,
+          6808
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "normal",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "hp": [
+          8269,
+          9096,
+          10337
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "excellent",
+        "classes": [
+          "Guardian",
+          "Warrior",
+          "Rogue"
+        ],
+        "item_name": "Shield",
+        "hp": [
+          9076,
+          9983,
+          11344
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "normal",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "hp": [
+          8269,
+          9096,
+          10337
+        ]
+      },
+      {
+        "slot": "shield",
+        "quality": "excellent",
+        "classes": [
+          "Sorcerer"
+        ],
+        "item_name": "Gilded Spellbook",
+        "hp": [
+          9076,
+          9983,
+          11344
+        ]
       }
     ],
     "weapons": [
@@ -812,6 +1148,388 @@
           20,
           22,
           25
+        ]
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Bardiche",
+        "quality": "normal",
+        "damage": [
+          3474,
+          3822,
+          4342
+        ],
+        "attack_speed": 117
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Bardiche",
+        "quality": "excellent",
+        "damage": [
+          3812,
+          4194,
+          4765
+        ],
+        "attack_speed": 117
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Battleaxe",
+        "quality": "normal",
+        "damage": [
+          3308,
+          3639,
+          4135
+        ],
+        "attack_speed": 123
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Battleaxe",
+        "quality": "excellent",
+        "damage": [
+          3631,
+          3995,
+          4539
+        ],
+        "attack_speed": 123
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Mace",
+        "quality": "normal",
+        "damage": [
+          3639,
+          4003,
+          4549
+        ],
+        "attack_speed": 111
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Mace",
+        "quality": "excellent",
+        "damage": [
+          4993
+        ],
+        "attack_speed": 111
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Warhammer",
+        "quality": "normal",
+        "damage": [
+          3804,
+          4185,
+          4755
+        ],
+        "attack_speed": 106
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Warhammer",
+        "quality": "excellent",
+        "damage": [
+          4175,
+          4593,
+          5219
+        ],
+        "attack_speed": 106
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Widesword",
+        "quality": "normal",
+        "damage": [
+          3143,
+          3458,
+          3929
+        ],
+        "attack_speed": 129
+      },
+      {
+        "class": "Guardian",
+        "weapon_type": "Widesword",
+        "quality": "excellent",
+        "damage": [
+          3449,
+          3794,
+          4312
+        ],
+        "attack_speed": 129
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Curved Dagger",
+        "quality": "normal",
+        "damage": [
+          1820,
+          2002,
+          2275
+        ],
+        "attack_speed": 223
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Curved Dagger",
+        "quality": "excellent",
+        "damage": [
+          1998,
+          2198,
+          2497
+        ],
+        "attack_speed": 223
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Dagger",
+        "quality": "normal",
+        "damage": [
+          1654,
+          1820,
+          2068
+        ],
+        "attack_speed": 246
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Dagger",
+        "quality": "excellent",
+        "damage": [
+          1816,
+          1998,
+          2270
+        ],
+        "attack_speed": 246
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Short Sword",
+        "quality": "normal",
+        "damage": [
+          1986,
+          2185,
+          2482
+        ],
+        "attack_speed": 205
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Short Sword",
+        "quality": "excellent",
+        "damage": [
+          2179,
+          2397,
+          2724
+        ],
+        "attack_speed": 205
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Sword",
+        "quality": "normal",
+        "damage": [
+          2150,
+          2365,
+          2688
+        ],
+        "attack_speed": 189
+      },
+      {
+        "class": "Rogue",
+        "weapon_type": "Sword",
+        "quality": "excellent",
+        "damage": [
+          2360,
+          2596,
+          2950
+        ],
+        "attack_speed": 189
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Broadsword",
+        "quality": "normal",
+        "damage": [
+          2977,
+          3275,
+          3722
+        ],
+        "attack_speed": 136
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Broadsword",
+        "quality": "excellent",
+        "damage": [
+          3268,
+          3595,
+          4085
+        ],
+        "attack_speed": 136
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Claymore",
+        "quality": "normal",
+        "damage": [
+          2482,
+          2731,
+          3102
+        ],
+        "attack_speed": 164
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Claymore",
+        "quality": "excellent",
+        "damage": null,
+        "attack_speed": 164
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Halberd",
+        "quality": "normal",
+        "damage": [
+          2812,
+          3094,
+          3515
+        ],
+        "attack_speed": 144
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Halberd",
+        "quality": "excellent",
+        "damage": [
+          3087,
+          3396,
+          3858
+        ],
+        "attack_speed": 144
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Longsword",
+        "quality": "normal",
+        "damage": [
+          2316,
+          2548,
+          2895
+        ],
+        "attack_speed": 175
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Longsword",
+        "quality": "excellent",
+        "damage": [
+          2542,
+          2796,
+          3178
+        ],
+        "attack_speed": 175
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Trident",
+        "quality": "normal",
+        "damage": [
+          2646,
+          2911,
+          3308
+        ],
+        "attack_speed": 153
+      },
+      {
+        "class": "Warrior",
+        "weapon_type": "Trident",
+        "quality": "excellent",
+        "damage": [
+          2904,
+          3195,
+          3630
+        ],
+        "attack_speed": 153
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Arcane Staff",
+        "quality": "normal",
+        "damage": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Arcane Staff",
+        "quality": "excellent",
+        "damage": [
+          3631,
+          3995,
+          4539
+        ]
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Fire Staff",
+        "quality": "normal",
+        "damage": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Fire Staff",
+        "quality": "excellent",
+        "damage": [
+          3631,
+          3995,
+          4539
+        ]
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Ice Staff",
+        "quality": "normal",
+        "damage": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Ice Staff",
+        "quality": "excellent",
+        "damage": [
+          3631,
+          3995,
+          4539
+        ]
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Thunder Staff",
+        "quality": "normal",
+        "damage": [
+          3308,
+          3639,
+          4135
+        ]
+      },
+      {
+        "class": "Sorcerer",
+        "weapon_type": "Thunder Staff",
+        "quality": "excellent",
+        "damage": [
+          3631,
+          3995,
+          4539
         ]
       }
     ]
